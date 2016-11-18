@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after{
+  clear: both;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+}
+
+/*header styling*/
+
+header {
+  background-color: #09c1b3;
+  border-bottom: 5px solid #440063;
+  color: white;
+}
+
+.logo {
+  font-family: 'Oswald', sans-serif;
+  font-size: 36px;
+  text-transform: uppercase;
+  padding: 12.5px 0px 10px 15px;
+  float: left;
+}
+/*end of header styling*/
+
+.find-jobs {
+  background: url(../images/image1.jpg) center center no-repeat;
+  background-size: cover;
+  padding: 30% 15%;
+  color: white;
+}
+
+.tagline {
+  text-align: center;
+}
+
+.searchbox {
+  background-color: #440063;
+  color: white;
+  padding: 5%
+}
+
+.searchbox p {
+  padding-bottom: 5%;
+  padding-top: 2.5%;
+}
+
+.searchbox input {
+  margin: 2.5% 0;
+  padding: 2.5% 0;
+}
+
+.searchbox button {
+  border: none;
+  padding: 4% 31.375%;
+  font-weight: bold;
+  color: #440063;
+  background-color: white;
+  margin: 2% 0;
+}
+
+.benefits-green {
+  background-color: #09c1b3;
+  padding: 10%;
+  text-align: center;
+}
+
+.benefits-white {
+  background-color: white;
+  padding: 10%;
+  text-align: center;
+}
+
+.benefits-green h3, .benefits-white h3 {
+  font-size: 24px;
+  padding-bottom: 5%;
+  margin-top: 5%;
+}
+
+.benefits-green p, .benefits-white p {
+  font-size: 16px;
+}
+
+.icons-green {
+   color: #09c1b3;
+   font-size: 50px;
+ }
+
+.icons-white {
+  color: white;
+  font-size: 50px;
+}

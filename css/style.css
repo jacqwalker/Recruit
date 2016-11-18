@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*main*/
+.company-info {
+  width: 25%;
+  float: left;
+  border: 2px solid blue;
+}
+
+.job-spec {
+  float: right;
+  width: 65%;
+}
+
+.L {
+  float: left;
+  width: 50%;
+}
+
+.R {
+  float: right;
+  width: 50%;
+}
+
+.checklist {
+  border: 2px solid green;
+}

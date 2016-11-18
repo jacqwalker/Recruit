@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after{
+  clear: both;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+}
+
+/*header styling*/
+
+header {
+  /*background-color: #440063;*/
+  background-color: #09c1b3;
+  /*border-bottom: 5px solid #09c1b3;*/
+  border-bottom: 5px solid #440063;
+  color: white;
+}
+
+.logo {
+  font-family: 'Oswald', sans-serif;
+  font-size: 36px;
+  font-weight: regular;
+  text-transform: uppercase;
+  padding: 12.5px 0px 10px 40px;
+  float: left;
+}
+
+nav {
+  float: right;
+  padding-right: 50px;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  padding: 25px 20px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav li a:hover {
+  /*background-color: #ccc;*/
+  color:  #440063;
+}
+/*end of header styling*/
+
+/*tagline styling*/
+.tagline {
+  background-color: #f2f2f2;
+  padding: 10px 65px;
+  text-align: right;
+}
+
+.jobAlerts {
+  padding: 15px 0;
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.jobAlertsButton {
+  background-color: #f2f2f2;
+  border: 1.75px solid #440063;
+  /*border-radius: 5px;*/
+  padding: 7.5px 25px;
+  font-size: 18px;
+  font-family:sans source pro;
+  color: #440063;
+}
+
+.jobAlertsButton:hover {
+  background-color: #ccc;
+}
+/*end of tagline styling*/
+
+/*main section styling*/
+
+.landing-page-search {
+  background: url(../images/image1.jpg) center center no-repeat;
+  background-size: cover;
+  padding: 7.55% 25% 15% 25%;
+}
+
+aside {
+  /*background-color: #09c1b3;*/
+  /*background-color: #f2f2f2;*/
+  background-color: white;
+  opacity: 0.9;
+  /*text-align: center;*/
+  /*width: 50%;*/
+  border-radius: 5px;
+  box-shadow: inset 0 0 5px rgba(68,0,99,.75);
+}
+
+aside h3 {
+  font-size: 28px;
+  font-weight: bold;
+  padding: 20px 0 20px 20px;
+  color: black;
+}
+
+aside p {
+  font-size: 14px;
+  padding: 0 0 10px 20px;
+}
+
+aside input {
+  padding: 10px 0;
+  margin: 0 0 20px 20px;
+}
+
+.button {
+  background-color: #440063;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 9.75px 20px;
+  font-size: 20px;
+}
+
+.button:hover {
+  background-color: #09c1b3;
+  color: black;
+}
+
+.two {
+  background-color: #09c1b3;
+  height: 250px;
+}
+
+/*footer styling*/
+
+footer {
+  background-color: #09c1b3;
+}
+
+footer p {
+  font-size: 13.5px;
+  font-weight: bold;
+  padding: 10px 0;
+  /*text-align: center;*/
+}

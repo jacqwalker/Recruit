@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*main*/
+.box {
+  width: 250px;
+  border: 2px solid black;
+  text-align: center;
+  display: inline-block;
+}
+
+/*index html styling*/
