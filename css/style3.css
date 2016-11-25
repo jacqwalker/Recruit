@@ -16,6 +16,11 @@ body {
   font-size: 16px;
 }
 
+img {
+  display: block;
+  width: 100%;
+}
+
 /*header styling*/
 
 header {
@@ -80,7 +85,6 @@ header {
 /*end of header styling*/
 
 .tagline {
-  text-align: center;
   padding: 10px;
 }
 
@@ -147,8 +151,6 @@ header {
 }
 
 /*end of job alerts box section*/
-
-
 
 /*Why use us section*/
 
@@ -231,7 +233,7 @@ header {
   padding: 2.5%;
 }
 
-.border:last-child {
+.resources:last-child {
   margin-bottom: 5%;
 }
 /*end of resources section*/
