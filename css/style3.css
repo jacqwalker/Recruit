@@ -88,14 +88,14 @@ header {
 .find-jobs {
   background: url(../images/image1.jpg) center center no-repeat;
   background-size: cover;
-  padding: 30% 12.5%;
+  padding: 30% 10%;
   color: white;
 }
 
 .searchbox {
   background-color: #440063;
   color: white;
-  padding: 5%;
+  padding: 7.5%;
 }
 
 .searchbox p {
@@ -130,12 +130,33 @@ header {
 }
 /*end of job search section*/
 
+/*job alerts box*/
+.job-alerts {
+  margin: 10px;
+  padding: 10px;
+  background-color: #6BD9D1;
+  box-shadow: 2px 2px 0 rgba(0,0,0,0.1);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.sign-up {
+  text-decoration: none;
+  color: black;
+  padding-left: 10px;
+}
+
+/*end of job alerts box section*/
+
+
+
 /*Why use us section*/
 
 .benefits {
   padding: 5% 0;
   text-align: center;
   font-size: 30px;
+  border-top: 2px solid black;
   border-bottom: 2px solid black;
   margin: 0 5% 5%;
 }
