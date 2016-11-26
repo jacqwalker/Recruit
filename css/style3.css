@@ -142,14 +142,18 @@ header {
   box-shadow: 2px 2px 0 rgba(0,0,0,0.1);
   border-radius: 5px;
   text-align: center;
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.job-alerts p {
+  display: inline-block;
 }
 
 .sign-up {
-  text-decoration: none;
-  color: black;
   padding-left: 10px;
 }
-
 /*end of job alerts box section*/
 
 /*Why use us section*/
@@ -294,9 +298,9 @@ footer nav li a:hover {
   }
 
   .job-alerts {
-    width: 350px;
+    width: 300px;
     margin: 10px auto;
-    padding: 20px 10px;
+    padding: 10px;
   }
 
   .benefits-green, .benefits-white {
