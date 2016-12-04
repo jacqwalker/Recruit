@@ -361,17 +361,43 @@ footer nav li a:hover {
       border: none;
     }
 
-    .navlink:hover {
-      background-color: none;
+    .navlist-item:hover {
+      background-color: inherit;
+    }
+
+    .nav-link:hover {
       color: #440063;
     }
 
     .job-alerts-tablet {
       display: inline-block;
+      vertical-align: top;
     }
 
     .job-alerts-phone {
       display: none;
+    }
+
+    .tagline {
+      display: inline-block;
+      margin-right: 75px;
+    }
+
+    .job-alerts {
+      width: 250px;
+    }
+
+    .find-jobs {
+      padding: 10% 25%;
+    }
+
+    .benefits-green h3, .benefits-white h3 {
+      margin-top: 2.5%;
+      padding-bottom: 2.5%;
+    }
+
+    .benefits-green p, .benefits-white p {
+      padding: 0 40px;
     }
 
 }
