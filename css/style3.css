@@ -88,6 +88,10 @@ header {
   padding: 10px;
 }
 
+.job-alerts-tablet {
+  display: none;
+}
+
 /*job search box*/
 .find-jobs {
   background: url(../images/image1.jpg) center center no-repeat;
@@ -312,14 +316,14 @@ footer nav li a:hover {
   }
 
   .left-aligned {
-    width: 220px;
+    width: 48%;
     float: left;
     margin-right: 12.5px;
     vertical-align: top;
   }
 
   .right-aligned {
-    width: 220px;
+    width: 48%;
     float: right;
   }
 
@@ -330,5 +334,44 @@ footer nav li a:hover {
   .border {
     clear: both;
   }
+}
 
   @media (min-width: 650px) { /* tablet-portrait */
+    .nav-icon {
+      display: none;
+    }
+
+    .nav-header {
+      max-height: none;
+      float: right;
+      clear: none;
+      font-size: 18px;
+      padding: 10px;
+    }
+
+    .nav-header ul {
+      padding: 0;
+    }
+
+    .navlist-item {
+      display: inline-block;
+    }
+
+    .navlist-item, .navlist-item:first-child {
+      border: none;
+    }
+
+    .navlink:hover {
+      background-color: none;
+      color: #440063;
+    }
+
+    .job-alerts-tablet {
+      display: inline-block;
+    }
+
+    .job-alerts-phone {
+      display: none;
+    }
+
+}
