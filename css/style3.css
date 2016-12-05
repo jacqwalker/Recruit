@@ -370,8 +370,10 @@ footer nav li a:hover {
     }
 
     .job-alerts-tablet {
-      display: inline-block;
+      display: block;
+      float: right;
       vertical-align: top;
+      padding: 0 15px;
     }
 
     .job-alerts-phone {
@@ -379,8 +381,8 @@ footer nav li a:hover {
     }
 
     .tagline {
-      display: inline-block;
-      margin-right: 75px;
+      float: left;
+      padding: 10px 15px;
     }
 
     .job-alerts {
@@ -400,4 +402,8 @@ footer nav li a:hover {
       padding: 0 40px;
     }
 
-}
+  }
+
+  @media (min-width: 940px) { /* tablet-landscape/smaller laptops */
+
+  }
