@@ -185,7 +185,7 @@ header {
  width: 100%;
 }
 
-.benefits-green {
+.benefits-green, .benefits-white {
   background-color: #09c1b3;
   padding: 10%;
   text-align: center;
@@ -193,8 +193,6 @@ header {
 
 .benefits-white {
   background-color: white;
-  padding: 10%;
-  text-align: center;
 }
 
 .benefits-green h3, .benefits-white h3 {
@@ -406,4 +404,68 @@ footer nav li a:hover {
 
   @media (min-width: 940px) { /* tablet-landscape/smaller laptops */
 
+
+    .find-jobs {
+      padding: 12.5% 30%;
+    }
+
+    .searchbox {
+      padding: 10px 20px;
+    }
+
+    .benefits-display {
+      display: inline-block;
+      width: 32.5%;
+    }
+
+    .benefits-white, .benefits-green {
+      background-color: white;
+      padding: 0;
+    }
+
+    .border-ben {
+      border: 2px solid #09c1b3;
+      padding: 20px;
+      margin-left: 15px;
+    }
+
+    .border-ben p {
+      padding: 10px 10px 5px;
+    }
+
+    .icons-white {
+      color: #09c1b3;
+    }
+
+    .left-aligned, .right-aligned {
+      float: none;
+      margin: 0;
+      width: 100%;
+    }
+
+    .resources {
+      display: inline-block;
+      width: 33%;
+      padding: 0 10px;
+      vertical-align: top;
+      margin-bottom: 15px;
+    }
+
+    .resources:last-child {
+      margin-bottom: 0;
+    }
+
+    .resources h3 {
+      margin-top: 10px;
+    }
+  }
+
+  @media (min-width: 1220px) { /* laptops/desktops */
+    main {
+      width: 100%;
+    }
+
+    main section section section {
+      width: 1180px;
+    }
   }
