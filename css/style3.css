@@ -217,6 +217,18 @@ header {
 
 /*end of why use us section*/
 
+
+/*placholder section*/
+.placeholder {
+  background-color: white;
+  text-align: center;
+}
+
+.placeholder p, .placeholder h3 {
+  padding: 10px;
+}
+/*end of placeholder section*/
+
 /*resources section*/
 .resources {
   display: block;

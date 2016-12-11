@@ -217,6 +217,7 @@ header {
 
 /*end of why use us section*/
 
+
 /*resources section*/
 .resources {
   background: url(../images/image12.jpg) center center no-repeat;
@@ -397,10 +398,12 @@ footer nav li a:hover {
       padding: 0 40px;
     }
 
+    .resources {
+      padding: 10%;
+    }
   }
 
   @media (min-width: 940px) { /* tablet-landscape/smaller laptops */
-
 
     .find-jobs {
       padding: 12.5% 30%;
@@ -438,6 +441,11 @@ footer nav li a:hover {
       float: none;
       margin: 0;
       width: 100%;
+    }
+
+    .resources-div {
+      display: inline-block;
+      width: 40%;
     }
 
   }
