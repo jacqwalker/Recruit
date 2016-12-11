@@ -223,6 +223,42 @@ header {
   background-size: cover;
   padding: 30% 10%;
   color: white;
+  text-align: center;
+}
+
+.resources1 {
+  background-color: #440063;
+  opacity: 0.6;
+  padding: 10px 0;
+}
+
+.resources-div {
+  margin-top: 55px;
+}
+
+.resources h3 {
+  font-size: 24px;
+  padding: 7.5px;
+}
+
+.resources p {
+  font-size: 16px;
+  padding: 7.5px 15px;
+}
+
+.button-reference {
+  background-color: white;
+  text-decoration: none;
+  color: #440063;
+  padding: 3.5% 7.5%;
+  border-radius: 5px;
+  display: block;
+  max-width: 160px;
+  margin: 10px auto;
+}
+
+.button-reference:hover {
+  background-color: #09c1b3;
 }
 
 /*end of resources section*/
