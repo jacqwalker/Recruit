@@ -219,51 +219,12 @@ header {
 
 /*resources section*/
 .resources {
-  display: block;
-  padding: 5% 5% 0;
-}
-
-.resources1 {
-  padding-top: 0;
-}
-
-.resources2 {
-  display: none;
-}
-
-.resources h3 {
-  margin: 5% 0;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.resources p {
-  font-size: 16px;
-  margin-bottom: 5%;
-}
-
-.button-reference {
-  background-color: #440063;
-  text-decoration: none;
+  background: url(../images/image12.jpg) center center no-repeat;
+  background-size: cover;
+  padding: 30% 10%;
   color: white;
-  padding: 3.5% 7.5%;
-  border-radius: 5px;
-  display: block;
-  max-width: 160px;
 }
 
-.button-reference:hover {
-  background-color: #09c1b3;
-}
-
-.border {
-  border-bottom: 1px solid #440063;
-  padding: 2.5%;
-}
-
-.resources:last-child {
-  margin-bottom: 5%;
-}
 /*end of resources section*/
 
 /*footer*/
@@ -327,10 +288,6 @@ footer nav li a:hover {
   .right-aligned {
     width: 48%;
     float: right;
-  }
-
-  .resources h3 {
-    margin-top: 0;
   }
 
   .border {
@@ -447,29 +404,6 @@ footer nav li a:hover {
       width: 100%;
     }
 
-    .resources {
-      display: inline-block;
-      width: 33%;
-      padding: 0 10px;
-      vertical-align: top;
-      margin-bottom: 15px;
-    }
-
-    .resources:last-child {
-      margin-bottom: 0;
-    }
-
-    .resources h3 {
-      margin-top: 10px;
-    }
   }
 
   @media (min-width: 1220px) { /* laptops/desktops */
-    main {
-      width: 100%;
-    }
-
-    main section section section {
-      width: 1180px;
-    }
-  }
