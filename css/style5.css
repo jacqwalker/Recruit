@@ -21,6 +21,10 @@ img {
   width: 100%;
 }
 
+h3 {
+  font-size: 24px;
+}
+
 /*header styling*/
 
 header {
@@ -185,35 +189,22 @@ header {
  width: 100%;
 }
 
-.benefits-green, .benefits-white {
-  background-color: #09c1b3;
-  padding: 10%;
+.benefits-layout {
   text-align: center;
+  padding: 0 15px;
+  margin: 25px 15px;
+  border: 2px solid #08ADA1;
 }
 
-.benefits-white {
-  background-color: white;
-}
-
-.benefits-green h3, .benefits-white h3 {
-  font-size: 24px;
-  padding-bottom: 5%;
-  margin-top: 5%;
-}
-
-.benefits-green p, .benefits-white p {
-  font-size: 16px;
+.benefits-layout h3, .benefits-layout ul, .benefits-layout p {
+  padding-bottom: 15px;
 }
 
 .icons-green {
    color: #09c1b3;
    font-size: 50px;
+   padding: 10px;
  }
-
-.icons-white {
-  color: white;
-  font-size: 50px;
-}
 
 /*end of why use us section*/
 
@@ -321,10 +312,6 @@ footer nav li a:hover {
     padding: 10px;
   }
 
-  .benefits-green, .benefits-white {
-    padding: 5%;
-  }
-
   .left-aligned {
     width: 48%;
     float: left;
@@ -339,6 +326,18 @@ footer nav li a:hover {
 
   .border {
     clear: both;
+  }
+
+  .search-jobs {
+    padding: 10px;
+  }
+
+  .placeholder h3 {
+    padding-top: 15px;
+  }
+
+  .resources {
+    padding: 20% 10%;
   }
 }
 
@@ -399,17 +398,30 @@ footer nav li a:hover {
       padding: 10% 25%;
     }
 
-    .benefits-green h3, .benefits-white h3 {
-      margin-top: 2.5%;
-      padding-bottom: 2.5%;
+    .benefits-layout {
+      margin: 25px 45px;
+      padding: 0 50px;
     }
 
-    .benefits-green p, .benefits-white p {
-      padding: 0 40px;
+    .placeholder img {
+      width: 85%;
+      margin: 0 auto;
+    }
+
+    .placeholder {
+      padding: 10px 30px;
     }
 
     .resources {
       padding: 10%;
+    }
+
+    .resources p {
+      padding: 7.5px 50px;
+    }
+
+    .button-reference {
+      padding: 10px;
     }
   }
 
@@ -423,26 +435,6 @@ footer nav li a:hover {
       padding: 10px 20px;
     }
 
-    .benefits-display {
-      display: inline-block;
-      width: 32.5%;
-    }
-
-    .benefits-white, .benefits-green {
-      background-color: white;
-      padding: 0;
-    }
-
-    .border-ben {
-      border: 2px solid #09c1b3;
-      padding: 20px;
-      margin-left: 15px;
-    }
-
-    .border-ben p {
-      padding: 10px 10px 5px;
-    }
-
     .icons-white {
       color: #09c1b3;
     }
@@ -453,9 +445,34 @@ footer nav li a:hover {
       width: 100%;
     }
 
+    .benefits-container {
+      width: 97.5%;
+      margin: 0 auto;
+    }
+
+    .benefits-layout {
+      display: inline-block;
+      width: 31%;
+      margin: 0 0 0 15px;
+      padding: 0;
+      vertical-align: top;
+    }
+
+    .placeholder img {
+      width: 75%;
+    }
+
+    .placeholder p {
+      padding: 10px 50px;
+    }
+
     .resources-div {
       display: inline-block;
       width: 40%;
+    }
+
+    .margin-adj {
+      margin-bottom: 55px;
     }
 
   }
