@@ -111,8 +111,8 @@ header {
 }
 
 .searchbox p {
-  padding: 2.5% 0;
-  font-size: 18px;
+  padding: 7.5% 0 0;
+
 }
 
 .searchbox input {
@@ -478,3 +478,17 @@ footer nav li a:hover {
   }
 
   @media (min-width: 1220px) { /* laptops/desktops */
+    .searchbox {
+      background-color: white;
+      opacity: 0.9;
+      color: #440063;
+      box-shadow: inset 0 0 5px rgba(68,0,99,.75);
+      border-radius: 5px;
+    }
+
+
+    .search-jobs {
+      color: white;
+      background-color: #440063;
+    }
+}
