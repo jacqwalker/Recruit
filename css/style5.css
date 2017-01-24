@@ -112,7 +112,6 @@ header {
 
 .searchbox p {
   padding: 7.5% 0 0;
-
 }
 
 .searchbox input {
@@ -374,6 +373,10 @@ footer nav li a:hover {
       color: #440063;
     }
 
+    .tagline-container {
+      padding: 10px;
+    }
+
     .job-alerts-tablet {
       display: block;
       float: right;
@@ -395,12 +398,16 @@ footer nav li a:hover {
     }
 
     .find-jobs {
-      padding: 10% 25%;
+      padding: 10% 20%;
     }
 
     .benefits-layout {
       margin: 25px 45px;
       padding: 0 50px;
+    }
+
+    .benefits h2 {
+      margin: 50px 10px;
     }
 
     .placeholder img {
@@ -426,17 +433,50 @@ footer nav li a:hover {
   }
 
   @media (min-width: 940px) { /* tablet-landscape/smaller laptops */
+    .tagline-container {
+      padding: 10px 25px;
+    }
 
     .find-jobs {
-      padding: 12.5% 30%;
+      padding: 12.5% 20%;
+    }
+
+    .searchbox {
+      background-color: white;
+      opacity: 0.9;
+      color: black;
+      box-shadow: inset 0 0 5px rgba(68,0,99,.75);
+      border-radius: 5px;
+    }
+
+    .searchbox input {
+      width: auto;
+    }
+
+    .search-jobs {
+      display: inline-block;
+      width: auto;
+      padding: 15px 25px;
+      border-radius: 5px;
+    }
+
+    .searchbox h3 {
+      font-weight: bold;
+      padding-top: 15px;
+    }
+
+    .searchbox p {
+      padding-top: 15px;
+    }
+
+    .search-jobs {
+      color: white;
+      background-color: #440063;
+      margin-left: 10px;
     }
 
     .searchbox {
       padding: 10px 20px;
-    }
-
-    .icons-white {
-      color: #09c1b3;
     }
 
     .left-aligned, .right-aligned {
@@ -458,12 +498,40 @@ footer nav li a:hover {
       vertical-align: top;
     }
 
+    .icons-green {
+      padding: 20px 10px;
+    }
+
+    .benefits-layout p {
+      padding: 0 20px 20px;
+    }
+
+    .placeholder {
+      padding: 0;
+      font-size: 0;
+      width: 90%;
+      margin: 0 auto;
+    }
+
     .placeholder img {
-      width: 75%;
+      display: inline-block;
+      width: 50%;
+    }
+
+    .placeholder-text {
+      display: inline-block;
+      width: 50%;
+      vertical-align: top;
+    }
+
+    .placeholder h3 {
+      padding-top: 25px;
+      font-size: 24px;
     }
 
     .placeholder p {
       padding: 10px 50px;
+      font-size: 16px;
     }
 
     .resources-div {
@@ -478,17 +546,27 @@ footer nav li a:hover {
   }
 
   @media (min-width: 1220px) { /* laptops/desktops */
-    .searchbox {
-      background-color: white;
-      opacity: 0.9;
-      color: #440063;
-      box-shadow: inset 0 0 5px rgba(68,0,99,.75);
-      border-radius: 5px;
+    header h1 {
+      margin-left: 25px;
     }
 
+    .nav-header {
+      margin-right: 25px;
+    }
+
+    .tagline-container {
+      padding: 10px 50px;
+    }
+
+    .find-jobs {
+      padding: 7.5% 25% 15%;
+    }
+
+    .searchbox input {
+      padding: 10px;
+    }
 
     .search-jobs {
-      color: white;
-      background-color: #440063;
+      padding: 12.5px 25px;
     }
 }
