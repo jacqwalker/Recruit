@@ -516,6 +516,7 @@ footer nav li a:hover {
     .placeholder img {
       display: inline-block;
       width: 50%;
+      vertical-align: middle;
     }
 
     .placeholder-text {
