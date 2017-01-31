@@ -129,7 +129,7 @@ header {
   padding: 10px 0;
 }
 
-.key-requirements {
+.key-requirements ul {
   margin: 0 0 20px 25px;
 }
 
@@ -139,6 +139,11 @@ header {
 
 .role-descrip, .role-benefits, .location {
   margin-bottom: 20px;
+}
+
+.map {
+  max-width: 300px;
+  max-height: 250px;
 }
 
 /*footer*/
@@ -174,7 +179,18 @@ footer nav li a:hover {
 /*end of footer styling*/
 
 @media (min-width: 480px) { /* mobile-landscape */
+  .company-info {
+    padding: 20px;
+  }
 
+  .key-requirements, .role-descrip, .role-benefits {
+    margin: 40px 0;
+  }
+
+  .map {
+    max-width: 450px;
+    max-height: 450px;
+  }
 }
 
 @media (min-width: 650px) { /* tablet-portrait */
@@ -212,7 +228,20 @@ footer nav li a:hover {
   }
 
   @media (min-width: 940px) { /* tablet-landscape/smaller laptops */
+    .company-info, .key-requirements {
+      width: 45%;
+      display: inline-block;
+      vertical-align: top;
+      margin-top: 0;
+    }
 
+    .key-requirements {
+      margin-left: 50px;
+    }
+
+    .role-descrip {
+      margin-top: 20px;
+    }
   }
 
   @media (min-width: 1220px) { /* laptops/desktops */
@@ -223,5 +252,14 @@ footer nav li a:hover {
     .nav-header {
       margin-right: 25px;
     }
+
+    .container {
+      width: 70%;
+    }
+
+    .company-info, .key-requirements {
+      width: 40%;
+    }
+
 
 }
