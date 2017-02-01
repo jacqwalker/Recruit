@@ -141,10 +141,15 @@ header {
   width: 40%;
   margin-left: 12.5px;
   vertical-align: top;
+  height: 150px;
 }
 
 .job-card h4 {
   padding-top: 15px;
+}
+
+.job-card ul {
+  height: 150px;
 }
 
 .job-card li {
@@ -211,8 +216,6 @@ footer nav li a:hover {
   }
 }
 
-
-
 @media (min-width: 650px) { /* tablet-portrait */
     .nav-icon {
       display: none;
@@ -246,15 +249,16 @@ footer nav li a:hover {
       color: #440063;
     }
 
-    .container {
+    .job-card-container {
       display: inline-flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
     }
 
     .job-card {
       width: 45%;
       vertical-align: top;
       margin-left: 20px;
-      display: inline-block;
     }
 
     .view-now {
