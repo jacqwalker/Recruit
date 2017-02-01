@@ -210,6 +210,10 @@ footer nav li a:hover {
     margin-left: 25px;
   }
 
+  .job-card ul {
+    height: 100px;
+  }
+
   .view-now {
     margin-top: 20px;
     width: 40%;
