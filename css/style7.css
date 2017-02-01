@@ -34,8 +34,12 @@ h4 {
   font-size: 20px;
 }
 
+h5 {
+  font-size: 18px;
+}
+
 p, option {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 /*header styling*/
@@ -277,6 +281,11 @@ footer nav li a:hover {
   }
 
   @media (min-width: 940px) { /* tablet-landscape/smaller laptops */
+
+    .adv-search {
+      width: 15%;
+    }
+
     .container {
       width: 90%;
     }
@@ -290,6 +299,10 @@ footer nav li a:hover {
     .job-card ul {
       height: 150px;
     }
+
+    .view-now {
+      width: 40%;
+    }
   }
 
   @media (min-width: 1220px) { /* laptops/desktops */
@@ -301,4 +314,17 @@ footer nav li a:hover {
       margin-right: 25px;
     }
 
+    .adv-search {
+      width: 10%;
+    }
+
+    .job-card {
+      width: 22.5%;
+      margin-right: 25px;
+      height: 450px;
+    }
+
+    .view-now {
+      width: 50%;
+    }
 }
