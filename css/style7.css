@@ -208,6 +208,7 @@ footer nav li a:hover {
 
   .job-card h3 {
     margin-left: 25px;
+    height: 125px;
   }
 
   .job-card ul {
@@ -263,6 +264,7 @@ footer nav li a:hover {
 
     .job-card h3 {
       margin-left: 7.5px;
+      height: 150px;
     }
 
     .job-card ul {
@@ -282,6 +284,11 @@ footer nav li a:hover {
     .job-card {
       width: 31%;
       margin-right: 15px;
+      height: 450px;
+    }
+
+    .job-card ul {
+      height: 150px;
     }
   }
 
