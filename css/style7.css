@@ -275,6 +275,14 @@ footer nav li a:hover {
   }
 
   @media (min-width: 940px) { /* tablet-landscape/smaller laptops */
+    .container {
+      width: 90%;
+    }
+
+    .job-card {
+      width: 31%;
+      margin-right: 15px;
+    }
   }
 
   @media (min-width: 1220px) { /* laptops/desktops */
