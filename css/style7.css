@@ -129,7 +129,7 @@ header {
   margin-bottom: 35px;
 }
 
-.company-logo {
+.job-card img {
   max-width: 150px;
   max-height: 150px;
   margin: 0 auto;
@@ -146,6 +146,13 @@ header {
 .job-card li {
   list-style: disc;
   margin-left: 25px;
+}
+
+.view-now {
+  margin: 15px auto 0;
+  width: 35%;
+  display: block;
+  text-decoration: none;
 }
 /*End of returned search options*/
 
