@@ -106,9 +106,10 @@ header {
   color: white;
   padding: 10px;
   border-radius: 5px;
-  width: 30%;
+  width: 40%;
   display: block;
   text-decoration: none;
+  text-align: center;
 }
 
 .adv-search:hover {
@@ -125,18 +126,21 @@ header {
 /*Returned search options*/
 .job-card {
   border: 2px solid #ddd;
-  padding: 20px;
+  padding: 20px 10px;
   margin-bottom: 35px;
 }
 
 .job-card img {
-  max-width: 150px;
-  max-height: 150px;
-  margin: 0 auto;
+  max-width: 40%;
+  max-height: 100px;
+  display: inline-block;
 }
 
 .job-card h3 {
-  padding-top: 25px;
+  display: inline-block;
+  width: 40%;
+  margin-left: 12.5px;
+  vertical-align: top;
 }
 
 .job-card h4 {
@@ -150,7 +154,7 @@ header {
 
 .view-now {
   margin: 15px auto 0;
-  width: 35%;
+  width: 45%;
   display: block;
   text-decoration: none;
 }
@@ -224,6 +228,20 @@ footer nav li a:hover {
       color: #440063;
     }
 
+    .container {
+      display: inline-flex;
+    }
+
+    .job-card {
+      width: 45%;
+      vertical-align: top;
+      margin-left: 20px;
+      display: inline-block;
+    }
+
+    .view-now {
+      width: 60%;
+    }
   }
 
   @media (min-width: 940px) { /* tablet-landscape/smaller laptops */
