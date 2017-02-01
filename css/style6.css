@@ -314,6 +314,14 @@ footer nav li a:hover {
     .nav-link:hover {
       color: #440063;
     }
+
+    .S-name, .F-name {
+      width: 47.5%;
+    }
+
+    .S-name {
+      margin-left: 17.5px;
+    }
   }
 
   @media (min-width: 940px) { /* tablet-landscape/smaller laptops */
