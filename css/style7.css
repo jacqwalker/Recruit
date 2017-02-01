@@ -193,7 +193,25 @@ footer nav li a:hover {
 /*end of footer styling*/
 
 @media (min-width: 480px) { /* mobile-landscape */
+  .adv-search {
+    width: 30%;
+  }
+
+  .job-card {
+    padding: 20px;
+  }
+
+  .job-card h3 {
+    margin-left: 25px;
+  }
+
+  .view-now {
+    margin-top: 20px;
+    width: 40%;
+  }
 }
+
+
 
 @media (min-width: 650px) { /* tablet-portrait */
     .nav-icon {
