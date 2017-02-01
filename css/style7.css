@@ -253,16 +253,11 @@ footer nav li a:hover {
       color: #440063;
     }
 
-    .job-card-container {
-      display: inline-flex;
-      flex-flow: row wrap;
-      justify-content: space-between;
-    }
-
     .job-card {
       width: 45%;
       vertical-align: top;
       margin-left: 20px;
+      display: inline-block;
     }
 
     .view-now {
