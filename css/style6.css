@@ -110,6 +110,16 @@ header {
 
 .apply-button {
   float: right;
+  background-color: #440063;
+  color: white;
+  text-decoration: none;
+  padding: 2.5px 15px;
+  border-radius: 2px;
+}
+
+.apply-button:hover {
+  color: #440063;
+  background-color: #09c1b3;
 }
 
 .container {
