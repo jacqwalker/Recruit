@@ -123,7 +123,7 @@ header {
 }
 
 /*Returned search options*/
-.layout-box {
+.job-card {
   border: 2px solid #ddd;
   padding: 20px;
   margin-bottom: 35px;
@@ -133,6 +133,19 @@ header {
   max-width: 150px;
   max-height: 150px;
   margin: 0 auto;
+}
+
+.job-card h3 {
+  padding-top: 25px;
+}
+
+.job-card h4 {
+  padding-top: 15px;
+}
+
+.job-card li {
+  list-style: disc;
+  margin-left: 25px;
 }
 /*End of returned search options*/
 
