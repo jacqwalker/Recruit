@@ -56,7 +56,7 @@
           <!-- company logo -->
           <h3>Shell</h3>
           <!-- Company name -->
-          <p>Oil and Gas</p>
+          <h4>Oil and Gas</h4>
           <!-- Industry that the company is in -->
           <p>Royal Dutch Shell was formed in 1907 and is the second largest oil company in the world. With offices in over 80 countries, employing 100,000 employees and annual turnover of $400 billion, Shell is the number one employer. We are looking for talented finance staff to join us now. Do not hesitate to get in touch. We look forward to hearing from you.</p>
           <!-- Company description -->
@@ -92,17 +92,60 @@
           <!-- map for location -->
           <h3>Location</h3>
           <!-- <img src="./images/map.JPG" alt="map"/> -->
-          <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2483.5278084726715!2d-0.11836278459419369!3d51.50353207963451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1485853433013"></iframe>
+          <div id="map">
+          </div>
         </div>
 
-        <form>
-          First name<input type="text">
-          Surname<input type="text">
-          Upload your CV
-          Your covering letter for this role<input type="text">
-          <p>By applying for a job listed on this site, you are to our terms and conditions and privacy policy</p>
-          <a href="#" class="second-apply-button">Apply now</a>
-        </form>
+        <div class="apply-now">
+          <h3>Apply now</h3>
+          <form>
+            First name<br>
+            <input type="text"><br>
+            Surname<br>
+            <input type="text"><br>
+            <p>Upload your CV</p>
+            <div class="cv-upload">
+              <input type="file" />
+            </div>
+            <p>Your covering letter for this role</p>
+            <textarea></textarea>
+            <p>Before you submit your application, please confirm:</p>
+            <p>Which accountancy qualification you have obtained</p>
+            <select>
+              <option value="select"></option>
+              <option value="ACA">ACA</option>
+              <option value="ACCA">ACCA</option>
+              <option value="CIMA">CIMA</option>
+            </select>
+            <p>Your number of years PQE</p>
+            <select>
+              <option value="select"></option>
+              <option value="newly qualified">Newly qualified</option>
+              <option value="1 year PQE">1 Year PQE</option>
+              <option value="2 years PQE">2 Years PQE</option>
+              <option value="3 years PQE">3 Years PQE</option>
+              <option value="4 years PQE">4 Years PQE</option>
+              <option value="5 years PQE">5 Years PQE</option>
+              <option value="6 years PQE">6 Years PQE</option>
+              <option value="7 years PQE">7 Years PQE</option>
+              <option value="8 years PQE">8 Years PQE</option>
+              <option value="9 years PQE">9 Years PQE</option>
+              <option value="10-15 years PQE">10 - 15 Years PQE</option>
+              <option value="15+ years PQE">15+ Years PQE</option>
+              <option value="Executive">Executive</option>
+            </select>
+            <p>The information I have submitted is true and correct</p>
+            <select>
+                <option value="Please select"></option>
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+            <p>By applying for a job listed on this site, you are to our terms and conditions and privacy policy</p>
+            <div class="second-apply-button">
+              <button>Submit</button>
+            </div>
+          </form>
+        </div>
       </div>
     </main>
 
@@ -121,5 +164,16 @@
 
     <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
     <script src="js/index.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8Ida-d5dkZc3L1Jf5rFv1xP2sbGrsZR0&callback=initMap"></script>
+    <script>
+      function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+      }
+    </script>
   </body>
 </html>

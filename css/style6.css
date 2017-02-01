@@ -30,6 +30,14 @@ h3 {
   font-size: 24px;
 }
 
+h4 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 16px;
+}
+
 /*header styling*/
 header {
   background-color: #09c1b3;
@@ -115,7 +123,6 @@ header {
 }
 
 .company-info {
-  /*box-shadow: 2px 2px 0 rgba(0,0,0,0.1);*/
   box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
   padding: 10px;
   margin-bottom: 20px;
@@ -125,8 +132,12 @@ header {
   max-width: 250px;
 }
 
-.company-info h3, {
-  padding: 10px 0;
+.company-info h3, .company-info h4, .company-info p {
+  padding-top: 7.5px;
+}
+
+.key-requirements h3, .role-descrip h3, .role-benefits h3, .location h3, .apply-now h3 {
+  padding-bottom: 12.5px;
 }
 
 .key-requirements ul {
@@ -141,9 +152,44 @@ header {
   margin-bottom: 20px;
 }
 
-.map {
-  max-width: 300px;
-  max-height: 250px;
+#map {
+  height: 400px;
+  width: 100%;
+}
+
+.apply-now {
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
+  width: 100%;
+  padding: 10px 25px;
+  margin: 30px 0;
+}
+
+.apply-now h3 {
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 5px;
+}
+
+.cv-upload {
+  border: 1px solid #ddd;
+}
+
+.apply-now p {
+  padding: 10px 0;
+}
+
+textarea {
+  min-height: 150px;
+  width: 100%;
+}
+
+.second-apply-button {
+  text-align: center;
+  margin: 15px 0;
 }
 
 /*footer*/
