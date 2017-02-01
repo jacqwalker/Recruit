@@ -339,6 +339,15 @@ footer nav li a:hover {
     .role-descrip {
       margin-top: 20px;
     }
+
+    .apply-now {
+      width: 80%;
+      margin: 50px auto;
+    }
+
+    .S-name {
+      margin-left: 20px;
+    }
   }
 
   @media (min-width: 1220px) { /* laptops/desktops */
@@ -358,5 +367,11 @@ footer nav li a:hover {
       width: 40%;
     }
 
+    .apply-now {
+      width: 70%;
+    }
 
+    .S-name {
+      margin-left: 25px;
+    }
 }
