@@ -254,10 +254,19 @@ footer nav li a:hover {
     }
 
     .job-card {
-      width: 45%;
+      width: 47.5%;
       vertical-align: top;
-      margin-left: 20px;
+      margin-right: 10px;
       display: inline-block;
+      height: 500px;
+    }
+
+    .job-card h3 {
+      margin-left: 7.5px;
+    }
+
+    .job-card ul {
+      height: 175px;
     }
 
     .view-now {
