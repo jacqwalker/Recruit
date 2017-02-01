@@ -187,9 +187,27 @@ textarea {
   width: 100%;
 }
 
+.terms {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
 .second-apply-button {
   text-align: center;
   margin: 15px 0;
+}
+
+.second-apply-button button {
+  background-color: #440063;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  padding: 7.5px 15px;
+}
+
+.second-apply-button button:hover {
+  background-color: #08ADA1;
+  color: #440063;
 }
 
 /*footer*/
