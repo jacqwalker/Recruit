@@ -127,6 +127,12 @@ header {
   margin: 0 auto;
 }
 
+.flex {
+  display: inline-flex;
+  flex-flow: row wrap;
+  align-content: stretch;
+}
+
 /*Returned search options*/
 .job-card {
   border: 2px solid #ddd;
@@ -145,15 +151,10 @@ header {
   width: 40%;
   margin-left: 17.5px;
   vertical-align: top;
-  height: 125px;
 }
 
 .job-card h5 {
   padding-top: 15px;
-}
-
-.job-card ul {
-  height: 150px;
 }
 
 .job-card li {
@@ -216,11 +217,6 @@ footer nav li a:hover {
 
   .job-card h4 {
     margin-left: 25px;
-    height: 100px;
-  }
-
-  .job-card ul {
-    height: 100px;
   }
 
   .view-now {
@@ -262,21 +258,28 @@ footer nav li a:hover {
       color: #440063;
     }
 
+    .container {
+      width: 85%;
+    }
+
     .job-card {
       width: 47.5%;
       vertical-align: top;
-      margin-right: 10px;
-      display: inline-block;
-      height: 450px;
+      margin-right: 12.5px;
+      display: inline-flex;
+      flex-flow: column nowrap;
+    }
+
+    .flex-item {
+      flex: 1 1 auto;
+    }
+
+    .flex-items {
+      flex: 2 1 auto;
     }
 
     .job-card h4 {
-      margin-left: 7.5px;
-      height: 125px;
-    }
-
-    .job-card ul {
-      height: 175px;
+      margin-left: 15px;
     }
 
     .view-now {
@@ -297,11 +300,10 @@ footer nav li a:hover {
     .job-card {
       width: 31%;
       margin-right: 15px;
-      height: 425px;
     }
 
-    .job-card ul {
-      height: 150px;
+    .job-card h4 {
+      margin-right: 20px;
     }
 
     .view-now {
@@ -325,12 +327,10 @@ footer nav li a:hover {
     .job-card {
       width: 22.5%;
       margin-right: 25px;
-      height: 425px;
     }
 
     .job-card h4 {
-      height: 125px;
-      margin-left: 20px;
+      margin-left: 22.5px;
     }
 
     .view-now {
