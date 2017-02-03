@@ -25,6 +25,10 @@ h3 {
   font-size: 24px;
 }
 
+p {
+  font-size: 16px;
+}
+
 /*header styling*/
 
 header {
@@ -207,6 +211,43 @@ header {
 
 /*end of why use us section*/
 
+/*how it works*/
+.howitworks {
+  background: url(../images/image6.jpg) center center no-repeat;
+  background-size: cover;
+  padding: 0%;
+  color: white;
+  text-align: center;
+}
+
+.resources3 {
+  background-color: #09c1b3;
+  opacity: 0.8;
+  padding: 10px 0;
+}
+
+.icons-white {
+   color: black;
+   font-size: 50px;
+   padding: 10px;
+ }
+
+.resources-div {
+  margin-top: 55px;
+  vertical-align: top;
+  color: black;
+}
+
+.resources h3 {
+  padding: 7.5px;
+}
+
+.resources p {
+  padding: 7.5px 15px;
+}
+
+/*end of how it works*/
+
 /*placholder section*/
 .placeholder {
   background-color: white;
@@ -239,12 +280,10 @@ header {
 }
 
 .resources h3 {
-  font-size: 24px;
   padding: 7.5px;
 }
 
 .resources p {
-  font-size: 16px;
   padding: 7.5px 15px;
 }
 
