@@ -235,6 +235,7 @@ header {
 
 .resources-div {
   margin-top: 55px;
+  vertical-align: top;
 }
 
 .resources h3 {
@@ -544,6 +545,11 @@ footer nav li a:hover {
       margin-bottom: 55px;
     }
 
+    .flex {
+      display: inline-flex;
+      flex-flow: row;
+      align-content: stretch;
+    }
   }
 
   @media (min-width: 1220px) { /* laptops/desktops */
