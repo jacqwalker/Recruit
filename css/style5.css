@@ -14,6 +14,7 @@
 body {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
+  line-height: 1.5;
 }
 
 img {
@@ -21,8 +22,20 @@ img {
   width: 100%;
 }
 
+h2 {
+  font-size: 34px;
+}
+
 h3 {
   font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 18px;
 }
 
 p {
@@ -30,10 +43,14 @@ p {
 }
 
 /*header styling*/
-
 header {
   background-color: #09c1b3;
   border-bottom: 5px solid #440063;
+  color: white;
+}
+
+.logo-link {
+  text-decoration: none;
   color: white;
 }
 
@@ -93,7 +110,12 @@ header {
 /*end of header styling*/
 
 .tagline {
-  padding: 10px;
+  padding: 10px 25px;
+  color: #440063;
+}
+
+.tagline p {
+  font-style: italic;
 }
 
 .job-alerts-tablet {
@@ -222,12 +244,12 @@ header {
 
 .resources3 {
   background-color: #09c1b3;
-  opacity: 0.8;
+  opacity: 0.85;
   padding: 10px 0;
 }
 
 .icons-white {
-   color: black;
+   color: white;
    font-size: 50px;
    padding: 10px;
  }
@@ -235,7 +257,7 @@ header {
 .resources-div {
   margin-top: 55px;
   vertical-align: top;
-  color: black;
+  color: white;
 }
 
 .resources h3 {
