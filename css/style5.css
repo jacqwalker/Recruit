@@ -398,7 +398,7 @@ footer nav li a:hover {
       max-height: none;
       float: right;
       clear: none;
-      font-size: 18px;
+      font-size: 17px;
       padding: 10px;
     }
 
@@ -440,6 +440,7 @@ footer nav li a:hover {
     .tagline {
       float: left;
       padding: 10px 15px;
+      width: 50%;
     }
 
     .job-alerts {
@@ -452,19 +453,14 @@ footer nav li a:hover {
 
     .benefits-layout {
       margin: 25px 45px;
-      padding: 0 50px;
+      padding: 0 30px;
     }
 
     .benefits h2 {
       margin: 50px 10px;
     }
 
-    .placeholder img {
-      width: 85%;
-      margin: 0 auto;
-    }
-
-    .placeholder {
+    .ourStory-text p {
       padding: 10px 30px;
     }
 
