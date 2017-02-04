@@ -271,12 +271,12 @@ header {
 
 /*our story section*/
 .ourStory {
-  /*text-align: center;*/
-  padding: 10px 15px;
+  text-align: center;
+  padding: 0 15px;
 }
 
-.ourStory-text p {
-  padding: 10px;
+.ourStory-text p, .ourStory-text h5 {
+  padding: 0 10px 10px;
 }
 /*end of our story section*/
 
@@ -289,19 +289,23 @@ header {
   text-align: center;
 }
 
-.resources1 {
+.resources-aside {
   background-color: #440063;
   opacity: 0.6;
   padding: 10px 0;
 }
 
 .resources-div {
-  margin-top: 55px;
+  margin-top: 40px;
   vertical-align: top;
 }
 
+.resources-div:last-child {
+  margin-bottom: 40px;
+}
+
 .resources h3 {
-  padding: 7.5px;
+  padding:  0 7.5px;
 }
 
 .resources p {
@@ -322,7 +326,6 @@ header {
 .button-reference:hover {
   background-color: #09c1b3;
 }
-
 /*end of resources section*/
 
 /*footer*/
