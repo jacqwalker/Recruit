@@ -376,28 +376,12 @@ footer nav li a:hover {
     padding: 10px;
   }
 
-  .left-aligned {
-    width: 48%;
-    float: left;
-    margin-right: 12.5px;
-    vertical-align: top;
-  }
-
-  .right-aligned {
-    width: 48%;
-    float: right;
-  }
-
-  .border {
-    clear: both;
-  }
-
   .search-jobs {
     padding: 10px;
   }
 
-  .placeholder h3 {
-    padding-top: 15px;
+  .benefits-layout {
+    padding: 0 20px;
   }
 
   .resources {
