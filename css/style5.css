@@ -478,6 +478,10 @@ footer nav li a:hover {
   }
 
   @media (min-width: 940px) { /* tablet-landscape/smaller laptops */
+    .nav-header {
+      font-size: 18px;
+    }
+
     .tagline-container {
       padding: 10px 25px;
     }
@@ -524,20 +528,9 @@ footer nav li a:hover {
       padding: 10px 20px;
     }
 
-    .left-aligned, .right-aligned {
-      float: none;
-      margin: 0;
-      width: 100%;
-    }
-
-    .benefits-container {
-      width: 97.5%;
-      margin: 0 auto;
-    }
-
     .benefits-layout {
       display: inline-block;
-      width: 31%;
+      width: 31.5%;
       margin: 0 0 0 15px;
       padding: 0;
       vertical-align: top;
@@ -551,33 +544,14 @@ footer nav li a:hover {
       padding: 0 20px 20px;
     }
 
-    .placeholder {
-      padding: 0;
-      font-size: 0;
-      width: 90%;
+    .howitworksbox {
+      display: inline-block;
+      width: 40%;
+    }
+
+    .ourStory {
+      width: 80%;
       margin: 0 auto;
-    }
-
-    .placeholder img {
-      display: inline-block;
-      width: 50%;
-      vertical-align: middle;
-    }
-
-    .placeholder-text {
-      display: inline-block;
-      width: 50%;
-      vertical-align: top;
-    }
-
-    .placeholder h3 {
-      padding-top: 25px;
-      font-size: 24px;
-    }
-
-    .placeholder p {
-      padding: 10px 50px;
-      font-size: 16px;
     }
 
     .resources-div {
