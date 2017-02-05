@@ -457,7 +457,7 @@ footer nav li a:hover {
     }
 
     .benefits-layout {
-      margin: 25px 45px;
+      margin: 25px 0px;
       padding: 0 30px;
     }
 
@@ -538,9 +538,15 @@ footer nav li a:hover {
       margin: 0 auto;
     }
 
+    .flex {
+      display: inline-flex;
+      flex-flow: row wrap;
+      align-content: stretch;
+    }
+
     .benefits-layout {
       display: inline-block;
-      width: 31.5%;
+      width: 30%;
       margin: 0 0 0 20px;
       padding: 0;
       vertical-align: top;
@@ -575,12 +581,6 @@ footer nav li a:hover {
 
     .margin-adj {
       margin-bottom: 55px;
-    }
-
-    .flex {
-      display: inline-flex;
-      flex-flow: row;
-      align-content: stretch;
     }
   }
 
