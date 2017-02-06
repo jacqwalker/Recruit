@@ -16,7 +16,7 @@
 
   <body>
     <header class="clearfix">
-      <a href="main1.html" class="logo-link">
+      <a href="main.html" class="logo-link">
         <h1 class="logo">WALKR</h1>
       </a>
       <div class="nav-icon">
@@ -25,71 +25,81 @@
       <nav class="nav-header">
         <ul>
           <li class="navlist-item">
-            <a href="#whyuslink" class="nav-link">Why use us</a>
+            <a href="main.html#whyuslink" class="nav-link">Why use us</a>
           </li>
           <li class="navlist-item">
-            <a href="#howitworkslink" class="nav-link">How it works</a>
+            <a href="main.html#howitworkslink" class="nav-link">How it works</a>
           </li>
           <li class="navlist-item">
-            <a href="#ourstorylink" class="nav-link">Our story</a>
+            <a href="main.html#ourstorylink" class="nav-link">Our story</a>
           </li>
           <li class="navlist-item">
-            <a href="#resourceslink" class="nav-link">Resources</a>
+            <a href="main.html#resourceslink" class="nav-link">Resources</a>
           </li>
           <li class="navlist-item">
-            <a href="#contactus" class="nav-link">Contact us</a>
+            <a href="main.html#contactus" class="nav-link">Contact us</a>
           </li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <form>
-        <h3>Sign up for job alerts</h3>
-        <p>All fields required to be populated</p>
-        <div>
-          <!-- <label for="mce-EMAIL">Email Address</label> -->
-          <p>Email address</p>
-  	      <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-        </div>
+      <section class="homepagelink">
+        <a href="main.html">
+          <i class="fa fa-home"></i>
+          <p>Return to home page</p>
+        </a>
+      </section>
 
-        <div>
-          <label for="mce-FNAME">First Name </label>
-  	      <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
-        </div>
+      <section class="job-alerts-section">
+        <form>
+          <h3>Sign up for job alerts</h3>
+          <p class="smaller-font">All fields required to be populated</p>
 
-        <div>
-          <label for="mce-LNAME">Last Name </label>
-  	      <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
-        </div>
+          <div class="form-style">
+            <label for="mce-FNAME">First Name </label>
+    	      <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+          </div>
 
-        <div>
-          <label for="mce-MMERGE4">Number of years PQE </label>
-          <select name="MMERGE4" class="" id="mce-MMERGE4">
-            <option value=""></option>
-            <option value="Newly qualified">Newly qualified</option>
-            <option value="1 year PQE">1 year PQE</option>
-            <option value="2 years PQE">2 years PQE</option>
-            <option value="3 years PQE">3 years PQE</option>
-            <option value="4 years PQE">4 years PQE</option>
-            <option value="5 years PQE">5 years PQE</option>
-            <option value="6 years PQE">6 years PQE</option>
-            <option value="7 years PQE">7 years PQE</option>
-            <option value="8 years PQE">8 years PQE</option>
-            <option value="9 years PQE">9 years PQE</option>
-            <option value="10 - 15 years PQE">10 - 15 years PQE</option>
-            <option value="15+ years PQE">15+ years PQE</option>
-            <option value="Executive">Executive</option>
-          </select>
-        </div>
+          <div class="form-style">
+            <label for="mce-LNAME">Last Name </label>
+    	      <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+          </div>
 
-        <div>
-          <label for="mce-MMERGE3">Location </label>
-	        <input type="text" value="Eg. London, Brighton, Edinburgh" name="MMERGE3" class="" id="mce-MMERGE3">
-        </div>
+          <div class="form-style">
+            <label for="mce-MMERGE4">Number of years PQE </label>
+            <select name="MMERGE4" class="" id="mce-MMERGE4">
+              <option value=""></option>
+              <option value="Newly qualified">Newly qualified</option>
+              <option value="1 year PQE">1 year PQE</option>
+              <option value="2 years PQE">2 years PQE</option>
+              <option value="3 years PQE">3 years PQE</option>
+              <option value="4 years PQE">4 years PQE</option>
+              <option value="5 years PQE">5 years PQE</option>
+              <option value="6 years PQE">6 years PQE</option>
+              <option value="7 years PQE">7 years PQE</option>
+              <option value="8 years PQE">8 years PQE</option>
+              <option value="9 years PQE">9 years PQE</option>
+              <option value="10 - 15 years PQE">10 - 15 years PQE</option>
+              <option value="15+ years PQE">15+ years PQE</option>
+              <option value="Executive">Executive</option>
+            </select>
+          </div>
 
-        <button type="submit" name="subscribe">Submit</button>
-      </form>
+          <div class="form-style">
+            <label for="mce-MMERGE3">Location</label>
+  	        <input type="text" value="Eg. London, Brighton, Edinburgh" name="MMERGE3" class="" id="mce-MMERGE3">
+          </div>
+
+          <div class="form-style">
+            <!-- <label for="mce-EMAIL">Email Address</label> -->
+            <p>Email address</p>
+    	      <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+          </div>
+
+          <button type="submit" name="subscribe" class="job-alerts-btn">Submit</button>
+        </form>
+      </section>
     </main>
 
     <footer>

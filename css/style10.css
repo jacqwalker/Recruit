@@ -109,6 +109,60 @@ header {
 }
 /*end of header styling*/
 
+/*link to homepage styling*/
+.homepagelink {
+  margin: 15px;
+  color: #440063;
+}
+
+.homepagelink p {
+  display: inline-block;
+}
+/*end of link to homepage styling*/
+
+.job-alerts-section {
+  width: 80%;
+  margin: 25px auto 50px;
+}
+
+.job-alerts-section h3 {
+  text-align: center;
+}
+
+.smaller-font {
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.form-style {
+  margin-bottom: 20px;
+}
+
+input, select {
+  width: 100%;
+  padding-top: 7.5px;
+}
+
+.job-alerts-btn {
+  font-size: 18px;
+  border: none;
+  padding: 4% 0;
+  font-weight: bold;
+  color: white;
+  background-color: #440063;
+  margin: 30px auto;
+  display: block;
+  width: 50%;
+  outline: none;
+  border-radius: 5px;
+}
+
+.job-alerts-btn:hover {
+  color: #440063;
+  background-color: #09c1b3;
+}
+
 /*footer*/
 footer {
   background-color: #09c1b3;
@@ -147,43 +201,61 @@ footer nav li a:hover {
   }
 }
 
-  @media (min-width: 650px) { /* tablet-portrait */
-    .nav-icon {
-      display: none;
-    }
-
-    .nav-header {
-      max-height: none;
-      float: right;
-      clear: none;
-      font-size: 17px;
-      padding: 10px;
-    }
-
-    .nav-header ul {
-      padding: 0;
-    }
-
-    .navlist-item {
-      display: inline-block;
-    }
-
-    .navlist-item, .navlist-item:first-child {
-      border: none;
-    }
-
-    .navlist-item:hover {
-      background-color: inherit;
-    }
-
-    .nav-link:hover {
-      color: #440063;
-    }
+@media (min-width: 650px) { /* tablet-portrait */
+  .nav-icon {
+    display: none;
   }
+
+  .nav-header {
+    max-height: none;
+    float: right;
+    clear: none;
+    font-size: 17px;
+    padding: 10px;
+  }
+
+  .nav-header ul {
+    padding: 0;
+  }
+
+  .navlist-item {
+    display: inline-block;
+  }
+
+  .navlist-item, .navlist-item:first-child {
+    border: none;
+  }
+
+  .navlist-item:hover {
+    background-color: inherit;
+  }
+
+  .nav-link:hover {
+    color: #440063;
+  }
+
+  .job-alerts-section {
+    width: 70%;
+    margin: 35px auto 75px;
+  }
+}
 
   @media (min-width: 940px) { /* tablet-landscape/smaller laptops */
     .nav-header {
       font-size: 18px;
+    }
+
+    .homepagelink {
+      margin-left: 50px;
+    }
+
+    .job-alerts-section {
+      width: 50%;
+      margin: 50px auto 75px;
+    }
+
+    .job-alerts-btn {
+      width: 30%;
     }
   }
 
@@ -194,5 +266,10 @@ footer nav li a:hover {
 
     .nav-header {
       margin-right: 25px;
+    }
+
+    .job-alerts-btn {
+      width: 25%;
+      padding: 15px 0px;
     }
 }
