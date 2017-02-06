@@ -232,12 +232,23 @@ header {
  }
 /*end of why use us section*/
 
+/*link to homepage styling*/
+.homepagelink {
+  margin: 15px;
+  color: #440063;
+}
+
+.homepagelink p {
+  display: inline-block;
+}
+
 /*how it works*/
 .howitworks {
   background: url(../images/image6.jpg) center center no-repeat;
   background-size: cover;
   color: white;
   text-align: center;
+  padding: 0%;
 }
 
 .howitworks-aside {

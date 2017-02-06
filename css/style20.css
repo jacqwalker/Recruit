@@ -120,23 +120,54 @@ header {
 }
 /*end of link to homepage styling*/
 
-/*main section styling*/
-.cv-services {
-  background: url(../images/image6.jpg) center center no-repeat;
+/*main body styling*/
+.cv-services h2 {
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    margin: 20px 10px;
+}
+
+.cv-services span {
+    background: #fff;
+    padding: 0 5px;
+    position: relative;
+}
+
+.cv-services h2:before {
+ background: #08ADA1;
+ content: "";
+ display: block;
+ height: 2px;
+ position: absolute;
+ top: 50%;
+ width: 100%;
+}
+
+.cv-services-img {
+  background: url(../images/image30.jpg) center center no-repeat;
   background-size: cover;
   color: white;
   text-align: center;
-  margin-bottom: 25px;
 }
 
 .cv-services-aside {
   background-color: #09c1b3;
   opacity: 0.85;
-  padding: 10px 0;
+  padding: 10px 25px;
   font-weight: 500;
 }
 
-/*end of main section styling*/
+.icons-white {
+   font-size: 50px;
+   padding: 10px;
+ }
+
+.cv-services-aside p:last-child {
+  margin-bottom: 20px;
+}
+
+/*end of main body styling*/
 
 /*footer*/
 footer {
