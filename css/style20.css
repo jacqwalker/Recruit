@@ -135,7 +135,7 @@ header {
 }
 
 .cv-services h2:before {
- background: #08ADA1;
+ background: #440063;
  content: "";
  display: block;
  height: 2px;
@@ -163,7 +163,7 @@ header {
    padding: 10px;
  }
 
-.cv-services-aside p:last-child {
+.cv-services-aside h3:last-child {
   margin-bottom: 20px;
 }
 
