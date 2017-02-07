@@ -192,26 +192,26 @@ header {
 
 /*Why use us section*/
 .benefits h2 {
-    position: relative;
-    text-align: center;
-    font-size: 30px;
-    margin: 20px 10px;
+  position: relative;
+  text-align: center;
+  font-size: 30px;
+  margin: 20px 10px;
 }
 
 .benefits span {
-    background: #fff;
-    padding: 0 5px;
-    position: relative;
+  background: #fff;
+  padding: 0 5px;
+  position: relative;
 }
 
 .benefits h2:before {
- background: #08ADA1;
- content: "";
- display: block;
- height: 2px;
- position: absolute;
- top: 50%;
- width: 100%;
+   background: #08ADA1;
+   content: "";
+   display: block;
+   height: 2px;
+   position: absolute;
+   top: 50%;
+   width: 100%;
 }
 
 .benefits-layout {
@@ -283,6 +283,15 @@ header {
 
 .ourStory-text p, .ourStory-text h5 {
   padding: 0 10px 10px;
+}
+
+.contact-us h4 {
+  margin: 20px 0;
+}
+
+.email {
+  font-size: 15px;
+  padding: 10px 0 0;
 }
 /*end of our story section*/
 
@@ -389,6 +398,10 @@ footer nav li a:hover {
     padding: 0 20px;
   }
 
+  .email {
+    padding: 10px 0 0;
+  }
+
   .resources {
     padding: 20% 10%;
   }
@@ -466,6 +479,19 @@ footer nav li a:hover {
 
     .ourStory-text p {
       padding: 10px 30px;
+    }
+
+    .email {
+      width: 275px;
+      padding: 0;
+    }
+
+    .contact-us h4 {
+      margin: 15px;
+    }
+
+    .email p {
+      padding: 10px 0 10px 10px;
     }
 
     .resources {
