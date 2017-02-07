@@ -42,10 +42,6 @@ p {
   font-size: 16px;
 }
 
-li {
-  list-style: disc;
-}
-
 /*header styling*/
 header {
   background-color: #09c1b3;
@@ -182,6 +178,7 @@ header {
 
 .how-it-works-CV li {
   padding: 10px 0;
+  list-style: disc;
 }
 
 /*end of main body styling*/
