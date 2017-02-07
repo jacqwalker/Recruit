@@ -162,6 +162,10 @@ header {
   font-weight: 500;
 }
 
+.cv-services-aside p:last-child {
+  margin-bottom: 20px;
+}
+
 .icons-white {
    font-size: 50px;
    padding: 10px;
@@ -253,20 +257,19 @@ footer nav li a:hover {
     color: #440063;
   }
 
+  .cv-services-aside p {
+    padding: 0 40px;
+  }
+
   .how-it-works-CV {
     width: 80%;
     margin: 35px auto;
   }
 
   .how-it-works-CV ul {
-    margin-left: 20px;
+    margin: 0 0 25px 30px;
     padding: 10px 0;
   }
-
-  .how-it-works-CV li {
-    padding: 10px 0;
-  }
-
 }
 
 @media (min-width: 940px) { /* tablet-landscape/smaller laptops */
