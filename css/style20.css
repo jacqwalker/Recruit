@@ -120,6 +120,22 @@ header {
 }
 /*end of link to homepage styling*/
 
+/*tagline*/
+.tagline {
+  padding: 10px 25px;
+  color: #440063;
+  line-height: normal;
+}
+
+.tagline p {
+  font-style: italic;
+}
+
+.job-alerts-tablet {
+  display: none;
+}
+/*end of tagline*/
+
 /*main body styling*/
 .cv-services h2 {
     position: relative;
