@@ -14,7 +14,7 @@
 body {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
-  line-height: 1.25;
+  line-height: 1.5;
 }
 
 img {
@@ -38,14 +38,20 @@ h5 {
   font-size: 18px;
 }
 
-p, option {
-  font-size: 14px;
+p {
+  font-size: 16px;
 }
 
 /*header styling*/
 header {
   background-color: #09c1b3;
   border-bottom: 5px solid #440063;
+  color: white;
+  line-height: 1;
+}
+
+.logo-link {
+  text-decoration: none;
   color: white;
 }
 
@@ -99,7 +105,7 @@ header {
 }
 
 .visible {
-  max-height: 200px;
+  max-height: 250px;
 }
 /*end of header styling*/
 
@@ -183,15 +189,15 @@ footer nav li a:hover {
 /*end of footer styling*/
 
 @media (min-width: 480px) { /* mobile-landscape */
-  .job-card {
+  .resource-card {
     padding: 20px;
   }
 
-  .job-card img {
+  .resource-card img {
     max-height: 100px;
   }
 
-  .job-card h4 {
+  .resource-card h4 {
     margin-left: 25px;
   }
 
@@ -202,66 +208,66 @@ footer nav li a:hover {
 }
 
 @media (min-width: 650px) { /* tablet-portrait */
-    .nav-icon {
-      display: none;
-    }
-
-    .nav-header {
-      max-height: none;
-      float: right;
-      clear: none;
-      font-size: 18px;
-      padding: 10px;
-    }
-
-    .nav-header ul {
-      padding: 0;
-    }
-
-    .navlist-item {
-      display: inline-block;
-    }
-
-    .navlist-item, .navlist-item:first-child {
-      border: none;
-    }
-
-    .navlist-item:hover {
-      background-color: inherit;
-    }
-
-    .nav-link:hover {
-      color: #440063;
-    }
-
-    .container {
-      width: 85%;
-    }
-
-    .job-card {
-      width: 47.5%;
-      vertical-align: top;
-      margin-right: 12.5px;
-      display: inline-flex;
-      flex-flow: column nowrap;
-    }
-
-    .flex-item {
-      flex: 1 1 auto;
-    }
-
-    .flex-items {
-      flex: 2 1 auto;
-    }
-
-    .job-card h4 {
-      margin-left: 15px;
-    }
-
-    .view-now {
-      width: 60%;
-    }
+  .nav-icon {
+    display: none;
   }
+
+  .nav-header {
+    max-height: none;
+    float: right;
+    clear: none;
+    font-size: 17px;
+    padding: 10px;
+  }
+
+  .nav-header ul {
+    padding: 0;
+  }
+
+  .navlist-item {
+    display: inline-block;
+  }
+
+  .navlist-item, .navlist-item:first-child {
+    border: none;
+  }
+
+  .navlist-item:hover {
+    background-color: inherit;
+  }
+
+  .nav-link:hover {
+    color: #440063;
+  }
+
+  .container {
+    width: 85%;
+  }
+
+  .resource-card {
+    width: 47.5%;
+    vertical-align: top;
+    margin-right: 12.5px;
+    display: inline-flex;
+    flex-flow: column nowrap;
+  }
+
+  .flex-item {
+    flex: 1 1 auto;
+  }
+
+  .flex-items {
+    flex: 2 1 auto;
+  }
+
+  .resource-card h4 {
+    margin-left: 15px;
+  }
+
+  .view-now {
+    width: 60%;
+  }
+}
 
   @media (min-width: 940px) { /* tablet-landscape/smaller laptops */
 
@@ -273,12 +279,12 @@ footer nav li a:hover {
       width: 90%;
     }
 
-    .job-card {
+    .resource-card {
       width: 31%;
       margin-right: 15px;
     }
 
-    .job-card h4 {
+    .resource-card h4 {
       margin-right: 20px;
     }
 
@@ -296,16 +302,12 @@ footer nav li a:hover {
       margin-right: 25px;
     }
 
-    .adv-search {
-      width: 10%;
-    }
-
-    .job-card {
+    .resource-card {
       width: 22.5%;
       margin-right: 25px;
     }
 
-    .job-card h4 {
+    .resource-card h4 {
       margin-left: 22.5px;
     }
 
