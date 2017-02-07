@@ -121,7 +121,7 @@ header {
 /*end of link to homepage styling*/
 
 /*tagline*/
-.tagline {
+/*.tagline {
   padding: 10px 25px;
   color: #440063;
   line-height: normal;
@@ -133,7 +133,7 @@ header {
 
 .job-alerts-tablet {
   display: none;
-}
+}*/
 /*end of tagline*/
 
 /*main body styling*/
@@ -168,7 +168,9 @@ header {
 }
 
 .coaching-img {
-  background: url(../images/image6.jpg) center center no-repeat;
+  background: url(../images/image12.jpg) center center no-repeat;
+  background-size: cover;
+  /*padding: 2.5%;*/
 }
 
 .cv-services-aside {
@@ -178,6 +180,11 @@ header {
   font-weight: 500;
 }
 
+.coaching-aside {
+  background-color: #440063;
+  opacity: 0.6;
+}
+
 .cv-services-aside p:last-child {
   margin-bottom: 20px;
 }
@@ -185,6 +192,10 @@ header {
 .icons-white {
    font-size: 50px;
    padding: 10px;
+ }
+
+ .icons-green {
+   color: #09c1b3;
  }
 
  .cv-services-box a {
@@ -206,6 +217,10 @@ header {
   list-style: disc;
 }
 
+/*Coaching page styling*/
+.coaches-pic {
+  border-radius: 50%;
+}
 /*end of main body styling*/
 
 /*footer*/
