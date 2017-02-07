@@ -42,6 +42,10 @@ p {
   font-size: 16px;
 }
 
+li {
+  list-style: disc;
+}
+
 /*header styling*/
 header {
   background-color: #09c1b3;
@@ -163,8 +167,17 @@ header {
    padding: 10px;
  }
 
-.cv-services-aside p:last-child {
-  margin-bottom: 20px;
+.how-it-works-CV {
+  margin: 25px;
+}
+
+.how-it-works-CV ul {
+  margin-left: 20px;
+  padding: 10px 0;
+}
+
+.how-it-works-CV li {
+  padding: 10px 0;
 }
 
 /*end of main body styling*/
@@ -207,56 +220,71 @@ footer nav li a:hover {
   }
 }
 
-  @media (min-width: 650px) { /* tablet-portrait */
-    .nav-icon {
-      display: none;
-    }
-
-    .nav-header {
-      max-height: none;
-      float: right;
-      clear: none;
-      font-size: 17px;
-      padding: 10px;
-    }
-
-    .nav-header ul {
-      padding: 0;
-    }
-
-    .navlist-item {
-      display: inline-block;
-    }
-
-    .navlist-item, .navlist-item:first-child {
-      border: none;
-    }
-
-    .navlist-item:hover {
-      background-color: inherit;
-    }
-
-    .nav-link:hover {
-      color: #440063;
-    }
+@media (min-width: 650px) { /* tablet-portrait */
+  .nav-icon {
+    display: none;
   }
 
-  @media (min-width: 940px) { /* tablet-landscape/smaller laptops */
-    .nav-header {
-      font-size: 18px;
-    }
-
-    .homepagelink {
-      margin-left: 50px;
-    }
+  .nav-header {
+    max-height: none;
+    float: right;
+    clear: none;
+    font-size: 17px;
+    padding: 10px;
   }
 
-  @media (min-width: 1220px) { /* laptops/desktops */
-    header h1 {
-      margin-left: 25px;
-    }
+  .nav-header ul {
+    padding: 0;
+  }
 
-    .nav-header {
-      margin-right: 25px;
-    }
+  .navlist-item {
+    display: inline-block;
+  }
+
+  .navlist-item, .navlist-item:first-child {
+    border: none;
+  }
+
+  .navlist-item:hover {
+    background-color: inherit;
+  }
+
+  .nav-link:hover {
+    color: #440063;
+  }
+
+  .how-it-works-CV {
+    width: 80%;
+    margin: 35px auto;
+  }
+
+  .how-it-works-CV ul {
+    margin-left: 20px;
+    padding: 10px 0;
+  }
+
+  .how-it-works-CV li {
+    padding: 10px 0;
+  }
+
+}
+
+@media (min-width: 940px) { /* tablet-landscape/smaller laptops */
+  .nav-header {
+    font-size: 18px;
+  }
+
+  .homepagelink {
+    margin-left: 50px;
+  }
+}
+
+@media (min-width: 1220px) { /* laptops/desktops */
+  header h1 {
+    margin-left: 25px;
+  }
+
+  .nav-header {
+    margin-right: 25px;
+  }
 }
