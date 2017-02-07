@@ -153,7 +153,6 @@ header {
 
 .coaching-img {
   background: url(../images/image6.jpg) center center no-repeat;
-  color: #09c1b3;
 }
 
 .cv-services-aside {
@@ -161,10 +160,6 @@ header {
   opacity: 0.92;
   padding: 10px 25px;
   font-weight: 500;
-}
-
-.coaching-aside {
-  background-color: white;
 }
 
 .cv-services-aside p:last-child {
