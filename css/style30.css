@@ -111,18 +111,27 @@ header {
 
 /*link to homepage styling*/
 .homepagelink {
-  margin: 15px;
+  margin: 15px 0 0 15px;
   color: #440063;
+}
+
+.homepagelink a {
+  text-decoration: none;
 }
 
 .homepagelink p {
   display: inline-block;
+  padding-left: 7.5px;
+}
+
+.email-div {
+  display: none;
 }
 /*end of link to homepage styling*/
 
 .container {
   width: 80%;
-  margin: 0 auto;
+  margin: 25px auto;
 }
 
 .flex {
@@ -240,6 +249,26 @@ footer nav li a:hover {
     color: #440063;
   }
 
+  .homepagelink {
+    float: left;
+  }
+
+  .email-div {
+    display: block;
+    margin: 15px;
+  }
+
+  .email-link {
+    float: right;
+    text-decoration: none;
+    color: #440063;
+  }
+
+  .email-link p {
+    display: inline-block;
+    padding-left: 10px;
+  }
+
   .container {
     width: 85%;
   }
@@ -273,6 +302,10 @@ footer nav li a:hover {
 
     .homepagelink {
       margin-left: 50px;
+    }
+
+    .email-div {
+      margin-right: 50px;
     }
 
     .container {
