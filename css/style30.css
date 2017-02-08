@@ -134,36 +134,20 @@ header {
   margin: 25px auto;
 }
 
-.flex {
-  display: inline-flex;
-  flex-flow: row wrap;
-  align-content: stretch;
-}
-
-/*Returned search options*/
-.resource-card {
-  border: 2px solid #ddd;
-  padding: 10px;
-  margin-bottom: 35px;
-  text-align: center;
-}
-
-.resource-card img {
-  max-height: 75px;
-}
-
-.resource-card h4 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.view-now {
-  margin: 15px auto 0;
-  width: 45%;
-  display: block;
+/*Article styling*/
+.article-layout {
   text-decoration: none;
+  color: inherit;
 }
-/*End of returned search options*/
+
+.article-layout img {
+  max-height: 150px;
+}
+
+.article-separator {
+  margin: 20px 0;
+}
+/*End of article layout styling*/
 
 /*footer*/
 footer {
@@ -198,22 +182,7 @@ footer nav li a:hover {
 /*end of footer styling*/
 
 @media (min-width: 480px) { /* mobile-landscape */
-  .resource-card {
-    padding: 20px;
-  }
 
-  .resource-card img {
-    max-height: 100px;
-  }
-
-  .resource-card h4 {
-    margin-left: 25px;
-  }
-
-  .view-now {
-    margin-top: 20px;
-    width: 40%;
-  }
 }
 
 @media (min-width: 650px) { /* tablet-portrait */
@@ -272,30 +241,6 @@ footer nav li a:hover {
   .container {
     width: 85%;
   }
-
-  .resource-card {
-    width: 47.5%;
-    vertical-align: top;
-    margin-right: 12.5px;
-    display: inline-flex;
-    flex-flow: column nowrap;
-  }
-
-  .flex-item {
-    flex: 1 1 auto;
-  }
-
-  .flex-items {
-    flex: 2 1 auto;
-  }
-
-  .resource-card h4 {
-    margin-left: 15px;
-  }
-
-  .view-now {
-    width: 60%;
-  }
 }
 
   @media (min-width: 940px) { /* tablet-landscape/smaller laptops */
@@ -312,18 +257,6 @@ footer nav li a:hover {
       width: 90%;
     }
 
-    .resource-card {
-      width: 31%;
-      margin-right: 15px;
-    }
-
-    .resource-card h4 {
-      margin-right: 20px;
-    }
-
-    .view-now {
-      width: 40%;
-    }
   }
 
   @media (min-width: 1220px) { /* laptops/desktops */
@@ -333,18 +266,5 @@ footer nav li a:hover {
 
     .nav-header {
       margin-right: 25px;
-    }
-
-    .resource-card {
-      width: 22.5%;
-      margin-right: 25px;
-    }
-
-    .resource-card h4 {
-      margin-left: 22.5px;
-    }
-
-    .view-now {
-      width: 50%;
     }
 }
