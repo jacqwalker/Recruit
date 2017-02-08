@@ -111,30 +111,23 @@ header {
 
 /*link to homepage styling*/
 .homepagelink {
-  margin: 15px;
+  margin: 15px 0 0 15px;
   color: #440063;
+}
+
+.homepagelink a {
+  text-decoration: none;
 }
 
 .homepagelink p {
   display: inline-block;
+  padding-left: 7.5px;
+}
+
+.email-div {
+  display: none;
 }
 /*end of link to homepage styling*/
-
-/*tagline*/
-/*.tagline {
-  padding: 10px 25px;
-  color: #440063;
-  line-height: normal;
-}
-
-.tagline p {
-  font-style: italic;
-}
-
-.job-alerts-tablet {
-  display: none;
-}*/
-/*end of tagline*/
 
 /*main body styling*/
 .cv-services h2 {
@@ -328,6 +321,26 @@ footer nav li a:hover {
     color: #440063;
   }
 
+  .homepagelink {
+    float: left;
+  }
+
+  .email-div {
+    display: block;
+    margin: 15px;
+  }
+
+  .email-link {
+    float: right;
+    text-decoration: none;
+    color: #440063;
+  }
+
+  .email-link p {
+    display: inline-block;
+    padding-left: 10px;
+  }
+
   .cv-services-aside p {
     padding: 0 40px;
   }
@@ -352,6 +365,9 @@ footer nav li a:hover {
     margin-left: 50px;
   }
 
+  .email-div {
+    margin-right: 50px;
+  }
 
   .cv-services-box {
     display: inline-block;
