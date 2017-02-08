@@ -129,6 +129,29 @@ header {
 }
 /*end of link to homepage styling*/
 
+.cv-services h2 {
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    margin: 20px 10px;
+}
+
+.cv-services span {
+    background: #fff;
+    padding: 0 5px;
+    position: relative;
+}
+
+.cv-services h2:before {
+ background: #440063;
+ content: "";
+ display: block;
+ height: 2px;
+ position: absolute;
+ top: 50%;
+ width: 100%;
+}
+
 .container {
   width: 80%;
   margin: 25px auto;
@@ -138,10 +161,6 @@ header {
 .article-layout {
   text-decoration: none;
   color: inherit;
-}
-
-.article-layout img {
-  max-height: 150px;
 }
 
 .article-separator {
@@ -239,7 +258,22 @@ footer nav li a:hover {
   }
 
   .container {
-    width: 85%;
+    width: 80%;
+  }
+
+  .article-layout img, .article-text {
+    width: 35%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .article-text {
+    width: 60%;
+    margin-left: 20px;
+  }
+
+  .article-separator {
+    margin: 35px 0;
   }
 }
 
@@ -254,7 +288,11 @@ footer nav li a:hover {
     }
 
     .container {
-      width: 90%;
+      width: 70%;
+    }
+
+    .article-layout img {
+      width: 30%;
     }
 
   }
@@ -266,5 +304,13 @@ footer nav li a:hover {
 
     .nav-header {
       margin-right: 25px;
+    }
+
+    .container {
+      width: 50%;
+    }
+
+    .article-layout img {
+      width: 30%;
     }
 }
