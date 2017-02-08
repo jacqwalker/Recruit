@@ -115,6 +115,10 @@ header {
   color: #440063;
 }
 
+.homepagelink a {
+  text-decoration: none;
+}
+
 .homepagelink p {
   display: inline-block;
 }
