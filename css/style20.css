@@ -218,9 +218,38 @@ header {
 }
 
 /*Coaching page styling*/
+.coaching-section {
+  margin: 15px;
+}
+
 .coaches-pic {
   border-radius: 50%;
+  max-height: 100px;
+  max-width: 100px;
+  display: inline-block;
 }
+
+.coaches-bio {
+  display: inline-block;
+  width: 55%;
+  vertical-align: top;
+  margin-left: 15px;
+}
+
+.coaches-info, .coaches-info h5 {
+  margin-top: 10px;
+}
+
+.contact-deets {
+  text-decoration: none;
+  color: #09c1b3;
+  margin-left: 10px;
+}
+
+hr {
+  margin: 35px 20px;
+}
+
 /*end of main body styling*/
 
 /*footer*/
