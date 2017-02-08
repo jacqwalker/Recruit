@@ -288,6 +288,11 @@ footer nav li a:hover {
   main {
     margin: 0 auto;
   }
+
+  .coaching-section {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 
 @media (min-width: 650px) { /* tablet-portrait */
