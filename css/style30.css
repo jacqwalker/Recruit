@@ -157,14 +157,33 @@ header {
   margin: 25px auto;
 }
 
+.container-heading {
+  margin-bottom: 75px;
+}
+
 /*Article styling*/
 .article-layout {
   text-decoration: none;
   color: inherit;
 }
 
+.article-heading {
+  margin-top: 10px;
+}
+
+.article-text p {
+  margin: 10px 0;
+}
+
 .article-separator {
   margin: 20px 0;
+}
+
+.external-link {
+  background-color: #440063;
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none;
 }
 /*End of article layout styling*/
 
