@@ -374,6 +374,13 @@ footer nav li a:hover {
     vertical-align: top;
     width: 31.5%;
   }
+
+  .coaching-section-div {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    margin-left: 25px;
+  }
 }
 
 @media (min-width: 1220px) { /* laptops/desktops */
