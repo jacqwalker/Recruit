@@ -130,26 +130,26 @@ header {
 /*end of link to homepage styling*/
 
 .cv-services h2 {
-    position: relative;
-    text-align: center;
-    font-size: 30px;
-    margin: 20px 10px;
+  position: relative;
+  text-align: center;
+  font-size: 30px;
+  margin: 20px 10px;
 }
 
 .cv-services span {
-    background: #fff;
-    padding: 0 5px;
-    position: relative;
+  background: #fff;
+  padding: 0 5px;
+  position: relative;
 }
 
 .cv-services h2:before {
- background: #440063;
- content: "";
- display: block;
- height: 2px;
- position: absolute;
- top: 50%;
- width: 100%;
+  background: #440063;
+  content: "";
+  display: block;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
 }
 
 .container {
@@ -157,11 +157,28 @@ header {
   margin: 25px auto;
 }
 
-.container-heading {
-  margin-bottom: 75px;
+.newsletter p {
+  margin: 10px 0;
+}
+
+.submit-btn {
+  background-color: #440063;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-top: 10px;
+}
+
+.submit-btn:hover {
+  background-color: #09c1b3;
+  color: #440063;
 }
 
 /*Article styling*/
+.article-layout-div {
+  margin-top: 40px;
+}
+
 .article-layout {
   text-decoration: none;
   color: inherit;
@@ -220,7 +237,13 @@ footer nav li a:hover {
 /*end of footer styling*/
 
 @media (min-width: 480px) { /* mobile-landscape */
+  .newsletter input {
+    padding: 3.25px;
+  }
 
+  .submit-btn {
+    margin-left: 5px;
+  }
 }
 
 @media (min-width: 650px) { /* tablet-portrait */
@@ -286,6 +309,10 @@ footer nav li a:hover {
     vertical-align: top;
   }
 
+  .article-heading {
+    margin-top: 0;
+  }
+
   .article-text {
     width: 60%;
     margin-left: 20px;
@@ -307,7 +334,20 @@ footer nav li a:hover {
     }
 
     .container {
-      width: 70%;
+      width: 90%;
+    }
+
+    .newsletter {
+      display: inline-block;
+      width: 30%;
+      vertical-align: top;
+    }
+
+    .article-layout-div {
+      display: inline-block;
+      width: 60%;
+      margin-left: 75px;
+      margin-top: 0;
     }
 
     .article-layout img {
@@ -323,10 +363,6 @@ footer nav li a:hover {
 
     .nav-header {
       margin-right: 25px;
-    }
-
-    .container {
-      width: 50%;
     }
 
     .article-layout img {
