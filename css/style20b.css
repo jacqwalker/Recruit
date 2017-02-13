@@ -131,26 +131,26 @@ header {
 
 /*main body styling*/
 .cv-services h2 {
-    position: relative;
-    text-align: center;
-    font-size: 30px;
-    margin: 20px 10px;
+  position: relative;
+  text-align: center;
+  font-size: 30px;
+  margin: 20px 10px;
 }
 
 .cv-services span {
-    background: #fff;
-    padding: 0 5px;
-    position: relative;
+  background: #fff;
+  padding: 0 5px;
+  position: relative;
 }
 
 .cv-services h2:before {
- background: #440063;
- content: "";
- display: block;
- height: 2px;
- position: absolute;
- top: 50%;
- width: 100%;
+  background: #440063;
+  content: "";
+  display: block;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
 }
 
 .cv-services-img {
@@ -213,7 +213,7 @@ header {
 /*Coaching page styling*/
 .coaching-section {
   margin: 15px 0 0;
-  background-color: #f0f5f5;
+  background-color: #f7e6ff;
   padding: 25px 0;
 }
 
@@ -247,7 +247,7 @@ header {
 
 .contact-deets {
   text-align: center;
-  border-bottom: 2px solid #e0e0eb;
+  border-bottom: 2px solid #efccff;
 }
 
 .contact-deets-links {
@@ -396,11 +396,37 @@ footer nav li a:hover {
     width: 31.5%;
   }
 
-  .coaching-section-div {
+  .individ-coach-section {
+    width: 80%;
+    margin: 25px auto 15px;
+    border-bottom: 2px solid #efccff;
+  }
+
+  .coaches-pic {
     display: inline-block;
     width: 45%;
-    vertical-align: top;
-    margin-left: 25px;
+  }
+
+  .coaching-section-div {
+    width: 50%;
+    margin-bottom: 0;
+  }
+
+  .align-left {
+    float: left;
+  }
+
+  .align-right {
+    float: right;
+  }
+
+  .coaches-pic {
+    max-height: 335px;
+    max-width: 335px;
+  }
+
+  .contact-deets {
+    border: none;
   }
 }
 
