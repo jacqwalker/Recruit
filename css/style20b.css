@@ -421,8 +421,8 @@ footer nav li a:hover {
   }
 
   .coaches-pic {
-    max-height: 335px;
-    max-width: 335px;
+    max-height: 325px;
+    max-width: 325px;
   }
 
   .contact-deets {
@@ -437,5 +437,17 @@ footer nav li a:hover {
 
   .nav-header {
     margin-right: 25px;
+  }
+
+  .coaching-section {
+    width: 100%;
+  }
+
+  .align-right {
+    margin-right: 75px;
+  }
+
+  .align-left {
+    margin-left: 75px;
   }
 }
