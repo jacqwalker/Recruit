@@ -122,10 +122,6 @@ header {
   font-style: italic;
 }
 
-.job-alerts-tablet {
-  display: none;
-}
-
 /*job search box*/
 .find-jobs {
   background: url(../images/image1.jpg) center center no-repeat;
@@ -196,9 +192,8 @@ header {
 /*Why use us section*/
 .headings {
   text-align: center;
-  margin: 35px 0;
+  padding: 35px 0;
   text-transform: uppercase;
-  color: black;
 }
 
 .headings span {
@@ -206,6 +201,11 @@ header {
   width: 200px;
   height: 1px;
   background: #440063;
+}
+
+.margin-adj-h {
+  margin: 0;
+  padding-bottom: 0;
 }
 
 .benefits {
@@ -272,13 +272,25 @@ header {
 /*end of how it works*/
 
 /*our story section*/
+.ourStory-section {
+  background-color: #d3edeb;
+}
+
 .ourStory {
   text-align: center;
   padding: 0 15px;
 }
 
+.ourStory-pic {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+}
+
 .ourStory-text p, .ourStory-text h5 {
-  padding: 0 10px 10px;
+  padding: 0 20px 10px;
+  text-transform: uppercase;
 }
 
 .contact-us h4 {
@@ -298,10 +310,6 @@ header {
   padding: 20% 10% 30%;
   color: white;
   text-align: center;
-}
-
-.margin-adj-h {
-  margin-top: 0;
 }
 
 .resources-aside {
