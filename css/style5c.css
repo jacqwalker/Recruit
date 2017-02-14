@@ -305,16 +305,21 @@ header {
 .contact-us {
   background: url(../images/image13.jpg) center center no-repeat;
   background-size: cover;
+  text-align: center;
 }
 
 .contact-us aside {
   background-color: #fff;
   opacity: 0.9;
-  padding: 35px;
+  padding: 0 35px 35px;
 }
 
 .contact-us h4 {
   margin-bottom: 10px;
+}
+
+.contact-us p {
+  margin-left: 5px;
 }
 
 .email {
@@ -426,8 +431,8 @@ footer nav li a:hover {
   }
 
   .job-alerts {
-    width: 300px;
-    margin: 10px auto;
+    width: 200px;
+    margin: 10px auto 15px;
     padding: 10px;
   }
 
@@ -445,6 +450,10 @@ footer nav li a:hover {
 
   .resources {
     padding: 20% 10%;
+  }
+
+  .contact-us aside {
+    padding: 0 45px 45px;
   }
 }
 
@@ -490,20 +499,13 @@ footer nav li a:hover {
       float: right;
       vertical-align: top;
       padding: 0 15px;
-    }
-
-    .job-alerts-phone {
-      display: none;
+      width: 250px;
     }
 
     .tagline {
       float: left;
       padding: 10px 15px;
       width: 50%;
-    }
-
-    .job-alerts {
-      width: 250px;
     }
 
     .find-jobs {
@@ -514,8 +516,8 @@ footer nav li a:hover {
       padding: 0 30px;
     }
 
-    .benefits h2 {
-      margin: 50px 10px;
+    .ourStory {
+      padding: 0 35px;
     }
 
     .ourStory-text p {
@@ -524,7 +526,7 @@ footer nav li a:hover {
 
     .email {
       width: 275px;
-      padding: 0;
+      padding-top: 0;
     }
 
     .contact-us h4 {
