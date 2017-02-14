@@ -178,6 +178,8 @@ header {
   text-decoration: none;
   color: black;
   display: block;
+  width: 70%;
+  margin: 0 auto 20px;
 }
 
 .job-alerts p {
@@ -200,7 +202,7 @@ header {
   display: inline-block;
   width: 200px;
   height: 1px;
-  background: #440063;
+  background: #efccff;
 }
 
 .margin-adj-h {
@@ -272,9 +274,9 @@ header {
 /*end of how it works*/
 
 /*our story section*/
-.ourStory-section {
+/*.ourStory-section {
   background-color: #d3edeb;
-}
+}*/
 
 .ourStory {
   text-align: center;
@@ -282,10 +284,10 @@ header {
 }
 
 .ourStory-pic {
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
   border-radius: 50%;
-  margin: 0 auto 10px;
+  margin: 0 auto 20px;
 }
 
 .ourStory-text p, .ourStory-text h5 {
@@ -293,15 +295,46 @@ header {
   text-transform: uppercase;
 }
 
+.story-div {
+  padding: 25px 0 35px;
+}
+
+/*end of our story section*/
+
+/*contact us section*/
+.contact-us {
+  background: url(../images/image13.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.contact-us aside {
+  background-color: #fff;
+  opacity: 0.9;
+  padding: 35px;
+}
+
 .contact-us h4 {
-  margin: 20px 0;
+  margin-bottom: 10px;
 }
 
 .email {
   font-size: 15px;
-  padding: 10px 0 0;
+  text-decoration: none;
+  margin: 0 auto;
+  color: inherit;
 }
-/*end of our story section*/
+
+.email-icon {
+  background-color: #440063;
+  padding: 7.5px;
+  border-radius: 50%;
+  color: white;
+}
+
+.email p {
+  display: inline-block;
+}
+/*end of contact us section*/
 
 /*resources section*/
 .resources {
