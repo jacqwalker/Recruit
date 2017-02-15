@@ -111,7 +111,7 @@ header {
 
 /*link to homepage styling*/
 .homepagelink {
-  margin: 15px 0 0 15px;
+  margin: 15px 0 15px 15px;
   color: #440063;
 }
 
@@ -130,31 +130,21 @@ header {
 /*end of link to homepage styling*/
 
 /*main body styling*/
-.cv-services h2 {
-    position: relative;
-    text-align: center;
-    font-size: 30px;
-    margin: 20px 10px;
+.headings {
+  text-align: center;
+  padding: 20px 0;
+  text-transform: uppercase;
 }
 
-.cv-services span {
-    background: #fff;
-    padding: 0 5px;
-    position: relative;
-}
-
-.cv-services h2:before {
- background: #440063;
- content: "";
- display: block;
- height: 2px;
- position: absolute;
- top: 50%;
- width: 100%;
+.headings span {
+  display: inline-block;
+  width: 200px;
+  height: 1px;
+  background: #efccff;
 }
 
 .cv-services-img {
-  background: url(../images/image30.jpg) center center no-repeat;
+  background: url(../images/image3.jpg) center center no-repeat;
   background-size: cover;
   color: white;
   text-align: center;
@@ -163,12 +153,11 @@ header {
 .coaching-img {
   background: url(../images/image12.jpg) center center no-repeat;
   background-size: cover;
-  /*padding: 2.5%;*/
 }
 
 .cv-services-aside {
   background-color: #09c1b3;
-  opacity: 0.92;
+  opacity: 0.85;
   padding: 10px 25px;
   font-weight: 500;
 }
@@ -242,6 +231,47 @@ header {
 hr {
   margin: 35px 20px;
 }
+
+/*contact us section*/
+.contact-us {
+  background: url(../images/image13.jpg) center center no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.contact-us aside {
+  background-color: #fff;
+  opacity: 0.9;
+  padding: 0 35px 35px;
+}
+
+.contact-us h4 {
+  margin-bottom: 10px;
+}
+
+.contact-us p {
+  margin-left: 5px;
+}
+
+.email {
+  font-size: 15px;
+  text-decoration: none;
+  margin: 0 auto;
+  color: inherit;
+}
+
+.email-icon {
+  background-color: #440063;
+  padding: 7.5px;
+  border-radius: 50%;
+  color: white;
+}
+
+.email p {
+  display: inline-block;
+}
+/*end of contact us section*/
+
 
 /*end of main body styling*/
 
