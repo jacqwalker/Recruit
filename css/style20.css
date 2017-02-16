@@ -141,6 +141,10 @@ header {
   background: url(../images/image3.jpg) center center no-repeat;
 }
 
+.articles-img {
+  background: url(../images/image5.jpg) center center no-repeat;
+}
+
 .headings {
   text-align: center;
   padding: 20px 0;
@@ -252,6 +256,49 @@ hr {
 }
 /*End of coaching page styling*/
 
+/*articles page styling*/
+.submit-btn {
+  background-color: #440063;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin: 10px 0;
+}
+
+.submit-btn:hover, .external-link:hover {
+  background-color: white;
+  color: #440063;
+}
+
+.article-layout-div {
+  margin-top: 40px;
+}
+
+.article-layout {
+  text-decoration: none;
+  color: inherit;
+}
+
+.article-heading {
+  margin-top: 10px;
+}
+
+.article-text p {
+  margin: 10px 0;
+}
+
+.article-separator {
+  margin: 20px 0;
+}
+
+.external-link {
+  background-color: #440063;
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+/*end of articles page styling*/
 
 /*contact us section*/
 .contact-us {
@@ -330,6 +377,12 @@ footer nav li a:hover {
   main {
     margin: 0 auto;
   }
+
+  /*article page styling*/
+  .submit-btn {
+    margin-left: 5px;
+  }
+  /*end pf article page styling*/
 }
 
 @media (min-width: 650px) { /* tablet-portrait */
@@ -398,6 +451,27 @@ footer nav li a:hover {
     margin: 0 0 25px 30px;
     padding: 10px 0;
   }
+
+  /*article page styling*/
+  .article-layout img, .article-text {
+    width: 35%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .article-heading {
+    margin-top: 0;
+  }
+
+  .article-text {
+    width: 60%;
+    margin-left: 20px;
+  }
+
+  .article-separator {
+    margin: 35px 0;
+  }
+  /*end of article page styling*/
 }
 
 @media (min-width: 940px) { /* tablet-landscape/smaller laptops */
@@ -453,6 +527,19 @@ footer nav li a:hover {
     border: none;
   }
   /*End of coaching page styling*/
+
+  /*article page styling*/
+  .article-layout-div {
+    display: inline-block;
+    width: 60%;
+    margin-left: 75px;
+    margin-top: 0;
+  }
+
+  .article-layout img {
+    width: 30%;
+  }
+  /*end of article page styling*/
 }
 
 @media (min-width: 1220px) { /* laptops/desktops */
@@ -464,6 +551,7 @@ footer nav li a:hover {
     margin-right: 25px;
   }
 
+  /*coaching pge styling*/
   .coaching-section {
     width: 100%;
   }
@@ -475,4 +563,15 @@ footer nav li a:hover {
   .align-left {
     margin-left: 75px;
   }
+  /*end of coaching page styling*/
+
+  /*articles page styling*/
+  .submit-btn {
+    margin: 0 0 25px 5px;
+  }
+
+  .article-layout img {
+    width: 30%;
+  }
+  /*end of articles page styling*/
 }
