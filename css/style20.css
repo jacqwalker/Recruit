@@ -142,7 +142,7 @@ header {
 }
 
 .articles-img {
-  background: url(../images/image5.jpg) center center no-repeat;
+  background: url(../images/image4.jpg) center center no-repeat;
 }
 
 .headings {
@@ -257,6 +257,14 @@ hr {
 /*End of coaching page styling*/
 
 /*articles page styling*/
+.articles-info p {
+  margin: 10px 0;
+}
+
+.articles-info input {
+  padding: 5px;
+}
+
 .submit-btn {
   background-color: #440063;
   color: white;
@@ -271,12 +279,18 @@ hr {
 }
 
 .article-layout-div {
-  margin-top: 40px;
+  width: 85%;
+  margin: 40px auto;
 }
 
-.article-layout {
+.article-layout img {
+  margin-top: 25px;
+}
+
+.article-text {
+  border-bottom: 2px solid grey;
+  padding-bottom: 25px;
   text-decoration: none;
-  color: inherit;
 }
 
 .article-heading {
@@ -285,10 +299,6 @@ hr {
 
 .article-text p {
   margin: 10px 0;
-}
-
-.article-separator {
-  margin: 20px 0;
 }
 
 .external-link {
@@ -379,8 +389,13 @@ footer nav li a:hover {
   }
 
   /*article page styling*/
+  .article-layout-div {
+    width: 80%;
+  }
+
   .submit-btn {
     margin-left: 5px;
+    padding: 7.5px 10px;
   }
   /*end pf article page styling*/
 }
@@ -459,17 +474,17 @@ footer nav li a:hover {
     vertical-align: top;
   }
 
+  .article-layout img {
+    margin-top: 0;
+  }
+
   .article-heading {
     margin-top: 0;
   }
 
   .article-text {
     width: 60%;
-    margin-left: 20px;
-  }
-
-  .article-separator {
-    margin: 35px 0;
+    margin: 0 0 50px 20px;
   }
   /*end of article page styling*/
 }
@@ -530,14 +545,23 @@ footer nav li a:hover {
 
   /*article page styling*/
   .article-layout-div {
+    width: 90%;
+  }
+
+  .article-layout {
     display: inline-block;
-    width: 60%;
-    margin-left: 75px;
-    margin-top: 0;
   }
 
   .article-layout img {
     width: 30%;
+    display: block;
+  }
+
+  .article-text {
+    display: block;
+    width: 30%;
+    margin-left: 0;
+    border-bottom: none;
   }
   /*end of article page styling*/
 }
