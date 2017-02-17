@@ -283,6 +283,12 @@ hr {
   margin: 40px auto;
 }
 
+.flex {
+  display: inline-flex;
+  flex-flow: row wrap;
+  align-content: stretch;
+}
+
 .article-layout img {
   margin-top: 25px;
 }
@@ -394,7 +400,7 @@ footer nav li a:hover {
   }
 
   /*article page styling*/
-  .article-layout-div {
+  .article-layout-section {
     width: 80%;
   }
 
@@ -549,20 +555,33 @@ footer nav li a:hover {
   /*End of coaching page styling*/
 
   /*article page styling*/
-  .article-layout-div {
+  .article-layout-section {
     width: 90%;
     margin: 0 auto;
   }
 
-  .flex {
+  .article-layout {
+    width: 30%;
+    margin-right: 27.5px;
     display: inline-flex;
-    flex-flow: row wrap;
-    align-content: stretch;
+    flex-flow: column;
+    align-items: stretch;
   }
 
-  .article-layout {
-    width: 31%;
+  .article-layout img, .article-text {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
   }
+
+  .article-text {
+    margin-top: 10px;
+  }
+
+  .flexed-items {
+    flex: 1 1 auto;
+  }
+
   /*end of article page styling*/
 }
 
@@ -594,8 +613,8 @@ footer nav li a:hover {
     margin: 0 0 25px 5px;
   }
 
-  .article-layout img {
-    width: 30%;
-  }
+  .article-layout {
+    width: 21.5%;
+    margin-right: 42.5px;
   /*end of articles page styling*/
 }
