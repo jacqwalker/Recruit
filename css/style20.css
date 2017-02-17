@@ -273,12 +273,12 @@ hr {
   margin: 10px 0;
 }
 
-.submit-btn:hover, .external-link:hover {
+.submit-btn:hover {
   background-color: white;
   color: #440063;
 }
 
-.article-layout-div {
+.article-layout-section {
   width: 85%;
   margin: 40px auto;
 }
@@ -306,6 +306,11 @@ hr {
   color: white;
   padding: 5px 10px;
   text-decoration: none;
+}
+
+.external-link:hover {
+  background-color: #09c1b3;
+  color: white;
 }
 
 /*end of articles page styling*/
@@ -546,22 +551,17 @@ footer nav li a:hover {
   /*article page styling*/
   .article-layout-div {
     width: 90%;
+    margin: 0 auto;
+  }
+
+  .flex {
+    display: inline-flex;
+    flex-flow: row wrap;
+    align-content: stretch;
   }
 
   .article-layout {
-    display: inline-block;
-  }
-
-  .article-layout img {
-    width: 30%;
-    display: block;
-  }
-
-  .article-text {
-    display: block;
-    width: 30%;
-    margin-left: 0;
-    border-bottom: none;
+    width: 31%;
   }
   /*end of article page styling*/
 }
