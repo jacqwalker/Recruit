@@ -269,13 +269,14 @@ header {
 
 /*Our Story section*/
 .ourStory-section {
-  background: url(../images/image4.jpg) center center no-repeat;
+  background: url(../images/image30.jpg) center center no-repeat;
   background-size: cover;
 }
 
 .ourStory-aside {
-  background-color: white;
-  opacity: 0.6;
+  background-color: #09c1b3;
+  opacity: 0.75;
+  color: #fff;
 }
 
 .ourStory {
