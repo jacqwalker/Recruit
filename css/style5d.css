@@ -17,8 +17,6 @@ body {
   line-height: 1.5;
 }
 
-}
-
 img {
   display: block;
   width: 100%;
@@ -269,27 +267,20 @@ header {
 }
 /*end of how it works*/
 
-/*our story section*/
-/*.ourStory-section {
-  background-color: #d3edeb;
-}*/
-
+/*Our Story section*/
 .ourStory-section {
-  background: url(../images/image12.jpg) center center no-repeat;
+  background: url(../images/image4.jpg) center center no-repeat;
   background-size: cover;
+}
+
+.ourStory-aside {
+  background-color: white;
+  opacity: 0.6;
 }
 
 .ourStory {
   text-align: center;
   padding: 0 15px;
-}
-
-.ourStory-pic {
-  display: inline-block;
-  height: 150px;
-  width: 150px;
-  border-radius: 50%;
-  margin: 0 auto 20px;
 }
 
 .ourStory-text p, .ourStory-text h5 {
@@ -300,19 +291,11 @@ header {
 .story-div {
   padding: 25px 0 35px;
 }
-
 /*end of our story section*/
 
 /*contact us section*/
 .contact-us {
-  /*background: url(../images/image4.jpg) center center no-repeat;
-  background-size: cover;*/
   text-align: center;
-}
-
-.contact-us aside {
-  background-color: #fff;
-  opacity: 0.9;
   padding: 0 35px 35px;
 }
 
@@ -454,7 +437,7 @@ footer nav li a:hover {
     padding: 20% 10%;
   }
 
-  .contact-us aside {
+  .contact-us {
     padding: 0 45px 45px;
   }
 }
@@ -606,12 +589,6 @@ footer nav li a:hover {
     .benefits-container {
       width: 90%;
       margin: 0 auto;
-    }
-
-    .flex {
-      display: inline-flex;
-      flex-flow: row wrap;
-      align-content: stretch;
     }
 
     .icons-green {
