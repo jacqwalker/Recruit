@@ -308,23 +308,22 @@ hr {
 }
 
 .external-link {
-  background-color: #440063;
+  background-color: #09c1b3;
   color: white;
   padding: 5px 10px;
   text-decoration: none;
 }
 
 .external-link:hover {
-  background-color: #09c1b3;
-  color: white;
+  background-color: #440063;
 }
 
 /*end of articles page styling*/
 
 /*contact us section*/
 .contact-us {
-  background: url(../images/image13.jpg) center center no-repeat;
-  background-size: cover;
+  /*background: url(../images/image4.jpg) center center no-repeat;
+  background-size: cover;*/
   text-align: center;
 }
 
@@ -576,12 +575,22 @@ footer nav li a:hover {
 
   .article-text {
     margin-top: 10px;
+    display: flex;
+    flex-flow: column;
   }
 
   .flexed-items {
     flex: 1 1 auto;
   }
 
+  .article-heading {
+    flex: 2 1 auto;
+  }
+
+  .external-link {
+    width: 60%;
+    margin: 20px auto 10px;
+  }
   /*end of article page styling*/
 }
 
@@ -616,5 +625,6 @@ footer nav li a:hover {
   .article-layout {
     width: 21.5%;
     margin-right: 42.5px;
+  }
   /*end of articles page styling*/
 }
