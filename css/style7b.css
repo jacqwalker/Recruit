@@ -14,7 +14,7 @@
 body {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
-  line-height: 1.25;
+  line-height: 1.5;
 }
 
 img {
@@ -22,8 +22,12 @@ img {
   width: 100%;
 }
 
+h1 {
+  font-size: 36px;
+}
+
 h2 {
-  font-size: 34px;
+  font-size: 30px;
 }
 
 h3 {
@@ -38,8 +42,8 @@ h5 {
   font-size: 18px;
 }
 
-p, option {
-  font-size: 14px;
+p {
+  font-size: 16px;
 }
 
 /*header styling*/
@@ -47,11 +51,16 @@ header {
   background-color: #09c1b3;
   border-bottom: 5px solid #440063;
   color: white;
+  line-height: 1;
+}
+
+.logo-link {
+  text-decoration: none;
+  color: white;
 }
 
 .logo {
   font-family: 'Oswald', sans-serif;
-  font-size: 36px;
   text-transform: uppercase;
   padding: 12.5px 0px 10px 15px;
   float: left;
@@ -163,28 +172,22 @@ header {
   margin-left: 25px;
 }
 
-/*Advanced search button*/
-.adv-search {
-  margin: 20px 25px 35px;
-  background-color: #440063;
-  color: white;
-  padding: 10px;
-  border-radius: 5px;
-  width: 40%;
-  display: block;
-  text-align: center;
-}
-
-.adv-search:hover {
-  background-color: #09c1b3;
-  color: #440063;
-}
-
+/*Search button*/
 .view-now {
   margin: 15px auto 0;
   width: 45%;
   display: block;
   text-decoration: none;
+  background-color: #09c1b3;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 1px;
+  width: 40%;
+  text-align: center;
+}
+
+.view-now:hover {
+  background-color: #440063;
 }
 /*End of returned search options*/
 
@@ -221,8 +224,8 @@ footer nav li a:hover {
 /*end of footer styling*/
 
 @media (min-width: 480px) { /* mobile-landscape */
-  .adv-search {
-    width: 30%;
+  .container {
+    width: 75%;
   }
 
   .job-card {
@@ -239,7 +242,7 @@ footer nav li a:hover {
 
   .view-now {
     margin-top: 20px;
-    width: 40%;
+    width: 30%;
   }
 }
 
@@ -321,7 +324,7 @@ footer nav li a:hover {
     }
 
     .view-now {
-      width: 60%;
+      width: 50%;
     }
   }
 
@@ -361,10 +364,6 @@ footer nav li a:hover {
       margin-right: 25px;
     }
 
-    .adv-search {
-      width: 10%;
-    }
-
     .job-card {
       width: 22.5%;
       margin-right: 25px;
@@ -375,6 +374,6 @@ footer nav li a:hover {
     }
 
     .view-now {
-      width: 50%;
+      width: 40%;
     }
 }
