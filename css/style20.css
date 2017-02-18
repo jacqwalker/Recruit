@@ -294,7 +294,7 @@ hr {
 }
 
 .article-text {
-  border-bottom: 2px solid grey;
+  border-bottom: 1px solid #efccff;
   padding-bottom: 25px;
   text-decoration: none;
 }
