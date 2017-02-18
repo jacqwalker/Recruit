@@ -14,7 +14,7 @@
 body {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
-  line-height: 1.25;
+  line-height: 1.5;
 }
 
 img {
@@ -22,8 +22,12 @@ img {
   width: 100%;
 }
 
+h1 {
+  font-size: 36px;
+}
+
 h2 {
-  font-size: 34px;
+  font-size: 30px;
 }
 
 h3 {
@@ -34,7 +38,11 @@ h4 {
   font-size: 20px;
 }
 
-p, option {
+h5 {
+  font-size: 18px;
+}
+
+p {
   font-size: 16px;
 }
 
@@ -43,11 +51,16 @@ header {
   background-color: #09c1b3;
   border-bottom: 5px solid #440063;
   color: white;
+  line-height: 1;
+}
+
+.logo-link {
+  text-decoration: none;
+  color: white;
 }
 
 .logo {
   font-family: 'Oswald', sans-serif;
-  font-size: 36px;
   text-transform: uppercase;
   padding: 12.5px 0px 10px 15px;
   float: left;
@@ -95,7 +108,7 @@ header {
 }
 
 .visible {
-  max-height: 200px;
+  max-height: 250px;
 }
 /*end of header styling*/
 
@@ -283,37 +296,37 @@ footer nav li a:hover {
 }
 
 @media (min-width: 650px) { /* tablet-portrait */
-    .nav-icon {
-      display: none;
-    }
+  .nav-icon {
+    display: none;
+  }
 
-    .nav-header {
-      max-height: none;
-      float: right;
-      clear: none;
-      font-size: 18px;
-      padding: 10px;
-    }
+  .nav-header {
+    max-height: none;
+    float: right;
+    clear: none;
+    font-size: 17px;
+    padding: 10px;
+  }
 
-    .nav-header ul {
-      padding: 0;
-    }
+  .nav-header ul {
+    padding: 0;
+  }
 
-    .navlist-item {
-      display: inline-block;
-    }
+  .navlist-item {
+    display: inline-block;
+  }
 
-    .navlist-item, .navlist-item:first-child {
-      border: none;
-    }
+  .navlist-item, .navlist-item:first-child {
+    border: none;
+  }
 
-    .navlist-item:hover {
-      background-color: inherit;
-    }
+  .navlist-item:hover {
+    background-color: inherit;
+  }
 
-    .nav-link:hover {
-      color: #440063;
-    }
+  .nav-link:hover {
+    color: #440063;
+  }
 
     .S-name, .F-name {
       width: 47.5%;
