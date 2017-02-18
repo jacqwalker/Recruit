@@ -267,6 +267,13 @@ header {
 }
 /*end of how it works*/
 
+/*quote section*/
+ .quote {
+   padding: 0 25px 50px;
+   text-align: center;
+ }
+/*end of quote section*/
+
 /*Our Story section*/
 .ourStory-section {
   background: url(../images/image30.jpg) center center no-repeat;
@@ -286,6 +293,9 @@ header {
 
 .ourStory-text p, .ourStory-text h5 {
   padding: 0 20px 10px;
+}
+
+.ourStory-text h5 {
   text-transform: uppercase;
 }
 
