@@ -111,6 +111,7 @@ header {
   max-height: 250px;
 }
 /*end of header styling*/
+
 .tagline {
   padding: 10px 25px;
   color: #440063;
@@ -150,7 +151,7 @@ header {
 .search-jobs {
   font-size: 18px;
   border: none;
-  padding: 4% 0;
+  padding: 3.5% 0;
   font-weight: bold;
   color: #440063;
   background-color: white;
@@ -158,6 +159,8 @@ header {
   display: block;
   width: 100%;
   outline: none;
+  text-align: center;
+  text-decoration: none;
 }
 
 .search-jobs:hover {
@@ -578,7 +581,7 @@ footer nav li a:hover {
     .search-jobs {
       display: inline-block;
       width: auto;
-      padding: 15px 25px;
+      padding: 11px 25px;
       border-radius: 5px;
     }
 
@@ -664,7 +667,7 @@ footer nav li a:hover {
     }
 
     .search-jobs {
-      padding: 12.5px 25px;
+      padding: 10px 25px;
     }
 
     .benefits-container {
