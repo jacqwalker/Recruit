@@ -512,6 +512,10 @@ footer nav li a:hover {
       padding: 0 75px;
     }
 
+    .howitworks-aside {
+      padding: 10px 50px;
+    }
+
     .ourStory {
       padding: 0 35px;
     }
@@ -608,6 +612,10 @@ footer nav li a:hover {
 
     .benefits-layout p {
       padding: 0 20px 20px;
+    }
+
+    .howitworks-aside {
+      padding: 0;
     }
 
     .howitworksbox {
