@@ -322,8 +322,6 @@ hr {
 
 /*contact us section*/
 .contact-us {
-  /*background: url(../images/image4.jpg) center center no-repeat;
-  background-size: cover;*/
   text-align: center;
 }
 
@@ -521,7 +519,7 @@ footer nav li a:hover {
   /*coaching page styling*/
   .individ-coach-section {
     width: 80%;
-    margin: 25px auto 15px;
+    margin: 50px auto 15px;
     border-bottom: 2px solid #efccff;
   }
 
@@ -544,8 +542,8 @@ footer nav li a:hover {
   }
 
   .coaches-pic {
-    max-height: 325px;
-    max-width: 325px;
+    max-height: 290px;
+    max-width: 290px;
   }
 
   .contact-deets {
@@ -580,7 +578,7 @@ footer nav li a:hover {
   }
 
   .flexed-items {
-    flex: 1 1 auto;
+    flex: 2 1 auto;
   }
 
   .article-heading {
