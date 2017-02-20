@@ -1,0 +1,597 @@
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after{
+  clear: both;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 16px;
+}
+
+/*header styling*/
+header {
+  background-color: #75a3a3;
+  color: white;
+  line-height: 1;
+  border-bottom: 2px solid #fff;
+}
+
+.logo-link {
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  padding: 12.5px 0px 10px 15px;
+  float: left;
+}
+
+.nav-icon {
+  float: right;
+  font-size: 37.5px;
+  padding: 12.5px;
+}
+
+.nav-icon:hover {
+  color: #383e37;
+  cursor: pointer;
+}
+
+.nav-header {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s;
+  clear: both;
+}
+
+.nav-header ul {
+  padding: 0 20px 20px;
+}
+
+.navlist-item {
+  border-bottom: 2px solid white;
+}
+
+.navlist-item:first-child {
+  border-top: 2px solid white;
+}
+
+.navlist-item:hover {
+  background-color: #d1ebcf;
+  color: #383e37;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  display: block;
+}
+
+.visible {
+  max-height: 250px;
+}
+/*end of header styling*/
+
+/*link to homepage styling*/
+.homepagelink {
+  margin: 15px 0 15px 15px;
+}
+
+.homepagelink a {
+  text-decoration: none;
+  color: #383e37;
+}
+
+.homepagelink p {
+  display: inline-block;
+  padding-left: 7.5px;
+}
+
+.email-div {
+  display: none;
+}
+/*end of link to homepage styling*/
+
+/*main body styling*/
+.services-img {
+  background: url(../images/image3.jpg) center center no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.coaching-img {
+  background: url(../images/image12.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.articles-img {
+  background: url(../images/image6.jpg) center center no-repeat;
+}
+
+.headings {
+  text-align: center;
+  padding: 20px 0;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.headings span {
+  display: inline-block;
+  width: 200px;
+  height: 1px;
+  background: #383e37;
+}
+
+.services-aside {
+  background-color: #d1ebcf;
+  opacity: 0.85;
+  padding: 10px 25px;
+  font-weight: 500;
+  color: #383e37;
+}
+
+.services-aside p:last-child {
+  margin-bottom: 20px;
+}
+
+.icons-white {
+   font-size: 50px;
+   padding: 10px;
+ }
+
+ .services-box a {
+   text-decoration: none;
+   color: #383e37;
+ }
+
+.how-it-works-CV {
+  margin: 25px;
+}
+
+.how-it-works-CV ul {
+  margin-left: 20px;
+  padding: 10px 0;
+}
+
+.how-it-works-CV li {
+  padding: 10px 0;
+  list-style: disc;
+}
+
+/*Coaching page styling*/
+.coaching-section {
+  padding: 25px 0;
+}
+
+.coaching-section-div {
+  margin-bottom: 50px;
+}
+
+.coaches-pic {
+  border-radius: 50%;
+  max-height: 250px;
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+.coaches-bio {
+  text-align: center;
+}
+
+.coaches-bio h3 {
+  margin-top: 10px;
+}
+
+.coaches-bio h5 {
+  text-transform: uppercase;
+}
+
+.coaches-bio p {
+  text-align: left;
+  padding: 10px 20px;
+}
+
+.contact-deets {
+  text-align: center;
+  border-bottom: 2px solid #75a3a3;
+}
+
+.contact-deets-links {
+  background-color: #75a3a3;
+  text-decoration: none;
+  color: white;
+  margin: 15px 7.5px 25px;
+  padding: 10px 15px;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.contact-deets-links:hover {
+  background-color: #383e37;
+}
+
+hr {
+  margin: 35px 20px;
+}
+/*End of coaching page styling*/
+
+/*articles page styling*/
+.articles-info p {
+  margin: 10px 0;
+}
+
+.articles-info input {
+  padding: 5px;
+}
+
+.submit-btn {
+  background-color: #383e37;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin: 10px 0;
+}
+
+.submit-btn:hover {
+  background-color: #75a3a3;
+  color: #383e37;
+}
+
+.article-layout-section {
+  width: 85%;
+  margin: 40px auto;
+}
+
+.flex {
+  display: inline-flex;
+  flex-flow: row wrap;
+  align-content: stretch;
+}
+
+.article-text {
+  border-bottom: 1px solid #75a3a3;
+  padding-bottom: 25px;
+  text-decoration: none;
+}
+
+.article-heading {
+  margin-top: 10px;
+}
+
+.article-text p {
+  margin: 10px 0;
+}
+
+.external-link {
+  background-color: #383e37;
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+.external-link:hover {
+  background-color: #75a3a3;
+  color: #383e37;
+}
+
+/*end of articles page styling*/
+
+/*contact us section*/
+.contact-us {
+  text-align: center;
+}
+
+.contact-us aside {
+  background-color: #fff;
+  opacity: 0.9;
+  padding: 0 35px 35px;
+}
+
+.contact-us h4 {
+  margin-bottom: 10px;
+}
+
+.contact-us p {
+  margin-left: 5px;
+}
+
+.email {
+  font-size: 15px;
+  text-decoration: none;
+  margin: 0 auto;
+  color: inherit;
+}
+
+.email-icon {
+  background-color: #440063;
+  padding: 7.5px;
+  border-radius: 50%;
+  color: white;
+}
+
+.email p {
+  display: inline-block;
+}
+/*end of contact us section*/
+/*end of main body styling*/
+
+/*footer*/
+footer {
+  background-color: #75a3a3;
+  padding: 15px 0;
+  text-align: center;
+  color: white;
+}
+
+footer nav {
+  margin: 10px 0;
+}
+
+footer ul {
+  padding: 0 5px;
+}
+
+footer nav li {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+footer nav li a {
+  text-decoration: none;
+  color: white;
+  padding: 0 5px;
+}
+
+footer nav li a:hover {
+  color: #440063;
+}
+/*end of footer styling*/
+
+@media (min-width: 480px) { /* mobile-landscape */
+  main {
+    margin: 0 auto;
+  }
+
+  /*article page styling*/
+  .article-layout-section {
+    width: 80%;
+  }
+
+  .submit-btn {
+    margin-left: 5px;
+    padding: 7.5px 10px;
+  }
+  /*end pf article page styling*/
+}
+
+@media (min-width: 650px) { /* tablet-portrait */
+  .nav-icon {
+    display: none;
+  }
+
+  .nav-header {
+    max-height: none;
+    float: right;
+    clear: none;
+    font-size: 17px;
+    padding: 10px;
+  }
+
+  .nav-header ul {
+    padding: 0;
+  }
+
+  .navlist-item {
+    display: inline-block;
+  }
+
+  .navlist-item, .navlist-item:first-child {
+    border: none;
+  }
+
+  .navlist-item:hover {
+    background-color: inherit;
+  }
+
+  .nav-link:hover {
+    color: #383e37;
+  }
+
+  .homepagelink {
+    float: left;
+  }
+
+  .email-div {
+    display: block;
+    margin: 15px;
+  }
+
+  .email-link {
+    float: right;
+    text-decoration: none;
+    color: #383e37;
+  }
+
+  .email-link p {
+    display: inline-block;
+    padding-left: 10px;
+  }
+
+  .services-aside p {
+    padding: 0 40px;
+  }
+
+  .how-it-works-CV {
+    width: 80%;
+    margin: 35px auto;
+  }
+
+  .how-it-works-CV ul {
+    margin: 0 0 25px 30px;
+    padding: 10px 0;
+  }
+
+  /*article page styling*/
+  .article-heading {
+    margin-top: 0;
+  }
+
+  .article-text {
+    margin: 0 0 30px 20px;
+  }
+  /*end of article page styling*/
+}
+
+@media (min-width: 940px) { /* tablet-landscape/smaller laptops */
+  .nav-header {
+    font-size: 18px;
+  }
+
+  .homepagelink {
+    margin-left: 50px;
+  }
+
+  .email-div {
+    margin-right: 50px;
+  }
+
+  .services-box {
+    display: inline-block;
+    vertical-align: top;
+    width: 31.5%;
+  }
+
+  /*coaching page styling*/
+  .individ-coach-section {
+    width: 80%;
+    margin: 50px auto 15px;
+    border-bottom: 2px solid #efccff;
+  }
+
+  .coaches-pic {
+    display: inline-block;
+    width: 45%;
+  }
+
+  .coaching-section-div {
+    width: 50%;
+    margin-bottom: 0;
+  }
+
+  .align-left {
+    float: left;
+  }
+
+  .align-right {
+    float: right;
+  }
+
+  .coaches-pic {
+    max-height: 290px;
+    max-width: 290px;
+  }
+
+  .contact-deets {
+    border: none;
+  }
+  /*End of coaching page styling*/
+
+  /*article page styling*/
+  .article-layout-section {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .article-layout {
+    width: 85%;
+  }
+
+  .external-link {
+    width: 60%;
+    margin: 20px auto 10px;
+  }
+  /*end of article page styling*/
+}
+
+@media (min-width: 1220px) { /* laptops/desktops */
+  header h1 {
+    margin-left: 25px;
+  }
+
+  .nav-header {
+    margin-right: 25px;
+  }
+
+  /*coaching pge styling*/
+  .coaching-section {
+    width: 100%;
+  }
+
+  .align-right {
+    margin-right: 75px;
+  }
+
+  .align-left {
+    margin-left: 75px;
+  }
+  /*end of coaching page styling*/
+
+  /*articles page styling*/
+  .submit-btn {
+    margin: 0 0 25px 5px;
+  }
+
+  .article-layout-section {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .article-layout {
+    width: 45%;
+    margin-right: 60px;
+  }
+  /*end of articles page styling*/
+}
