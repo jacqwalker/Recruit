@@ -202,27 +202,36 @@ header {
  }
 
  /*job alerts box*/
- .job-alerts {
-   margin: 10px;
-   padding: 10px;
-   background-color: white;
-   box-shadow: 2px 2px 0 rgba(0,0,0,0.1);
-   text-align: center;
-   text-decoration: none;
-   color: #383e37;
-   display: block;
-   width: 70%;
-   margin: 0 auto;
- }
+.job-alerts-tablet {
+  margin: 15px 0;
+}
 
- .job-alerts p {
-   display: inline-block;
- }
+.job-alerts {
+ margin: 10px;
+ padding: 10px;
+ background-color: white;
+ box-shadow: 2px 2px 0 rgba(0,0,0,0.1);
+ text-align: center;
+ text-decoration: none;
+ color: #383e37;
+ display: block;
+ width: 70%;
+ margin: 0 auto;
+}
 
- .sign-up {
-   padding-left: 10px;
- }
- /*end of job alerts box section*/
+.job-alerts:hover {
+ background-color: #383e37;
+ color: white;
+}
+
+.job-alerts p {
+ display: inline-block;
+}
+
+.sign-up {
+ padding-left: 10px;
+}
+/*end of job alerts box section*/
 
 /*end of why use us section*/
 
@@ -388,11 +397,15 @@ footer nav li a:hover {
   }
 
   .resources {
-    padding: 20% 10%;
+    padding: 5% 10%;
   }
 
   .contact-us {
     padding: 0 45px 45px;
+  }
+
+  .button-reference {
+    padding: 10px;
   }
 }
 
