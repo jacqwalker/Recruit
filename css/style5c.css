@@ -48,7 +48,8 @@ p {
 
 /*header styling*/
 header {
-  background-color: #94bb9f;
+  background-color: #09c1b3;
+  border-bottom: 5px solid #440063;
   color: white;
   line-height: 1;
 }
@@ -96,7 +97,7 @@ header {
 }
 
 .navlist-item:hover {
-  background-color: #316c2d;
+  background-color: #08ADA1;
 }
 
 .nav-link {
@@ -110,6 +111,7 @@ header {
   max-height: 250px;
 }
 /*end of header styling*/
+
 
 /*job search box*/
 .find-jobs {
