@@ -48,8 +48,7 @@ p {
 
 /*header styling*/
 header {
-  background-color: #09c1b3;
-  border-bottom: 5px solid #440063;
+  background-color: #94bb9f;
   color: white;
   line-height: 1;
 }
@@ -97,7 +96,7 @@ header {
 }
 
 .navlist-item:hover {
-  background-color: #08ADA1;
+  background-color: #316c2d;
 }
 
 .nav-link {
@@ -112,26 +111,16 @@ header {
 }
 /*end of header styling*/
 
-.tagline {
-  padding: 10px 25px;
-  color: #440063;
-  line-height: normal;
-}
-
-.tagline p {
-  font-style: italic;
-}
-
 /*job search box*/
 .find-jobs {
-  background: url(../images/image10.jpg) center center no-repeat;
+  background: url(../images/image1.jpg) center center no-repeat;
   background-size: cover;
   padding: 30% 10%;
   color: white;
 }
 
 .searchbox {
-  background-color: #440063;
+  background-color: #d1ebcf;
   color: white;
   padding: 5%;
 }
@@ -140,13 +129,22 @@ header {
   padding: 7.5% 0 0;
 }
 
-.searchbox input {
+/*.searchbox input {
+  outline: none;
+  width: 100%;
+  margin: 2.5% 0;
+  padding: 2.5% 0;
+  font-size: 18px;
+}*/
+
+.drop-down-box {
   outline: none;
   width: 100%;
   margin: 2.5% 0;
   padding: 2.5% 0;
   font-size: 18px;
 }
+
 
 .search-jobs {
   font-size: 18px;
@@ -175,7 +173,6 @@ header {
   padding: 10px;
   background-color: #6BD9D1;
   box-shadow: 2px 2px 0 rgba(0,0,0,0.1);
-  border-radius: 5px;
   text-align: center;
   text-decoration: none;
   color: black;
@@ -571,18 +568,21 @@ footer nav li a:hover {
       opacity: 0.9;
       color: black;
       box-shadow: inset 0 0 5px rgba(68,0,99,.75);
-      border-radius: 5px;
     }
-
+/*
     .searchbox input {
       width: auto;
+    }*/
+
+    .drop-down-box {
+      width: auto;
+      padding: 5px;
     }
 
     .search-jobs {
       display: inline-block;
       width: auto;
-      padding: 11px 25px;
-      border-radius: 5px;
+      padding: 5px 25px;
     }
 
     .searchbox h3 {
@@ -661,14 +661,14 @@ footer nav li a:hover {
     .find-jobs {
       padding: 10% 25%;
     }
-
+/*
     .searchbox input {
       padding: 10px;
-    }
-
+    }*/
+/*
     .search-jobs {
       padding: 10px 25px;
-    }
+    }*/
 
     .benefits-container {
       width: 60%;
