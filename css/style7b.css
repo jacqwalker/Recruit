@@ -158,20 +158,21 @@ header {
   display: inline-block;
 }
 
-.job-card h4 {
+.job-card h5 {
   display: inline-block;
   width: 40%;
   margin-left: 17.5px;
   vertical-align: top;
 }
 
-.job-card h5 {
+.job-card p {
   padding-top: 15px;
 }
 
 .job-card li {
   list-style: disc;
   margin-left: 25px;
+  font-size: 14px;
 }
 
 /*Search button*/
@@ -227,7 +228,7 @@ footer nav li a:hover {
 
 @media (min-width: 480px) { /* mobile-landscape */
   .container {
-    width: 75%;
+    width: 65%;
   }
 
   .job-card {
@@ -238,13 +239,13 @@ footer nav li a:hover {
     max-height: 100px;
   }
 
-  .job-card h4 {
+  .job-card h5 {
     margin-left: 25px;
   }
 
   .view-now {
     margin-top: 20px;
-    width: 30%;
+    width: 40%;
   }
 }
 
@@ -302,7 +303,7 @@ footer nav li a:hover {
     }
 
     .container {
-      width: 85%;
+      width: 90%;
     }
 
     .job-card {
@@ -340,7 +341,7 @@ footer nav li a:hover {
     }
 
     .container {
-      width: 90%;
+      width: 95%;
     }
 
     .job-card {
@@ -348,8 +349,8 @@ footer nav li a:hover {
       margin-right: 15px;
     }
 
-    .job-card h4 {
-      margin-right: 20px;
+    .job-card h5 {
+      margin-right: 15px;
     }
 
     .view-now {

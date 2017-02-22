@@ -123,11 +123,11 @@ header {
   text-align: center;
   padding: 10%;
 }
-/*
+
 .coaching-img {
-  background: url(../images/image12.jpg) center center no-repeat;
+  background: url(../images/image7.jpg) center center no-repeat;
   background-size: cover;
-}*/
+}
 
 .articles-img {
   background: url(../images/image2.jpg) center center no-repeat;
@@ -185,18 +185,20 @@ header {
 }
 
 /*Coaching page styling*/
-/*.coaching-section {
-  padding: 25px 0;
+.coaching-section {
+  /*background: url(../images/image8.jpg) center center no-repeat;
+  background-size: cover;*/
+  background-color: #eee;
 }
 
 .coaching-section-div {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .coaches-pic {
   border-radius: 50%;
-  max-height: 250px;
-  max-width: 250px;
+  max-height: 200px;
+  max-width: 200px;
   margin: 0 auto;
 }
 
@@ -204,25 +206,25 @@ header {
   text-align: center;
 }
 
-.coaches-bio h3 {
+/*.coaches-bio h3 {
   margin-top: 10px;
-}
+}*/
 
-.coaches-bio h5 {
+/*.coaches-bio h5 {
   text-transform: uppercase;
-}
+}*/
 
-.coaches-bio p {
+/*.coaches-bio p {
   text-align: left;
   padding: 10px 20px;
-}
+}*/
 
-.contact-deets {
+/*.contact-deets {
   text-align: center;
   border-bottom: 2px solid #75a3a3;
-}
+}*/
 
-.contact-deets-links {
+/*.contact-deets-links {
   background-color: #75a3a3;
   text-decoration: none;
   color: white;
@@ -231,13 +233,13 @@ header {
   border-radius: 50%;
   display: inline-block;
   font-size: 20px;
-}
+}*/
 
-.contact-deets-links:hover {
+/*.contact-deets-links:hover {
   background-color: #383e37;
-}
+}*/
 
-hr {
+/*hr {
   margin: 35px 20px;
 }*/
 /*End of coaching page styling*/
@@ -303,7 +305,6 @@ hr {
   background-color: #383e37;
   color: #fff;
 }
-
 /*end of articles page styling*/
 
 /*information section*/
@@ -454,7 +455,7 @@ footer nav li a:hover {
   }
 
   .services-img {
-    padding: 7.5% 5%;
+    padding: 7.5% 2.5%;
   }
 
   .services-box {
