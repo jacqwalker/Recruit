@@ -318,31 +318,27 @@ hr {
   padding: 40px 30px;
 }
 
-.contact-us h4 {
-  margin-bottom: 10px;
+.contact-info {
+  margin-bottom: 40px;
 }
 
-.contact-us p {
-  margin-left: 5px;
+.contact-info h4, .job-alerts-info h4 {
+  margin-bottom: 15px;
 }
 
 .email {
   font-size: 15px;
   text-decoration: none;
-  margin: 0 auto;
   color: inherit;
-}
-
-.email-icon {
-  background-color: #440063;
-  padding: 7.5px;
-  border-radius: 50%;
-  color: white;
+  background-color: #fff;
+  padding: 10px 15px;
+  letter-spacing: 1px;
 }
 
 .email p {
   display: inline-block;
 }
+
 /*end of contact us section*/
 /*end of main body styling*/
 
