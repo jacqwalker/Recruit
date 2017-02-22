@@ -28,6 +28,7 @@ h1 {
 
 h2 {
   font-size: 30px;
+  letter-spacing: 2px;
 }
 
 h3 {
@@ -119,13 +120,13 @@ header {
   background-size: cover;
   color: white;
   text-align: center;
-  padding: 5% 10%;
+  padding: 10%;
 }
-
+/*
 .coaching-img {
   background: url(../images/image12.jpg) center center no-repeat;
   background-size: cover;
-}
+}*/
 
 .articles-img {
   background: url(../images/image2.jpg) center center no-repeat;
@@ -140,7 +141,7 @@ header {
 
 .headings span {
   display: inline-block;
-  width: 200px;
+  width: 150px;
   height: 1px;
   background: #383e37;
 }
@@ -153,29 +154,20 @@ header {
   color: #383e37;
 }
 
-.services-aside-articles {
-  padding: 10px 50px;
-}
-
 .services-aside p:last-child {
   margin-bottom: 20px;
 }
 
 .icons-green {
-   font-size: 50px;
-   padding: 10px;
- }
+ text-align: center;
+ font-size: 50px;
+ color: #383e37;
+}
 
- .icons-white {
-   text-align: center;
-   font-size: 50px;
-   color: #383e37;
- }
-
- .services-box a {
-   text-decoration: none;
-   color: #383e37;
- }
+/*.services-box a {
+ text-decoration: none;
+ color: #383e37;
+}
 
 .how-it-works-CV {
   margin: 25px;
@@ -189,10 +181,10 @@ header {
 .how-it-works-CV li {
   padding: 10px 0;
   list-style: disc;
-}
+}*/
 
 /*Coaching page styling*/
-.coaching-section {
+/*.coaching-section {
   padding: 25px 0;
 }
 
@@ -246,14 +238,10 @@ header {
 
 hr {
   margin: 35px 20px;
-}
+}*/
 /*End of coaching page styling*/
 
 /*articles page styling*/
-/*.article-layout-section {
-  background-color: #d1ebcf;
-}*/
-
 .articles-info {
   text-align: center;
 }
@@ -291,6 +279,7 @@ hr {
 
 .article-layout {
   margin-bottom: 15px;
+  text-align: center;
 }
 
 .article-text {
@@ -316,22 +305,17 @@ hr {
 }
 
 .external-link:hover {
-  background-color: #75a3a3;
-  color: #383e37;
+  background-color: #383e37;
+  color: #fff;
 }
 
 /*end of articles page styling*/
 
 /*contact us section*/
-.contact-us {
+.information-section {
   text-align: center;
   background-color: #d1ebcf;
-}
-
-.contact-us aside {
-  background-color: #fff;
-  opacity: 0.9;
-  padding: 0 35px 35px;
+  padding: 40px 30px;
 }
 
 .contact-us h4 {
