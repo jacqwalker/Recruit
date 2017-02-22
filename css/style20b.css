@@ -161,12 +161,11 @@ header {
 }
 
 .icons-green {
- text-align: center;
- font-size: 50px;
- color: #383e37;
+  color: #383e37;
+  font-size: 35px;
 }
 
-/*.services-box a {
+.services-box a {
  text-decoration: none;
  color: #383e37;
 }
@@ -183,7 +182,7 @@ header {
 .how-it-works-CV li {
   padding: 10px 0;
   list-style: disc;
-}*/
+}
 
 /*Coaching page styling*/
 /*.coaching-section {
@@ -312,12 +311,6 @@ hr {
   text-align: center;
   background-color: #d1ebcf;
   padding: 40px 30px;
-}
-
-.icons-white {
-  color: #383e37;
-  font-weight: bold;
-  font-size: 35px;
 }
 
 .contact-info {
