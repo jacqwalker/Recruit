@@ -322,7 +322,7 @@ hr {
   margin-bottom: 40px;
 }
 
-.contact-info h4, .job-alerts-info h4 {
+.contact-info p, .job-alerts-info p {
   margin-bottom: 15px;
 }
 
@@ -424,35 +424,11 @@ footer nav li a:hover {
     color: #383e37;
   }
 
-  .homepagelink {
-    float: left;
-  }
-
-  .email-div {
-    display: block;
-    margin: 5px 15px;
-  }
-
-  .email-link {
-    float: right;
-    text-decoration: none;
-    color: #383e37;
-    background-color: #fff;
-    padding: 10px;
-    letter-spacing: 1px;
-    border: 1px solid #383e37;
-  }
-
-  .email-link p {
-    display: inline-block;
-    padding-left: 10px;
-  }
-
   .services-aside p {
     padding: 0 40px;
   }
 
-  .how-it-works-CV {
+  /*.how-it-works-CV {
     width: 80%;
     margin: 35px auto;
   }
@@ -460,9 +436,13 @@ footer nav li a:hover {
   .how-it-works-CV ul {
     margin: 0 0 25px 30px;
     padding: 10px 0;
-  }
+  }*/
 
   /*article page styling*/
+  .article-layout-section {
+    padding: 20px 50px 35px;
+  }
+
   .article-heading {
     margin-top: 0;
   }
