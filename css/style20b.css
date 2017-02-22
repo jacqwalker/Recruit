@@ -311,7 +311,7 @@ hr {
 
 /*end of articles page styling*/
 
-/*contact us section*/
+/*information section*/
 .information-section {
   text-align: center;
   background-color: #d1ebcf;
@@ -339,7 +339,7 @@ hr {
   display: inline-block;
 }
 
-/*end of contact us section*/
+/*end of information section*/
 /*end of main body styling*/
 
 /*footer*/
@@ -380,11 +380,15 @@ footer nav li a:hover {
   }
 
   /*article page styling*/
+  .article-layout-section {
+    padding: 20px 30px 35px;
+  }
+
   .submit-btn {
     margin-left: 5px;
     padding: 7.5px 10px;
   }
-  /*end pf article page styling*/
+  /*end of article page styling*/
 }
 
 @media (min-width: 650px) { /* tablet-portrait */
