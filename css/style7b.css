@@ -32,6 +32,7 @@ h2 {
 
 h3 {
   font-size: 24px;
+  letter-spacing: 2px;
 }
 
 h4 {
@@ -48,10 +49,10 @@ p {
 
 /*header styling*/
 header {
-  background-color: #09c1b3;
-  border-bottom: 5px solid #440063;
+  background-color: #75a3a3;
   color: white;
   line-height: 1;
+  border-bottom: 2px solid #fff;
 }
 
 .logo-link {
@@ -73,7 +74,7 @@ header {
 }
 
 .nav-icon:hover {
-  color: #440063;
+  color: #383e37;
   cursor: pointer;
 }
 
@@ -97,7 +98,8 @@ header {
 }
 
 .navlist-item:hover {
-  background-color: #08ADA1;
+  background-color: #d1ebcf;
+  color: #383e37;
 }
 
 .nav-link {
@@ -108,18 +110,18 @@ header {
 }
 
 .visible {
-  max-height: 200px;
+  max-height: 250px;
 }
 /*end of header styling*/
 
 /*link to homepage styling*/
 .homepagelink {
-  margin: 15px 0 0 15px;
-  color: #440063;
+  margin: 15px 0 15px 15px;
 }
 
 .homepagelink a {
   text-decoration: none;
+  color: #383e37;
 }
 
 .homepagelink p {
@@ -178,7 +180,7 @@ header {
   width: 45%;
   display: block;
   text-decoration: none;
-  background-color: #09c1b3;
+  background-color: #75a3a3;
   color: #fff;
   padding: 5px 10px;
   border-radius: 1px;
@@ -187,13 +189,13 @@ header {
 }
 
 .view-now:hover {
-  background-color: #440063;
+  background-color: #383e37;
 }
 /*End of returned search options*/
 
 /*footer*/
 footer {
-  background-color: #09c1b3;
+  background-color: #75a3a3;
   padding: 15px 0;
   text-align: center;
   color: white;
@@ -219,7 +221,7 @@ footer nav li a {
 }
 
 footer nav li a:hover {
-  color: #440063;
+  color: #383e37;
 }
 /*end of footer styling*/
 
@@ -276,7 +278,7 @@ footer nav li a:hover {
     }
 
     .nav-link:hover {
-      color: #440063;
+      color: #383e37;
     }
 
     .homepagelink {
@@ -291,7 +293,7 @@ footer nav li a:hover {
     .email-link {
       float: right;
       text-decoration: none;
-      color: #440063;
+      color: #383e37;
     }
 
     .email-link p {

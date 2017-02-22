@@ -128,122 +128,49 @@ header {
   display: inline-block;
   padding-left: 7.5px;
 }
-
-.apply-button {
-  float: right;
-  background-color: #75a3a3;
-  color: white;
-  text-decoration: none;
-  padding: 2.5px 15px;
-  border-radius: 2px;
-}
-
-.apply-button:hover {
-  background-color: #383e37;
-  color: #fff;
-}
 /*end of link to homepage styling*/
 
-
-/*company information styling*/
-.container {
+.job-alerts-section {
   width: 80%;
-  margin: 0 auto;
+  margin: 25px auto 50px;
 }
 
-.job-title {
+.job-alerts-section h3 {
   text-align: center;
-  margin: 15px 0 20px 0;
 }
 
-.company-info {
-  box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
-  padding: 10px;
+.smaller-font {
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.form-style {
   margin-bottom: 20px;
 }
 
-.company-info img {
-  max-width: 250px;
-}
-
-.company-info h3, .company-info h4, .company-info p {
+input, select {
+  width: 100%;
   padding-top: 7.5px;
 }
 
-.key-requirements h3, .role-descrip h3, .role-benefits h3, .location h3, .apply-now h3 {
-  padding-bottom: 12.5px;
-}
-
-.key-requirements ul {
-  margin: 0 0 20px 25px;
-}
-
-.key-requirements li {
-  list-style: square;
-}
-
-.role-descrip, .role-benefits, .location {
-  margin-bottom: 20px;
-}
-
-#map {
-  height: 400px;
-  width: 100%;
-}
-
-.apply-now {
-  box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
-  width: 100%;
-  padding: 10px 25px;
-  margin: 30px 0;
-}
-
-.apply-now h3 {
-  text-align: center;
-}
-
-input {
-  width: 100%;
-  margin-bottom: 15px;
-  padding: 5px;
-}
-
-.cv-upload {
-  border: 1px solid #ddd;
-}
-
-.apply-now p {
-  padding: 10px 0;
-}
-
-textarea {
-  min-height: 150px;
-  width: 100%;
-  margin-bottom: 15px;
-}
-
-.terms {
-  font-size: 14px;
-  margin-top: 10px;
-}
-
-.second-apply-button {
-  text-align: center;
-  margin: 15px 0;
-}
-
-.second-apply-button button {
-  background-color: #75a3a3;
-  color: white;
+.job-alerts-btn {
+  font-size: 18px;
   border: none;
-  border-radius: 2px;
-  padding: 7.5px 15px;
+  padding: 4% 0;
+  font-weight: bold;
+  color: white;
+  background-color: #75a3a3;
+  margin: 30px auto;
+  display: block;
+  width: 50%;
+  outline: none;
 }
 
-.second-apply-button button:hover {
-  background-color: #373e38;
-  color: #fff;
+.job-alerts-btn:hover {
+  background-color: #383e37;
 }
+
 /*footer*/
 footer {
   background-color: #75a3a3;
@@ -276,33 +203,14 @@ footer nav li a:hover {
 }
 /*end of footer styling*/
 
-
 @media (min-width: 480px) { /* mobile-landscape */
-  .company-info {
-    padding: 20px;
-  }
-
-  .key-requirements, .role-descrip, .role-benefits {
-    margin: 40px 0;
-  }
-
-  .F-name, .S-name {
-    width: 45%;
-    display: inline-block;
-  }
-
-  .S-name {
-    margin-left: 27.5px;
-  }
-
-  #map {
-    max-width: 400px;
-    max-height: 400px;
+  main {
     margin: 0 auto;
   }
 
-  .terms {
-    text-align: center;
+  .job-alerts-btn {
+    padding: 10px;
+    width: 30%;
   }
 }
 
@@ -339,38 +247,28 @@ footer nav li a:hover {
     color: #440063;
   }
 
-    .S-name, .F-name {
-      width: 47.5%;
-    }
-
-    .S-name {
-      margin-left: 17.5px;
-    }
+  .job-alerts-section {
+    width: 70%;
+    margin: 35px auto 75px;
   }
+}
 
   @media (min-width: 940px) { /* tablet-landscape/smaller laptops */
-    .company-info, .key-requirements {
-      width: 45%;
-      display: inline-block;
-      vertical-align: top;
-      margin-top: 0;
+    .nav-header {
+      font-size: 18px;
     }
 
-    .key-requirements {
+    .homepagelink {
       margin-left: 50px;
     }
 
-    .role-descrip {
-      margin-top: 20px;
+    .job-alerts-section {
+      width: 50%;
+      margin: 50px auto 75px;
     }
 
-    .apply-now {
-      width: 80%;
-      margin: 50px auto;
-    }
-
-    .S-name {
-      margin-left: 20px;
+    .job-alerts-btn {
+      width: 30%;
     }
   }
 
@@ -383,23 +281,8 @@ footer nav li a:hover {
       margin-right: 25px;
     }
 
-    .apply-button {
-      margin-right: 25px;
-    }
-
-    .container {
-      width: 70%;
-    }
-
-    .company-info, .key-requirements {
-      width: 40%;
-    }
-
-    .apply-now {
-      width: 70%;
-    }
-
-    .S-name {
-      margin-left: 25px;
+    .job-alerts-btn {
+      width: 15%;
+      padding: 10px 0px;
     }
 }

@@ -32,6 +32,7 @@ h2 {
 
 h3 {
   font-size: 24px;
+  letter-spacing: 2px;
 }
 
 h4 {
@@ -216,8 +217,9 @@ header {
  text-decoration: none;
  color: #383e37;
  display: block;
- width: 70%;
+ width: 80%;
  margin: 0 auto;
+ letter-spacing: 2px;
 }
 
 .job-alerts:hover {
@@ -328,8 +330,9 @@ header {
   color: #383e37;
   padding: 3.5% 7.5%;
   display: block;
-  max-width: 160px;
+  max-width: 165px;
   margin: 10px auto;
+  letter-spacing: 2px;
 }
 
 .button-reference:hover {
@@ -380,7 +383,7 @@ footer nav li a:hover {
   }
 
   .job-alerts {
-    width: 200px;
+    width: 250px;
     margin: 10px auto 15px;
     padding: 10px;
   }
