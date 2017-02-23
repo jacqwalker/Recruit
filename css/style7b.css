@@ -115,28 +115,34 @@ header {
 /*end of header styling*/
 
 /*link to homepage styling*/
-.homepagelink {
-  margin: 15px 0 15px 15px;
+.jobalertslink {
+  margin: 15px auto 15px;
+  border: 1px solid #fff;
+  background-color: #d1ebcf;
+  padding: 10px;
+  letter-spacing: 1px;
+  width: 280px;
 }
 
-.homepagelink a {
+.jobalertslink a {
   text-decoration: none;
   color: #383e37;
 }
 
-.homepagelink p {
+.jobalertslink p {
   display: inline-block;
   padding-left: 7.5px;
 }
 
-.email-div {
-  display: none;
+.email-link {
+  margin: 0 auto 15px;
 }
+
 /*end of link to homepage styling*/
 
 .container {
   width: 80%;
-  margin: 20px auto;
+  margin: 20px auto 0;
 }
 
 .flex {
@@ -193,6 +199,12 @@ header {
   background-color: #383e37;
 }
 /*End of returned search options*/
+
+/*job search card*/
+.icon-green {
+  font-size: 35px;
+}
+/*end of job search card*/
 
 /*footer*/
 footer {
@@ -280,15 +292,6 @@ footer nav li a:hover {
 
     .nav-link:hover {
       color: #383e37;
-    }
-
-    .homepagelink {
-      float: left;
-    }
-
-    .email-div {
-      display: block;
-      margin: 15px;
     }
 
     .email-link {

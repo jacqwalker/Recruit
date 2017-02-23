@@ -50,7 +50,8 @@ p {
 
 /*header styling*/
 header {
-  background-color: #75a3a3;
+  background-color: #b2c6ae;
+  /*background-color: #99b393;*/
   color: white;
   line-height: 1;
   border-bottom: 2px solid #fff;
@@ -340,7 +341,7 @@ header {
 
 /*footer*/
 footer {
-  background-color: #75a3a3;
+  background-color: #99b393;
   padding: 15px 0;
   text-align: center;
   color: white;
