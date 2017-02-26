@@ -209,25 +209,24 @@ header {
 /*coaching section*/
 .coaches-pic {
   border-radius: 50%;
-  max-height: 200px;
-  max-width: 200px;
+  max-height: 150px;
+  max-width: 150px;
   margin: 0 auto;
 }
 
 .contact-deets {
   text-align: center;
-  border-bottom: 2px solid #75a3a3;
 }
 
 .contact-deets-links {
   background-color: #75a3a3;
   text-decoration: none;
   color: white;
-  margin: 15px 7.5px 25px;
-  padding: 10px 15px;
+  margin: 7.5px 2.5px 25px;
+  padding: 7.5px 10px;
   border-radius: 50%;
   display: inline-block;
-  font-size: 20px;
+  font-size: 12px;
 }
 
 .contact-deets-links:hover {
