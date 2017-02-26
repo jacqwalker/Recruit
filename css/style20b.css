@@ -540,13 +540,14 @@ footer nav li a:hover {
     margin: 20px auto 10px;
   }
   /*end of article page styling*/
+
+  /*information section*/
   .contact-info, .job-alerts-info {
     display: inline-block;
     width: 42.5%;
     margin-bottom: 0;
     margin-right: 25px;
   }
-  /*information section*/
   /*end of information section*/
 }
 
