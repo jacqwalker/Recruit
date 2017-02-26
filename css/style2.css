@@ -1,0 +1,300 @@
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after{
+  clear: both;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 16px;
+}
+
+/*header styling*/
+header {
+  background-color: #5c6d5f;
+  color: white;
+  line-height: 1;
+  border-bottom: 2px solid #fff;
+}
+
+.logo-link {
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  padding: 12.5px 0px 10px 15px;
+  float: left;
+}
+
+.nav-icon {
+  float: right;
+  font-size: 37.5px;
+  padding: 12.5px;
+}
+
+.nav-icon:hover {
+  color: #383e37;
+  cursor: pointer;
+}
+
+.nav-header {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s;
+  clear: both;
+}
+
+.nav-header ul {
+  padding: 0 20px 20px;
+}
+
+.navlist-item {
+  border-bottom: 2px solid white;
+}
+
+.navlist-item:first-child {
+  border-top: 2px solid white;
+}
+
+.navlist-item:hover {
+  background-color: #d1ebcf;
+  color: #383e37;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  display: block;
+}
+
+.visible {
+  max-height: 250px;
+}
+/*end of header styling*/
+
+/*main section styling*/
+.resources-section {
+  background: url(../images/image7.jpg) center center no-repeat;
+  background-size: cover;
+  padding: 10%;
+  color: white;
+}
+
+.resources-button {
+  background-color: white;
+  padding: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #383e37;
+  display: block;
+  width: 130px;
+  margin: 0 auto 15px;
+  text-align: center;
+}
+
+.resources-button:hover {
+  background-color: #5c6d5f;
+  color: #fff;
+}
+
+/*articles page styling*/
+.articles-section {
+  background-color: #d1ebcf;
+}
+
+/*.articles-info {
+  text-align: center;
+}
+
+.articles-info p {
+  margin: 10px 0;
+}
+
+.articles-info input {
+  padding: 5px;
+}*/
+
+.submit-btn {
+  background-color: #5c6d5f;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin: 10px 0;
+}
+
+.submit-btn:hover {
+  background-color: #fff;
+  color: #383e37;
+}
+
+.article-layout-section {
+  padding: 20px 25px 35px;
+}
+
+.article-layout {
+  text-align: center;
+}
+
+.article-text {
+  border-bottom: 1px solid #5c6d5f;
+  padding-bottom: 25px;
+  text-decoration: none;
+}
+
+.article-heading {
+  margin-top: 10px;
+}
+
+.article-text p {
+  margin: 10px 0 25px;
+}
+
+.external-link {
+  background-color: #5c6d5f;
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.external-link:hover {
+  background-color: #383e37;
+  color: #fff;
+}
+/*end of articles page styling*/
+
+/*coaching section*/
+.coaches-pic {
+  border-radius: 50%;
+  max-height: 200px;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.contact-deets {
+  text-align: center;
+  border-bottom: 2px solid #75a3a3;
+}
+
+.contact-deets-links {
+  background-color: #75a3a3;
+  text-decoration: none;
+  color: white;
+  margin: 15px 7.5px 25px;
+  padding: 10px 15px;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.contact-deets-links:hover {
+  background-color: #383e37;
+}
+/*end of coaching section*/
+
+/*information section*/
+.information-section {
+  text-align: center;
+  background-color: #d1ebcf;
+  padding: 40px 30px;
+}
+
+.contact-info {
+  margin-bottom: 40px;
+}
+
+.contact-info p, .job-alerts-info p {
+  margin-bottom: 15px;
+}
+
+.email {
+  font-size: 15px;
+  text-decoration: none;
+  color: inherit;
+  background-color: #fff;
+  padding: 10px 15px;
+  letter-spacing: 1px;
+}
+
+.email p {
+  display: inline-block;
+}
+
+/*end of information section*/
+
+/*end of main section styling*/
+
+/*footer*/
+footer {
+  background-color: #5c6d5f;
+  padding: 15px 0;
+  text-align: center;
+  color: white;
+}
+
+footer nav {
+  margin: 10px 0;
+}
+
+footer ul {
+  padding: 0 5px;
+}
+
+footer nav li {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+footer nav li a {
+  text-decoration: none;
+  color: white;
+  padding: 0 5px;
+}
+
+footer nav li a:hover {
+  color: #440063;
+}
+/*end of footer styling*/

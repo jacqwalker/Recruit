@@ -207,25 +207,25 @@ header {
   text-align: center;
 }
 
-/*.coaches-bio h3 {
+.coaches-bio h3 {
   margin-top: 10px;
-}*/
+}
 
-/*.coaches-bio h5 {
+.coaches-bio h5 {
   text-transform: uppercase;
-}*/
+}
 
-/*.coaches-bio p {
+.coaches-bio p {
   text-align: left;
   padding: 10px 20px;
-}*/
+}
 
-/*.contact-deets {
+.contact-deets {
   text-align: center;
   border-bottom: 2px solid #75a3a3;
-}*/
+}
 
-/*.contact-deets-links {
+.contact-deets-links {
   background-color: #75a3a3;
   text-decoration: none;
   color: white;
@@ -234,15 +234,15 @@ header {
   border-radius: 50%;
   display: inline-block;
   font-size: 20px;
-}*/
+}
 
-/*.contact-deets-links:hover {
+.contact-deets-links:hover {
   background-color: #383e37;
-}*/
+}
 
-/*hr {
+hr {
   margin: 35px 20px;
-}*/
+}
 /*End of coaching page styling*/
 
 /*articles page styling*/
