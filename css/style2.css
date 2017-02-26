@@ -143,19 +143,22 @@ header {
 /*articles page styling*/
 .articles-section {
   background-color: #d1ebcf;
-}
-
-/*.articles-info {
   text-align: center;
 }
 
-.articles-info p {
-  margin: 10px 0;
+.articles-section h2, .coaching h2, .cv-services h2 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  padding: 25px 0 0;
 }
 
-.articles-info input {
+.articles-section p {
+  padding: 0 25px;
+}
+
+.articles-section input {
   padding: 5px;
-}*/
+}
 
 .submit-btn {
   background-color: #5c6d5f;
@@ -172,10 +175,6 @@ header {
 
 .article-layout-section {
   padding: 20px 25px 35px;
-}
-
-.article-layout {
-  text-align: center;
 }
 
 .article-text {
@@ -207,6 +206,15 @@ header {
 /*end of articles page styling*/
 
 /*coaching section*/
+.coaching {
+  text-align: center;
+}
+
+.coaching p, .cv-services p {
+  padding: 0 25px;
+  margin-bottom: 25px;
+}
+
 .coaches-pic {
   border-radius: 50%;
   max-height: 150px;
@@ -219,7 +227,7 @@ header {
 }
 
 .contact-deets-links {
-  background-color: #75a3a3;
+  background-color: #5c6d5f;
   text-decoration: none;
   color: white;
   margin: 7.5px 2.5px 25px;
@@ -233,6 +241,13 @@ header {
   background-color: #383e37;
 }
 /*end of coaching section*/
+
+/*cv services section*/
+.cv-services {
+  text-align: center;
+  margin-bottom: 30px;
+}
+/*end of cv services*/
 
 /*information section*/
 .information-section {
