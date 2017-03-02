@@ -441,21 +441,16 @@ footer nav li a:hover {
     flex: 1 1 auto;
   }
   /*end of articles area styling*/
+  .contact-deets {
+    display: inline-block;
+    margin: 0 50px 30px;
+  }
   /*end of main section styling*/
 }
 
 @media (min-width: 940px) { /* tablet-landscape/smaller laptops */
   .resources-button {
     margin: 0 25px;
-  }
-
-  .article-layout {
-    width: 17.5%;
-  }
-
-  .contact-deets {
-    display: inline-block;
-    margin: 0 50px 30px;
   }
 
   /*information section*/
