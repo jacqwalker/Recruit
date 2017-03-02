@@ -354,6 +354,14 @@ footer nav li a:hover {
 /*end of footer styling*/
 
 @media (min-width: 480px) { /* mobile-landscape */
+  .articles-section {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .article-info {
+    width: 275px;
+  }
 }
 
 @media (min-width: 650px) { /* tablet-portrait */
@@ -400,6 +408,19 @@ footer nav li a:hover {
   }
 
   /*articles area styling*/
+  .articles-section {
+    width: 100%;
+  }
+
+  .article-block {
+    width: 260px;
+    margin-left: 25px;
+  }
+
+  .article-info {
+    width: 175px;
+  }
+
   .flex {
     display: inline-flex;
     flex-flow: row wrap;
@@ -407,7 +428,7 @@ footer nav li a:hover {
   }
 
   .flex-1 {
-    display: flex;
+    display: inline-flex;
     flex-flow: column nowrap;
     align-content: stretch;
   }
@@ -418,25 +439,6 @@ footer nav li a:hover {
 
   .flex-item {
     flex: 1 1 auto;
-  }
-
-  .article-layout-section {
-    padding: 20px 0;
-  }
-
-  .article-layout {
-    width: 33%;
-    display: inline-flex;
-    padding-right: 30px;
-  }
-
-  .article-text p {
-    margin-bottom: 0;
-  }
-
-  .external-link {
-    width: 65%;
-    margin: 20px auto 10px;
   }
   /*end of articles area styling*/
   /*end of main section styling*/
