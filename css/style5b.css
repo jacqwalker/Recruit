@@ -49,7 +49,7 @@ p {
 
 /*header styling*/
 header {
-  background-color: #75a3a3;
+  background-color: #91a194;
   color: white;
   line-height: 1;
   border-bottom: 2px solid #fff;
@@ -241,7 +241,7 @@ header {
 /*how it works*/
 .howitworks {
   text-align: center;
-  color: #75a3a3;
+  color: #5c6d5f;
 }
 
 .icons-white {
@@ -336,14 +336,14 @@ header {
 }
 
 .button-reference:hover {
-  background-color: #75a3a3;
+  background-color: #5c6d5f;
   color: white;
 }
 /*end of resources section*/
 
 /*footer*/
 footer {
-  background-color: #75a3a3;
+  background-color: #5c6d5f;
   padding: 15px 0;
   text-align: center;
   color: white;
@@ -602,7 +602,6 @@ footer nav li a:hover {
       padding: 5px 25px 30px;
       margin: 0 auto;
     }
-
 
     .image-divider img {
       height: 750px;

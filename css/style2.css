@@ -49,7 +49,7 @@ p {
 
 /*header styling*/
 header {
-  background-color: #5c6d5f;
+  background-color: #aac0a5;
   color: white;
   line-height: 1;
   border-bottom: 2px solid #fff;
@@ -74,7 +74,7 @@ header {
 }
 
 .nav-icon:hover {
-  color: #383e37;
+  color: #a6a6a6;
   cursor: pointer;
 }
 
@@ -98,7 +98,7 @@ header {
 }
 
 .navlist-item:hover {
-  background-color: #d1ebcf;
+  background-color: #a6a6a6;
   color: #383e37;
 }
 
@@ -116,7 +116,7 @@ header {
 
 /*main section styling*/
 .resources-section {
-  background: url(../images/image7.jpg) center center no-repeat;
+  background: url(../images/image1.jpg) center center no-repeat;
   background-size: cover;
   padding: 10%;
   color: white;
@@ -141,7 +141,7 @@ header {
 }
 
 .sign-up-area {
-  background-color: #d1ebcf;
+  /*background-color: #d1ebcf;*/
   text-align: center;
   padding: 10px 20px;
 }
@@ -159,8 +159,8 @@ header {
 }
 
 .submit-btn:hover {
-  background-color: #fff;
-  color: #383e37;
+  background-color: #383e37;
+  color: #fff;
 }
 
 .headings {
@@ -287,31 +287,43 @@ header {
 /*end of cv services*/
 
 /*information section*/
-.information-section {
-  text-align: center;
+.resources {
   background-color: #d1ebcf;
-  padding: 40px 30px;
+  padding: 5% 10%;
+  text-align: center;
 }
 
-.contact-info {
+.resources-div {
+  margin-top: 40px;
+  vertical-align: top;
+}
+
+.resources-div:last-child {
   margin-bottom: 40px;
 }
 
-.contact-info p, .job-alerts-info p {
-  margin-bottom: 15px;
+.resources h3 {
+  padding:  0 7.5px;
 }
 
-.email {
-  font-size: 15px;
+.resources p {
+  padding: 7.5px 15px;
+}
+
+.button-reference {
+  background-color: white;
   text-decoration: none;
-  color: inherit;
-  background-color: #fff;
-  padding: 10px 15px;
-  letter-spacing: 1px;
+  color: #383e37;
+  padding: 3.5% 7.5%;
+  display: block;
+  max-width: 165px;
+  margin: 10px auto;
+  letter-spacing: 2px;
 }
 
-.email p {
-  display: inline-block;
+.button-reference:hover {
+  background-color: #5c6d5f;
+  color: white;
 }
 
 .icons-green {
@@ -323,7 +335,7 @@ header {
 
 /*footer*/
 footer {
-  background-color: #5c6d5f;
+  background-color: #7fa079;
   padding: 15px 0;
   text-align: center;
   color: white;
@@ -354,6 +366,17 @@ footer nav li a:hover {
 /*end of footer styling*/
 
 @media (min-width: 480px) { /* mobile-landscape */
+
+  /*main section styling*/
+  .resources-section aside {
+    text-align: center;
+  }
+
+  .resources-button {
+    display: inline-block;
+    margin: 0 12.5px;
+  }
+
   .articles-section {
     width: 85%;
     margin: 0 auto;
@@ -361,6 +384,10 @@ footer nav li a:hover {
 
   .article-info {
     width: 275px;
+  }
+
+  .button-reference {
+    padding: 5px;
   }
 }
 
@@ -397,20 +424,16 @@ footer nav li a:hover {
     color: #383e37;
   }
 
-  /*main section styling*/
-  .resources-section aside {
-    text-align: center;
-  }
-
-  .resources-button {
-    display: inline-block;
-    margin: 0 12.5px;
-  }
-
   /*articles area styling*/
   .articles-section {
     width: 100%;
   }
+/*
+  .introduction p {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+  }*/
 
   .article-block {
     width: 260px;
@@ -441,28 +464,81 @@ footer nav li a:hover {
     flex: 1 1 auto;
   }
   /*end of articles area styling*/
+
+  /*coaching section styling*/
   .contact-deets {
     display: inline-block;
     margin: 0 50px 30px;
   }
-  /*end of main section styling*/
+  /*end of coaching section styling*/
+
+  /*information-section*/
+  .resources {
+    padding: 10%;
+  }
+
+  .resources p {
+    padding: 7.5px 50px;
+  }
+
+  .button-reference {
+    padding: 10px;
+  }
+/*end of information-section*/
 }
 
 @media (min-width: 940px) { /* tablet-landscape/smaller laptops */
+  .nav-header {
+    font-size: 18px;
+  }
+
   .resources-button {
     margin: 0 25px;
   }
 
   /*information section*/
-  .contact-info, .job-alerts-info {
+  .resources {
+    padding: 2.5%;
+  }
+
+  .resources-div {
     display: inline-block;
-    width: 42.5%;
-    margin-bottom: 0;
-    margin-right: 25px;
+    width: 32%;
+  }
+
+  .resources p {
+    padding: 0 25px;
+  }
+
+  .margin-adj {
+    margin-bottom: 55px;
   }
   /*end of information section*/
 
+  .image-divider img {
+    height: 500px;
+  }
 }
 
 @media (min-width: 1220px) { /* laptops/desktops */
+  header h1 {
+    margin-left: 25px;
+  }
+
+  .nav-header {
+    margin-right: 25px;
+  }
+
+  .image-divider img {
+    height: 700px;
+  }
+
+  .resources {
+    padding: 2.5%;
+  }
+
+  .resources-div {
+    margin-top: 30px;
+  }
+
 }
