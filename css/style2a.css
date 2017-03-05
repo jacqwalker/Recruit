@@ -49,10 +49,10 @@ p {
 
 /*header styling*/
 header {
-  background-color: #91a194;
+  background-color: #09c1b3;
+  border-bottom: 5px solid #440063;
   color: white;
   line-height: 1;
-  border-bottom: 2px solid #fff;
 }
 
 .logo-link {
@@ -74,7 +74,7 @@ header {
 }
 
 .nav-icon:hover {
-  color: #a6a6a6;
+  color: #440063;
   cursor: pointer;
 }
 
@@ -98,8 +98,7 @@ header {
 }
 
 .navlist-item:hover {
-  background-color: #a6a6a6;
-  color: #383e37;
+  background-color: #08ADA1;
 }
 
 .nav-link {
@@ -116,7 +115,7 @@ header {
 
 /*main section styling*/
 .resources-section {
-  background: url(../images/image1.jpg) center center no-repeat;
+  background: url(../images/image12.jpg) center center no-repeat;
   background-size: cover;
   padding: 10%;
   color: white;
@@ -128,7 +127,7 @@ header {
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #383e37;
+  color: #440063;
   display: block;
   width: 130px;
   margin: 0 auto 15px;
@@ -136,12 +135,12 @@ header {
 }
 
 .resources-button:hover {
-  background-color: #5c6d5f;
+  background-color: #09c1b3;
   color: #fff;
 }
 
-.sign-up-area {
-  /*background-color: #d1ebcf;*/
+/*.sign-up-area {
+  background-color: #d1ebcf;
   text-align: center;
   padding: 10px 20px;
 }
@@ -161,21 +160,20 @@ header {
 .submit-btn:hover {
   background-color: #383e37;
   color: #fff;
-}
+}*/
 
 .headings {
   text-align: center;
   padding: 20px 0;
   text-transform: uppercase;
   letter-spacing: 4px;
-  color: #383e37;
 }
 
 .headings span {
   display: inline-block;
   width: 150px;
   height: 1px;
-  background: #383e37;
+  background: black;
 }
 
 /*articles page styling*/
@@ -196,7 +194,7 @@ header {
 }
 
 .article-number {
-  background-color: #5c6d5f;
+  background-color: #09c1b3;
   width: 20px;
   border-radius: 50%;
   color: #fff;
@@ -216,17 +214,17 @@ header {
 }
 
 .external-link {
-  color: #5c6d5f;
+  color: #440063;
   padding: 5px 10px;
   text-decoration: none;
   letter-spacing: 1px;
   display: block;
   width: 165px;
-  border: 1px solid #5c6d5f;
+  border: 1px solid #440063;
 }
 
 .external-link:hover {
-  background-color: #383e37;
+  background-color: #440063;
   color: #fff;
 }
 /*end of articles page styling*/
@@ -253,7 +251,7 @@ header {
 }
 
 .contact-deets-links {
-  background-color: #5c6d5f;
+  background-color: #09c1b3;
   text-decoration: none;
   color: white;
   margin: 7.5px 2.5px 25px;
@@ -264,7 +262,7 @@ header {
 }
 
 .contact-deets-links:hover {
-  background-color: #383e37;
+  background-color: #440063;
 }
 /*end of coaching section*/
 
@@ -276,21 +274,20 @@ header {
 
 .cv-link {
   text-decoration: none;
-  background-color: #5c6d5f;
+  background-color: #09c1b3;
   color: #fff;
   padding: 7.5px 15px;
 }
 
 .cv-link:hover {
-  background-color: #383e37;
+  background-color: #440063;
 }
 /*end of cv services*/
 
 /*information section*/
 .resources {
-  /*background: url(../images/image6.jpg) center center no-repeat;
-  background-size: cover;*/
-  background-color: #d1ebcf;
+  background: url(../images/image12.jpg) center center no-repeat;
+  background-size: cover;
   padding: 5% 10%;
   text-align: center;
 }
@@ -315,7 +312,7 @@ header {
 .button-reference {
   background-color: white;
   text-decoration: none;
-  color: #383e37;
+  color: #440063;
   padding: 3.5% 7.5%;
   display: block;
   max-width: 165px;
@@ -324,20 +321,20 @@ header {
 }
 
 .button-reference:hover {
-  background-color: #5c6d5f;
+  background-color: #09c1b3;
   color: white;
 }
 
 .icons-green {
   font-size: 35px;
-  color: #383e37;
+  color: #09c1b3;
 }
 /*end of information section*/
 /*end of main section styling*/
 
 /*footer*/
 footer {
-  background-color: #5c6d5f;
+  background-color: #09c1b3;
   padding: 15px 0;
   text-align: center;
   color: white;
@@ -423,7 +420,7 @@ footer nav li a:hover {
   }
 
   .nav-link:hover {
-    color: #383e37;
+    color: #440063;
   }
 
   /*articles area styling*/
