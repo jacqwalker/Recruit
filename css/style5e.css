@@ -84,7 +84,7 @@ header {
   overflow: hidden;
   transition: max-height 0.5s;
   clear: both;
-  background-color: white;
+  background-color: #09c1b3;
 }
 
 .nav-header ul {
@@ -92,7 +92,7 @@ header {
 }
 
 .navlist-item {
-  border-bottom: 2px solid #09c1b3;
+  border-bottom: 2px solid white;
 }
 
 .navlist-item:first-child {
@@ -106,7 +106,7 @@ header {
 
 .nav-link {
   text-decoration: none;
-  color: black;
+  color: white;
   padding: 10px;
   display: block;
 }
