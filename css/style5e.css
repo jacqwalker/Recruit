@@ -181,15 +181,40 @@ header {
 /*end of job search section*/
 
 /*The quote and our services section*/
-.quote-section {
+.section-layout {
   padding: 90px 10px 0;
   text-align: center;
+}
+
+.section-layout h2 {
+  letter-spacing: 1px;
 }
 
 .quote-section i {
   font-size: 25px;
   padding: 10px;
 }
+
+.our-services h3, .our-services p {
+  margin-bottom: 15px;
+}
+
+.contact-details {
+  text-align: center;
+  margin: 35px 0;
+}
+
+.contact-details a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.contact-details i {
+  margin: 15px 0 35px;
+  padding-right: 7.5px;
+  color: #09c1b3;
+}
+/*end of quote and our services section*/
 
 /*The blog section*/
 .blog-section {
