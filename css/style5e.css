@@ -454,9 +454,24 @@ footer nav li a:hover {
     font-size: 18px;
   }
 
-  .find-jobs {
-    padding: 12.5% 20%;
+  .info-section {
+    padding: 20% 10%;
   }
+
+  .info-text h2 {
+    padding-top: 20px;
+  }
+
+  .the-blog {
+    padding: 5%;
+  }
+
+  .blog-align {
+    display: inline-block;
+    width: 31.5%;
+    margin-left: 12.5px;
+  }
+
 }
 
 @media (min-width: 1220px) { /* laptops/desktops */
