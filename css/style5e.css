@@ -251,7 +251,6 @@ header {
   color: #09c1b3;
   font-weight: bold;
 }
-
 /*end of the blog section*/
 
 .icons-green {
@@ -268,6 +267,25 @@ footer {
   color: #999;
 }
 
+.footer-container {
+  margin: 50px 0;
+}
+
+.footer-container h4 {
+  margin: 40px 0 18px;
+  font-weight: bold;
+}
+
+.footer-container p {
+  padding: 0 10px;
+}
+
+.email {
+  text-decoration: none;
+  color: inherit;
+  padding-left: 10px;
+}
+
 .social-media-div li {
   display: inline-block;
 }
@@ -279,10 +297,18 @@ footer {
   text-align: center;
   border: 2px solid #999;
   border-radius: 50%;
+  margin-right: 10px;
+}
+
+.social-media i:hover {
+  background-color: #09c1b3;
+  color: white;
+  cursor: pointer;
 }
 
 footer nav {
   margin: 10px 0;
+  font-size: 12px;
 }
 
 footer ul {
