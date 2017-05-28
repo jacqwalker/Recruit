@@ -435,7 +435,12 @@ footer nav li a:hover {
     width: 40%;
   }
 
-  .our-services p, .about-us-div p {
+  .our-services {
+    display: inline-block;
+    width: 45%;
+  }
+
+  .about-us-div p {
     padding: 0 50px;
   }
 
@@ -455,23 +460,53 @@ footer nav li a:hover {
   }
 
   .info-section {
-    padding: 20% 10%;
+    padding: 20% 10% 7.5%;
+  }
+
+  .infobox {
+    padding: 2.5% 3.5%;
   }
 
   .info-text h2 {
     padding-top: 20px;
   }
 
+  .form-align, .form-align-dropdown-box {
+    display: inline-block;
+    width: 45%;
+    margin-right: 30px;
+  }
+
+  .form-submit-btn {
+    width: 20%;
+    padding: 1.5% 0;
+  }
+
+  .our-services-section {
+    background-color: #e0e0e0;
+  }
+
+  .blog-section {
+    background-color: white;
+  }
+
   .the-blog {
     padding: 5%;
   }
 
-  .blog-align {
+  .blog-para {
+    padding: 20px 75px;
+  }
+
+  .blog-align, .footer-align {
     display: inline-block;
     width: 31.5%;
     margin-left: 12.5px;
   }
 
+  .footer-align {
+    vertical-align: top;
+  }
 }
 
 @media (min-width: 1220px) { /* laptops/desktops */
