@@ -180,6 +180,17 @@ header {
 }
 /*end of job search section*/
 
+/*The quote and our services section*/
+.quote-section {
+  padding: 90px 10px 0;
+  text-align: center;
+}
+
+.quote-section i {
+  font-size: 25px;
+  padding: 10px;
+}
+
 /*The blog section*/
 .blog-section {
   background-color: #e0e0e0;
