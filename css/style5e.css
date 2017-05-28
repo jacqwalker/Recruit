@@ -76,7 +76,7 @@ header {
 }
 
 .nav-icon:hover {
-  color: #440063;
+  color: #09c1b3;
   cursor: pointer;
 }
 
@@ -85,6 +85,7 @@ header {
   overflow: hidden;
   transition: max-height 0.5s;
   clear: both;
+  background-color: white;
 }
 
 .nav-header ul {
@@ -92,7 +93,7 @@ header {
 }
 
 .navlist-item {
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #09c1b3;
 }
 
 .navlist-item:first-child {
@@ -105,7 +106,7 @@ header {
 
 .nav-link {
   text-decoration: none;
-  color: white;
+  color: black;
   padding: 10px;
   display: block;
 }
@@ -124,7 +125,7 @@ header {
 }
 
 .searchbox {
-  background-color: #440063;
+  border: 2px solid #fff;
   color: #fff;
   padding: 5%;
   margin: 50px auto;
