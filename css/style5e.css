@@ -181,8 +181,24 @@ header {
 /*end of job search section*/
 
 /*The blog section*/
-.the-blog {
+.blog-section {
   background-color: #e0e0e0;
+}
+
+.blog-heading {
+  text-align: center;
+  border-top: solid 2px #272c2f;
+  padding: 50px 25px 10px;
+  color: #272c2f;
+}
+
+.blog-para {
+  color: #272c2f;
+  padding-top: 10px;
+}
+
+.the-blog {
+  padding: 10% 5%;
 }
 
 .blog-image {
@@ -192,9 +208,42 @@ header {
 .blog-snippet {
   position: relative;
   z-index: 1;
-  margin: -30px 10px 10px;
+  margin: -30px 10px 30px;
   background-color: white;
 }
+
+.blog-date {
+  color: #a7a8b6;
+  font-size: 10px;
+  text-transform: uppercase;
+  padding: 10px 10px 0;
+}
+
+.blog-tags {
+  color: #64a7fe;
+  margin-top: 0;
+  padding-top: 0;
+  text-decoration: none;
+}
+
+.blog-snippet h4 {
+  padding: 10px;
+}
+
+.article-heading {
+  text-decoration: none;
+  color: black;
+}
+
+.article-heading:hover {
+  color: #09c1b3;
+}
+
+.blog-text {
+  padding: 10px;
+  color: #272c2f;
+}
+
 /*end of the blog section*/
 
 .icons-green {
@@ -244,7 +293,7 @@ footer nav li a {
 }
 
 footer nav li a:hover {
-  color: #440063;
+  color: #09c1b3;
 }
 /*end of footer styling*/
 
