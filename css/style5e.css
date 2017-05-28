@@ -495,7 +495,18 @@ footer {
   color: #999;
 }
 
+.social-media-div li {
+  display: inline-block;
+}
 
+.social-media i {
+  width: 35px;
+  height: 35px;
+  line-height: 33px;
+  text-align: center;
+  border: 2px solid #999;
+  border-radius: 50%;
+}
 
 footer nav {
   margin: 10px 0;
@@ -512,8 +523,8 @@ footer nav li {
 
 footer nav li a {
   text-decoration: none;
-  color: white;
   padding: 0 5px;
+  color: #999;
 }
 
 footer nav li a:hover {
