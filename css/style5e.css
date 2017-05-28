@@ -181,7 +181,7 @@ header {
 
 /*The services section*/
 .services-layout {
-  padding: 90px 10px 0;
+  padding: 90px 10px 0 10px;
 }
 
 .services-layout h2 {
@@ -210,8 +210,9 @@ header {
 }
 
 .contact-details {
+  background: url(../images/grey-background-img.jpg) center center no-repeat;
+  background-size: cover;
   text-align: center;
-  margin: 35px 0;
 }
 
 .contact-details a {
