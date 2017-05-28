@@ -426,10 +426,28 @@ footer nav li a:hover {
     color: #09c1b3;
   }
 
-  .find-jobs {
-    padding: 10% 20%;
+  .infobox {
+    padding: 5% 10%;
+  }
+
+  .form-submit-btn {
+    margin-top: 10px;
+    width: 40%;
+  }
+
+  .our-services p, .about-us-div p {
+    padding: 0 50px;
+  }
+
+  .blog-para {
+    padding: 20px 30px;
+  }
+
+  .blog-snippet {
+    margin-bottom: 65px;
   }
 }
+
 
 @media (min-width: 940px) { /* tablet-landscape/smaller laptops */
   .nav-header {
