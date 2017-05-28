@@ -49,7 +49,6 @@ p {
 
 /*header styling*/
 header {
-  /*background-color: #09c1b3;*/
   border-bottom: 5px solid #09c1b3;
   color: white;
   line-height: 1;
@@ -102,6 +101,7 @@ header {
 
 .navlist-item:hover {
   background-color: #08ADA1;
+  color: white;
 }
 
 .nav-link {
@@ -117,22 +117,38 @@ header {
 /*end of header styling*/
 
 /*job search box*/
-.find-jobs {
+.info-section {
   background: url(../images/header-banner.jpg) center center no-repeat;
   background-size: cover;
   padding: 20% 10%;
   color: white;
 }
 
-.searchbox {
+.info-text {
+  text-align: center;
+}
+
+.info-text h2 {
+  padding: 125px 0 30px;
+}
+
+.info-text h4 {
+  padding-bottom: 30px;
+}
+
+.infobox {
   border: 2px solid #fff;
   color: #fff;
   padding: 5%;
   margin: 50px auto;
 }
 
-.searchbox p {
-  padding: 7.5% 0 0;
+.infobox h3 {
+  text-align: center;
+}
+
+.form-style {
+  margin-top: 25px;
 }
 
 .drop-down-box {
@@ -181,311 +197,11 @@ header {
 }
 /*end of the blog section*/
 
-/*background images sections*/
-.howitworks-section {
-  background: url(../images/image20.jpg) center center no-repeat;
-  padding: 30%;
-}
-
-.contactus-section {
-  background: url(../images/image3.jpg) center center no-repeat;
-  padding: 30%;
-}
-/*end of background images sections*/
-
-/*articles page styling*/
-.articles-section {
-  padding: 15px 25px 50px;
-}
-
-.introduction {
-  text-align: center;
-}
-
-.introduction p {
-  margin-bottom: 10px;
-}
-
-.article-block {
-  margin-top: 30px;
-}
-
-.article-number {
-  background-color: #09c1b3;
-  width: 20px;
-  border-radius: 50%;
-  color: #fff;
-  padding: 5px 20px 5px 17.5px;
-  display: inline-block;
-  vertical-align: top;
-}
-
-.article-info {
-  display: inline-block;
-  width: 200px;
-  margin-left: 10px;
-}
-
-.article-info h5, .article-info p {
-  margin-bottom: 10px;
-}
-
-.external-link {
-  color: #440063;
-  padding: 5px 10px;
-  text-decoration: none;
-  letter-spacing: 1px;
-  display: block;
-  width: 165px;
-  border: 1px solid #440063;
-}
-
-.external-link:hover {
-  background-color: #440063;
-  color: #fff;
-}
-/*end of articles page styling*/
-
-/*coaching section*/
-.coaching {
-  text-align: center;
-}
-
-.coaching p, .cv-services p {
-  padding: 0 25px;
-  margin-bottom: 25px;
-}
-
-.coaches-pic {
-  border-radius: 50%;
-  max-height: 150px;
-  max-width: 150px;
-  margin: 0 auto;
-}
-
-.contact-deets {
-  text-align: center;
-}
-
-.contact-deets-links {
-  background-color: #09c1b3;
-  text-decoration: none;
-  color: white;
-  margin: 7.5px 2.5px 25px;
-  padding: 7.5px 10px;
-  border-radius: 50%;
-  display: inline-block;
-  font-size: 12px;
-}
-
-.contact-deets-links:hover {
-  background-color: #440063;
-}
-/*end of coaching section*/
-
-/*cv services section*/
-.cv-services {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.cv-link {
-  text-decoration: none;
-  background-color: #09c1b3;
-  color: #fff;
-  padding: 7.5px 15px;
-}
-
-.cv-link:hover {
-  background-color: #440063;
-}
-/*end of cv services*/
-
-/*Why use us section*/
-.headings {
-  text-align: center;
-  padding: 35px 0 15px;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  /*color: #383e37;*/
-}
-
-.headings span {
-  display: inline-block;
-  width: 200px;
-  height: 1px;
-  background: black;
-}
-
-.margin-adj-h {
-  margin: 0;
-  padding-bottom: 0;
-}
-
-.benefits {
-  padding: 10px 0 25px;
-}
-
-.benefits-layout {
-  text-align: center;
-  padding: 0 15px;
-}
-
-.benefits-layout h3, .benefits-layout ul, .benefits-layout p {
-  padding-bottom: 15px;
-}
-
 .icons-green {
    color: #09c1b3;
    font-size: 50px;
    padding: 10px;
  }
-
- /*job alerts box*/
-.job-alerts-tablet {
-  margin: 15px 0;
-}
-
-.job-alerts {
- margin: 10px;
- padding: 10px;
- background-color: #09c1b3;
- box-shadow: 2px 2px 0 rgba(0,0,0,0.1);
- text-align: center;
- text-decoration: none;
- color: #fff;
- display: block;
- width: 80%;
- margin: 0 auto;
- letter-spacing: 2px;
-}
-
-.job-alerts:hover {
- background-color: #440063;
- color: white;
-}
-
-.job-alerts p {
- display: inline-block;
-}
-
-.sign-up {
- padding-left: 10px;
-}
-/*end of job alerts box section*/
-
-/*end of why use us section*/
-
-/*how it works*/
-.howitworks {
-  text-align: center;
-  /*color: #230033;*/
-}
-
-.icons-white {
-   font-size: 50px;
-   padding: 10px;
-   color: #09c1b3;
- }
-
-.howitworksbox {
-  margin-top: 30px;
-  vertical-align: top;
-}
-
-.howitworksbox:last-child {
-  margin-bottom: 30px;
-}
-
-.howitworksbox h3 {
-  padding: 0px 7.5px;
-}
-
-.howitworksbox p {
-  padding: 5px 40px;
-}
-/*end of how it works*/
-
-/*contact us section*/
-.contact-us {
-  text-align: center;
-  padding: 0 35px 35px;
-}
-
-.contact-us h4 {
-  margin-bottom: 10px;
-}
-
-.contact-us p {
-  margin-left: 5px;
-}
-
-.email {
-  font-size: 15px;
-  text-decoration: none;
-  margin: 0 auto;
-  color: inherit;
-}
-
-.email-icon {
-  background-color: #09c1b3;
-  padding: 7.5px;
-  border-radius: 50%;
-  color: white;
-}
-
-.email p {
-  display: inline-block;
-}
-/*end of contact us section*/
-
-/*resources section*/
-.resources {
-  background: url(../images/image12.jpg) center center no-repeat;
-  background-size: cover;
-  padding: 20% 10% 30%;
-  color: white;
-  text-align: center;
-}
-
-.resources-aside {
-  background-color: #440063;
-  opacity: 0.6;
-  padding: 10px 0;
-}
-
-.resources-div {
-  margin-top: 40px;
-  vertical-align: top;
-}
-
-.resources-div:last-child {
-  margin-bottom: 40px;
-}
-
-.resources h3 {
-  padding:  0 7.5px;
-}
-
-.resources p {
-  padding: 7.5px 15px;
-}
-
-.button-reference {
-  background-color: white;
-  text-decoration: none;
-  color: #440063;
-  padding: 3.5% 7.5%;
-  display: block;
-  max-width: 160px;
-  margin: 10px auto;
-  letter-spacing: 2px;
-}
-
-.button-reference:hover {
-  background-color: #09c1b3;
-}
-/*end of resources section*/
 
 /*footer*/
 footer {
@@ -540,49 +256,6 @@ footer nav li a:hover {
   .find-jobs {
     padding: 20% 15%;
   }
-
-  .job-alerts {
-    width: 250px;
-    margin: 10px auto 15px;
-    padding: 10px;
-  }
-
-  .search-jobs {
-    padding: 10px;
-  }
-
-  .benefits-layout {
-    padding: 0 20px;
-  }
-
-  .email {
-    padding: 10px 0 0;
-  }
-
-  .resources {
-    padding: 5% 10%;
-  }
-
-  .contact-us {
-    padding: 0 45px 45px;
-  }
-
-  .button-reference {
-    padding: 10px;
-  }
-
-  .articles-section {
-    width: 85%;
-    margin: 0 auto;
-  }
-
-  .article-info {
-    width: 275px;
-  }
-
-  .button-reference {
-    padding: 5px;
-  }
 }
 
   @media (min-width: 650px) { /* tablet-portrait */
@@ -621,82 +294,6 @@ footer nav li a:hover {
     .find-jobs {
       padding: 10% 20%;
     }
-
-    .benefits-layout {
-      padding: 0 75px;
-    }
-
-    .email {
-      width: 275px;
-      padding-top: 0;
-    }
-
-    .contact-us h4 {
-      margin: 15px;
-    }
-
-    .email p {
-      padding: 10px 0 10px 10px;
-    }
-
-    .resources {
-      padding: 10%;
-    }
-
-    .resources p {
-      padding: 7.5px 50px;
-    }
-
-    .button-reference {
-      padding: 10px;
-    }
-    /*articles area styling*/
-    .articles-section {
-      width: 100%;
-    }
-  /*
-    .introduction p {
-      display: inline-block;
-      width: 45%;
-      vertical-align: top;
-    }*/
-
-    .article-block {
-      width: 260px;
-      margin-left: 25px;
-    }
-
-    .article-info {
-      width: 175px;
-    }
-
-    .flex {
-      display: inline-flex;
-      flex-flow: row wrap;
-      align-content: stretch;
-    }
-
-    .flex-1 {
-      display: inline-flex;
-      flex-flow: column nowrap;
-      align-content: stretch;
-    }
-
-    .flexed-item {
-      flex: 2 1 auto;
-    }
-
-    .flex-item {
-      flex: 1 1 auto;
-    }
-    /*end of articles area styling*/
-
-    /*coaching section styling*/
-    .contact-deets {
-      display: inline-block;
-      margin: 0 50px 30px;
-    }
-    /*end of coaching section styling*/
   }
 
   @media (min-width: 940px) { /* tablet-landscape/smaller laptops */
@@ -706,86 +303,6 @@ footer nav li a:hover {
 
     .find-jobs {
       padding: 12.5% 20%;
-    }
-
-    .searchbox {
-      background-color: white;
-      opacity: 0.9;
-      color: grey;
-      border: 1px solid #440063;
-    }
-
-    .drop-down-box {
-      width: auto;
-      padding: 5px;
-    }
-
-    .search-jobs {
-      display: inline-block;
-      width: auto;
-      padding: 5px 25px;
-    }
-
-    .searchbox h3 {
-      font-weight: bold;
-      padding-top: 15px;
-    }
-
-    .searchbox p {
-      padding-top: 15px;
-    }
-
-    .search-jobs {
-      color: white;
-      background-color: #440063;
-      margin-left: 10px;
-    }
-
-    .searchbox {
-      padding: 10px 20px;
-    }
-
-    .benefits-container {
-      width: 80%;
-      margin: 0 auto;
-    }
-
-    .benefits-layout {
-      padding: 0;
-    }
-
-    .icons-green {
-      padding: 10px;
-    }
-
-    .benefits-layout p {
-      padding: 0 20px 20px;
-    }
-
-    .image-divider img {
-      height: 500px;
-    }
-
-    .howitworksbox {
-      display: inline-block;
-      width: 40%;
-    }
-
-    .resources {
-      padding: 2.5%;
-    }
-
-    .resources-div {
-      display: inline-block;
-      width: 32%;
-    }
-
-    .resources p {
-      padding: 0 25px;
-    }
-
-    .margin-adj {
-      margin-bottom: 55px;
     }
   }
 
@@ -802,35 +319,5 @@ footer nav li a:hover {
       padding: 5% 15%;
       margin: 0 auto;
       clear: both;
-    }
-
-    .searchbox {
-      width: 75%;
-    }
-
-    .benefits-container {
-      width: 60%;
-    }
-
-    .howitworksbox {
-      width: 35%;
-    }
-
-    .contact-us {
-      width: 65%;
-      padding: 5px 25px 30px;
-      margin: 0 auto;
-    }
-
-    .image-divider img {
-      height: 750px;
-    }
-
-    .resources {
-      padding: 2.5%;
-    }
-
-    .resources-div {
-      margin-top: 30px;
     }
 }
