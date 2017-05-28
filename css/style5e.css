@@ -371,71 +371,88 @@ footer nav li a:hover {
     margin: 0 auto;
   }
 
-  .find-jobs {
+  .info-section {
     padding: 20% 15%;
+  }
+
+  .our-services p, .contact-details p {
+    padding: 0 20px;
+  }
+
+  .blog-snippet {
+    margin-bottom: 40px;
+  }
+
+  .about-us-div p {
+    padding: 0 30px;
   }
 }
 
-  @media (min-width: 650px) { /* tablet-portrait */
-    .nav-icon {
-      display: none;
-    }
-
-    .nav-header {
-      max-height: none;
-      float: right;
-      clear: none;
-      font-size: 17px;
-      padding: 10px;
-    }
-
-    .nav-header ul {
-      padding: 0;
-    }
-
-    .navlist-item {
-      display: inline-block;
-    }
-
-    .navlist-item, .navlist-item:first-child {
-      border: none;
-    }
-
-    .navlist-item:hover {
-      background-color: inherit;
-    }
-
-    .nav-link:hover {
-      color: #440063;
-    }
-
-    .find-jobs {
-      padding: 10% 20%;
-    }
+@media (min-width: 650px) { /* tablet-portrait */
+  .nav-icon {
+    display: none;
   }
 
-  @media (min-width: 940px) { /* tablet-landscape/smaller laptops */
-    .nav-header {
-      font-size: 18px;
-    }
-
-    .find-jobs {
-      padding: 12.5% 20%;
-    }
+  .nav-header {
+    max-height: none;
+    float: right;
+    clear: none;
+    font-size: 17px;
+    padding: 10px;
+    background-color: inherit;
   }
 
-  @media (min-width: 1220px) { /* laptops/desktops */
-    header h1 {
-      margin-left: 25px;
-    }
+  .nav-header ul {
+    padding: 0;
+  }
 
-    .nav-header {
-      margin-right: 25px;
-    }
+  .navlist-item {
+    display: inline-block;
+  }
 
-    .find-jobs {
-      padding: 5% 15%;
-      margin: 0 auto;
-      clear: both;
-    }
+  .navlist-item, .navlist-item:first-child {
+    border: none;
+  }
+
+  .navlist-item:hover {
+    background-color: inherit;
+  }
+
+  .nav-link {
+    color: inherit;
+  }
+
+  .nav-link:hover {
+    color: #09c1b3;
+  }
+
+  .find-jobs {
+    padding: 10% 20%;
+  }
+}
+
+@media (min-width: 940px) { /* tablet-landscape/smaller laptops */
+  .nav-header {
+    font-size: 18px;
+  }
+
+  .find-jobs {
+    padding: 12.5% 20%;
+  }
+}
+
+@media (min-width: 1220px) { /* laptops/desktops */
+  header h1 {
+    margin-left: 25px;
+  }
+
+  .nav-header {
+    margin-right: 25px;
+  }
+
+  .find-jobs {
+    padding: 5% 15%;
+    margin: 0 auto;
+    clear: both;
+  }
 }
