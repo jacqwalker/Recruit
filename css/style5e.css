@@ -518,9 +518,30 @@ footer nav li a:hover {
     margin-right: 25px;
   }
 
-  .find-jobs {
-    padding: 5% 15%;
-    margin: 0 auto;
-    clear: both;
+  .info-section {
+    padding: 12.5% 10% 5%;
+  }
+
+  .infobox {
+    padding: 1.5% 2.5%;
+  }
+
+  .form-align, .form-align-dropdown-box {
+    display: inline-block;
+    width: 20%;
+    margin-right: 20px;
+  }
+
+  .form-submit-btn {
+    display: inline;
+    width: 100px;
+    padding: 5px;
+    background-color: #09c1b3;
+    color: white;
+  }
+
+  .form-submit-btn:hover {
+    background-color: white;
+    color: #09c1b3;
   }
 }
