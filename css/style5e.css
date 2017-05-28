@@ -187,7 +187,7 @@ header {
 
 .blog-heading {
   text-align: center;
-  border-top: solid 2px #272c2f;
+  border-top: solid 2px #09c1b3;
   padding: 50px 25px 10px;
   color: #272c2f;
 }
@@ -233,6 +233,7 @@ header {
 .article-heading {
   text-decoration: none;
   color: black;
+  letter-spacing: 1px;
 }
 
 .article-heading:hover {
@@ -242,6 +243,13 @@ header {
 .blog-text {
   padding: 10px;
   color: #272c2f;
+}
+
+.read-more-link {
+  padding: 10px 0 10px 10px;
+  text-decoration: none;
+  color: #09c1b3;
+  font-weight: bold;
 }
 
 /*end of the blog section*/
