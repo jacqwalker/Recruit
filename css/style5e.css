@@ -466,9 +466,19 @@ footer nav li a:hover {
     margin-top: 10px;
     width: 40%;
   }
+/*
+  .services-section {
+    display: inline-flex;
+    width: 31.5%;
+  }*/
 
-  .about-us-div p {
-    padding: 0 50px;
+  .blog-section {
+    width: 87.5%;
+    margin: 0 auto;
+  }
+
+  .the-blog {
+    padding: 5%;
   }
 
   .blog-para {
@@ -477,6 +487,10 @@ footer nav li a:hover {
 
   .blog-snippet {
     margin-bottom: 65px;
+  }
+
+  .about-us-div p {
+    padding: 0 50px;
   }
 }
 
