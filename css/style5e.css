@@ -501,7 +501,7 @@ footer nav li a:hover {
   }
 
   .info-section {
-    padding: 20% 10% 7.5%;
+    padding: 20% 7.5% 7.5%;
   }
 
   .infobox {
@@ -514,13 +514,21 @@ footer nav li a:hover {
 
   .form-align, .form-align-dropdown-box {
     display: inline-block;
-    width: 45%;
-    margin-right: 30px;
+    width: 19%;
+    margin-right: 15px;
   }
 
   .form-submit-btn {
-    width: 20%;
-    padding: 1.5% 0;
+    display: inline;
+    width: 100px;
+    padding: 5px;
+    background-color: #09c1b3;
+    color: white;
+  }
+
+  .form-submit-btn:hover {
+    background-color: white;
+    color: #09c1b3;
   }
 
   .the-blog {
@@ -563,18 +571,5 @@ footer nav li a:hover {
     display: inline-block;
     width: 20%;
     margin-right: 20px;
-  }
-
-  .form-submit-btn {
-    display: inline;
-    width: 100px;
-    padding: 5px;
-    background-color: #09c1b3;
-    color: white;
-  }
-
-  .form-submit-btn:hover {
-    background-color: white;
-    color: #09c1b3;
   }
 }
