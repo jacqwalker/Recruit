@@ -189,6 +189,14 @@ header {
   letter-spacing: 1px;
 }
 
+.services-section {
+  margin-top: 30px;
+}
+
+.services-section:last-child {
+  margin-bottom: 50px;
+}
+
 .icons {
   display: inline-block;
   background-color: #09c1b3;
@@ -213,6 +221,11 @@ header {
   background: url(../images/grey-background-img.jpg) center center no-repeat;
   background-size: cover;
   text-align: center;
+  padding-top: 90px;
+}
+
+.contact-details p {
+  padding: 10px;
 }
 
 .contact-details a {
@@ -314,6 +327,10 @@ footer {
 
 .footer-container p {
   padding: 0 10px;
+}
+
+.email-wrapper {
+  padding-top: 10px;
 }
 
 .email {
