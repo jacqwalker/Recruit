@@ -597,6 +597,20 @@ footer nav li a:hover {
   .about-us-div p {
     padding: 0 50px;
   }
+
+  /*blog page styling*/
+  .main-container {
+    width: 75%;
+  }
+
+  .blog-signup, .related-articles-wrapper {
+    width: 70%;
+  }
+
+  .related-articles-wrapper {
+    margin: 0 auto 90px;
+  }
+  /*end of blog page styling*/
 }
 
 
