@@ -468,6 +468,7 @@ footer nav li a:hover {
 .related-articles {
   border-bottom: 1px solid #d5d7d8;
   margin-bottom: 35px;
+  padding-bottom: 15px;
 }
 
 .related-articles img {
@@ -513,6 +514,16 @@ footer nav li a:hover {
   .about-us-div p {
     padding: 0 30px;
   }
+
+  /*blog page styling*/
+  .main-container {
+    width: 80%;
+  }
+
+  .blog-signup {
+    padding: 5% 10%;
+  }
+  /*end of blog page styling*/
 }
 
 @media (min-width: 650px) { /* tablet-portrait */
