@@ -679,6 +679,31 @@ footer nav li a:hover {
   .footer-align {
     vertical-align: top;
   }
+
+  /*blog page styling*/
+  .main-container {
+    width: 90%;
+    margin: 90px auto;
+  }
+
+  .container-one, .container-two {
+    width: 65%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .container-two {
+    width: 34.5%;
+  }
+
+  .blog-signup, .related-articles-wrapper {
+    margin-right: 0;
+  }
+
+  .related-articles img {
+    width: 30%;
+  }
+  /*end of blog page styling*/
 }
 
 @media (min-width: 1220px) { /* laptops/desktops */
