@@ -425,6 +425,64 @@ footer nav li a:hover {
   border-bottom: 1px solid #d5d7d8;
 }
 
+.para-after-aside {
+  margin-top: 35px;
+}
+
+.blog-conclusion {
+  border-top: 1px solid #d5d7d8;
+  border-bottom: 1px solid #d5d7d8;
+}
+
+.blog-conclusion p {
+  font-size: 14px;
+  line-height: 1.2;
+  padding: 10px;
+}
+
+.blog-signup {
+  color: #272c2f;
+  border: 1px solid #d5d7d8;
+}
+
+.blog-signup h3 {
+  line-height: 1.2;
+}
+
+.second-form-textbox {
+  width: 100%;
+  padding: 2.5px;
+}
+
+.submit-btn-two {
+  background-color: #09c1b3;
+  color: white;
+  margin: 7.5px auto 0;
+  width: 40%;
+}
+
+.related-articles-wrapper {
+  margin-bottom: 90px;
+}
+
+.related-articles {
+  border-bottom: 1px solid #d5d7d8;
+  margin-bottom: 35px;
+}
+
+.related-articles img {
+  width: 35%;
+  display: inline-block;
+}
+
+.related-articles a {
+  width: 60%;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10px;
+  text-decoration: none;
+  color: #272c2f;
+}
 /*end of blog page styling*/
 
 @media (min-width: 480px) { /* mobile-landscape */
