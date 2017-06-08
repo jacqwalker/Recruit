@@ -605,6 +605,18 @@ footer nav li a:hover {
   }
 
   /*blog page styling*/
+  .align-left, .align-right {
+    width:45%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .align-right {
+    margin-left: 25px;
+  }
+  /*blog page styling*/
+
+  /*blog post styling*/
   .main-container {
     width: 75%;
   }
