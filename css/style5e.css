@@ -507,6 +507,11 @@ footer nav li a:hover {
   margin: 90px 0;
 }
 
+.blog-intro p {
+  border-bottom: 1px solid #d5d7d8;
+  padding-bottom: 20px;
+}
+
 .blog-categories {
   margin-top: 90px;
   border-bottom: 1px solid #d5d7d8;
@@ -682,6 +687,26 @@ footer nav li a:hover {
 
   .related-articles-wrapper {
     margin: 0 auto 90px;
+  }
+
+  .blog-aside-row {
+    display: inline-block;
+    width: 45%;
+  }
+
+  .services-icon {
+    width: 35px;
+    height: 35px;
+    font-size: 17.5px;
+    line-height: 34px;
+  }
+
+  .blog-aside p {
+    margin: 5px 0 20px 7.5px;
+  }
+
+  .blog-aside-div {
+    margin-bottom: 0px;
   }
   /*end of blog page styling*/
 }
