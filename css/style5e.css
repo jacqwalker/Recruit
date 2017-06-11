@@ -188,32 +188,37 @@ header {
 
 .services-layout h2 {
   letter-spacing: 1px;
-  margin-bottom: 25px;
-}
-
-.services-div {
   margin-bottom: 35px;
 }
 
 .icons {
-  background-color: #09c1b3;
+  background-color: #023d60;
   font-size: 25px;
-  width: 25%;
   color: white;
   border-radius: 50%;
   height: 50px;
   width: 50px;
   line-height: 49px;
-  margin-right: 20px;
+  margin: 20px auto;
 }
 
 .services-text {
   display: inline-block;
-  width: 70%;
+  width: 75%;
+  margin-bottom: 25px;
 }
 
 .services-text h3 {
   margin-bottom: 15px;
+}
+
+.services-text a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.services-text a:hover {
+  color: #09c1b3;
 }
 
 .quote {
@@ -491,7 +496,7 @@ footer nav li a:hover {
   }
 
   .services-text {
-    width: 75%;
+    width: 85%;
   }
 
   .quote p {
@@ -569,7 +574,7 @@ footer nav li a:hover {
   }
 
   .services-layout {
-    width: 70%;
+    width: 75%;
   }
 
   .blog-section {
@@ -661,10 +666,6 @@ footer nav li a:hover {
     width: 80%;
   }
 
-  .icons {
-    margin-right: 10px;
-  }
-
   .blog-section {
     width: 100%;
   }
@@ -742,11 +743,6 @@ footer nav li a:hover {
 
   .infobox {
     padding: 1.5% 2.5%;
-  }
-
-  .services-layout {
-    width: inherit;
-    margin-left: 100px;
   }
 
   .blog-align {
