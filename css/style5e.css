@@ -395,7 +395,7 @@ footer nav li a:hover {
 }
 /*end of footer styling*/
 
-/*blog page styling*/
+/*blog post styling*/
 .main-container {
   width: 90%;
   margin: 0 auto;
@@ -412,6 +412,27 @@ footer nav li a:hover {
 .blog-aside {
   border-top: 1px solid #d5d7d8;
   border-bottom: 1px solid #d5d7d8;
+}
+
+.services-icon {
+  background-color: #09c1b3;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  font-size: 12.5px;
+  line-height: 24px;
+  color: white;
+  text-align: center;
+  display: inline-block;
+}
+
+.blog-aside-div {
+  margin: 15px 0 15px 25px;
+}
+
+.blog-aside p {
+  display: inline-block;
+  margin: 5px 0 5px 15px;
 }
 
 .para-after-aside {
@@ -476,6 +497,11 @@ footer nav li a:hover {
 /*end of blog post styling*/
 
 /*blog page styling*/
+.blog-intro {
+  text-align: center;
+  margin: 90px 0;
+}
+
 .blog-categories {
   margin-top: 90px;
   border-bottom: 1px solid #d5d7d8;
@@ -499,6 +525,10 @@ footer nav li a:hover {
   font-weight: bold;
   display: block;
   padding-bottom: 15px;
+}
+
+.align-right a:hover {
+  color: #023d60;
 }
 /*end of blog page styling*/
 
@@ -630,6 +660,10 @@ footer nav li a:hover {
   .align-right {
     margin-left: 25px;
   }
+
+  .align-right h3 {
+    margin-top: 0;
+  }
   /*blog page styling*/
 
   /*blog post styling*/
@@ -725,8 +759,18 @@ footer nav li a:hover {
   }
 
   /*blog page styling*/
+  .blog-categories:first-child {
+    margin-top: 0;
+  }
+
+  .align-right a {
+    padding-bottom: 50px;
+  }
+  /*end of blog page styling*/
+
+  /*blog post styling*/
   .main-container {
-    width: 90%;
+    width: 85%;
     margin: 90px auto;
   }
 
@@ -747,7 +791,7 @@ footer nav li a:hover {
   .related-articles img {
     width: 30%;
   }
-  /*end of blog page styling*/
+  /*end of blog post styling*/
 }
 
 @media (min-width: 1220px) { /* laptops/desktops */
@@ -777,4 +821,10 @@ footer nav li a:hover {
     width: 20%;
     margin-right: 20px;
   }
+
+  /*blog page styling*/
+  .align-right a {
+    padding-bottom: 125px;
+  }
+  /*end of blog page styling*/
 }
