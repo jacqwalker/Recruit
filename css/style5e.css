@@ -399,15 +399,10 @@ footer nav li a:hover {
 .main-container {
   width: 90%;
   margin: 0 auto;
-  line-height: 1.9;
 }
 
 .blog-article-heading {
   margin: 1.5rem 0;
-}
-
-.blog-article-heading h1 {
-  line-height: normal;
 }
 
 .blog-content img, .blog-content p {
@@ -477,6 +472,33 @@ footer nav li a:hover {
   margin-left: 10px;
   text-decoration: none;
   color: #272c2f;
+}
+/*end of blog post styling*/
+
+/*blog page styling*/
+.blog-categories {
+  margin-top: 90px;
+  border-bottom: 1px solid #d5d7d8;
+}
+
+.blog-categories p {
+  margin-bottom: 35px;
+}
+
+.align-right h3 {
+  margin: 15px 0;
+}
+
+.align-right p {
+  margin: 0 0 15px 10px;
+}
+
+.align-right a {
+  text-decoration: none;
+  color: #09c1b3;
+  font-weight: bold;
+  display: block;
+  padding-bottom: 15px;
 }
 /*end of blog page styling*/
 
