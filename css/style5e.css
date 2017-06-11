@@ -188,6 +188,7 @@ header {
 .services-layout h2 {
   letter-spacing: 1px;
   margin-bottom: 25px;
+  text-align: center;
 }
 
 .services-wrapper {
@@ -317,6 +318,10 @@ header {
   text-decoration: none;
   color: #09c1b3;
   font-weight: bold;
+}
+
+.read-more-link:hover {
+  color: #64a7fe;
 }
 /*end of the blog section*/
 
@@ -685,13 +690,27 @@ footer nav li a:hover {
   }
 
   .blog-para {
-    padding: 20px 75px;
+    padding: 20px 100px;
   }
 
   .blog-align, .footer-align {
     display: inline-block;
     width: 31.5%;
     margin-left: 12.5px;
+  }
+
+  .flex {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: stretch;
+  }
+
+  .flex-item {
+    flex: 1 1 auto;
+  }
+
+  .flex-items {
+    flex: 2 1 auto;
   }
 
   .footer-align {
@@ -742,7 +761,7 @@ footer nav li a:hover {
   }
 
   .services-layout {
-    width: 100%;
+    width: inherit;
     margin-left: 100px;
   }
 
