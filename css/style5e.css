@@ -451,8 +451,17 @@ footer nav li a:hover {
 
 .blog-conclusion p {
   font-size: 14px;
-  line-height: 1.2;
+  line-height: inherit;
   padding: 10px;
+}
+
+.blog-conclusion a {
+  text-decoration: none;
+  color: #09c1b3;
+}
+
+.blog-conclusion a:hover {
+  color: #023d60;
 }
 
 .blog-signup {
@@ -504,7 +513,7 @@ footer nav li a:hover {
 /*blog page styling*/
 .blog-intro {
   text-align: center;
-  margin: 90px 0;
+  margin: 90px 0 0;
 }
 
 .blog-intro p {
@@ -513,19 +522,19 @@ footer nav li a:hover {
 }
 
 .blog-categories {
-  margin-top: 90px;
+  margin-top: 45px;
   border-bottom: 1px solid #d5d7d8;
 }
 
-.blog-categories p {
+.blog-categories-para {
   margin-bottom: 35px;
 }
 
 .align-right h3 {
-  margin: 15px 0;
+  margin: 7.5px 0 10px;
 }
 
-.align-right p {
+.align-right-para {
   margin: 0 0 15px 10px;
 }
 
