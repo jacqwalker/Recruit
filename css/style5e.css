@@ -593,6 +593,10 @@ footer nav li a:hover {
   }
 
   /*blog page styling*/
+  .blog-header-section {
+    padding: 20% 10% 10%;
+  }
+
   .main-container {
     width: 80%;
   }
@@ -676,6 +680,11 @@ footer nav li a:hover {
   }
 
   /*blog page styling*/
+  .date-adj {
+    padding: 0 0 10px 0;
+    font-size: 11px;
+  }
+
   .align-left, .align-right {
     width:45%;
     display: inline-block;
@@ -804,6 +813,10 @@ footer nav li a:hover {
   }
 
   /*blog page styling*/
+  .blog-header-section {
+    padding: 10% 5% 5%;
+  }
+
   .blog-categories:first-child {
     margin-top: 0;
   }
