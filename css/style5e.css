@@ -519,16 +519,6 @@ footer nav li a:hover {
   text-align: center;
 }
 
-.signage {
-  margin-top: 15px;
-}
-/*
-.signage-font {
-  position: absolute;
-  left: 10px;
-  top: 10px;
-}*/
-
 .header-line {
   background-color: white;
   height: 2px;
