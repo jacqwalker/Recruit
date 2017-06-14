@@ -511,14 +511,30 @@ footer nav li a:hover {
 /*end of blog post styling*/
 
 /*blog page styling*/
-.blog-intro {
+.blog-header-section {
+  background: url(../images/header-background.JPG) center center no-repeat;
+  background-size: cover;
+  padding: 40% 20%;
+  color: white;
   text-align: center;
-  margin: 90px 0 0;
 }
 
-.blog-intro p {
-  border-bottom: 1px solid #d5d7d8;
-  padding-bottom: 20px;
+.signage {
+  margin-top: 15px;
+}
+/*
+.signage-font {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}*/
+
+.header-line {
+  background-color: white;
+  height: 2px;
+  width: 40px;
+  display: inline-block;
+  position: relative;
 }
 
 .blog-categories {
@@ -848,6 +864,10 @@ footer nav li a:hover {
 
   .infobox {
     padding: 1.5% 2.5%;
+  }
+
+  .blog-heading p {
+    padding: 0 150px;
   }
 
   .blog-align {
