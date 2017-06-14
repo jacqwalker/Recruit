@@ -191,6 +191,10 @@ header {
   margin-bottom: 35px;
 }
 
+.icons:hover {
+  background-color: #09c1b3;
+}
+
 .icons {
   background-color: #023d60;
   font-size: 25px;
@@ -536,12 +540,16 @@ footer nav li a:hover {
   margin-bottom: 35px;
 }
 
+.blog-container {
+  margin-bottom: 35px;
+}
+
 .align-right h3 {
   margin: 7.5px 0 10px;
 }
 
 .align-right-para {
-  margin: 0 0 15px 10px;
+  margin: 0 0 10px 10px;
 }
 
 .align-right a {
@@ -549,7 +557,9 @@ footer nav li a:hover {
   color: #09c1b3;
   font-weight: bold;
   display: block;
-  padding-bottom: 15px;
+  padding-bottom: 7.5px;
+  border-bottom: 1px solid;
+  width: 25%;
 }
 
 .align-right a:hover {
@@ -820,10 +830,6 @@ footer nav li a:hover {
   .blog-categories:first-child {
     margin-top: 0;
   }
-
-  .align-right a {
-    padding-bottom: 50px;
-  }
   /*end of blog page styling*/
 
   /*blog post styling*/
@@ -885,8 +891,8 @@ footer nav li a:hover {
   }
 
   /*blog page styling*/
-  .align-right a {
-    padding-bottom: 125px;
+  .align-left {
+    width: 30%;
   }
   /*end of blog page styling*/
 }
