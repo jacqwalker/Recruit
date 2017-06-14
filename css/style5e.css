@@ -891,6 +891,10 @@ footer nav li a:hover {
   }
 
   /*blog page styling*/
+  .main-container {
+    width: 75%;
+  }
+
   .align-left {
     width: 30%;
   }
