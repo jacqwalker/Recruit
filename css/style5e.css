@@ -62,8 +62,9 @@ header {
 }
 
 .logo {
-  font-family: 'Oswald', sans-serif;
-  text-transform: uppercase;
+  font-family: 'Cinzel', sans-serif;
+  /*text-transform: uppercase;*/
+  letter-spacing: 1px;
   padding: 12.5px 0px 10px 15px;
   float: left;
 }
@@ -77,6 +78,13 @@ header {
 .nav-icon:hover {
   color: #09c1b3;
   cursor: pointer;
+}
+
+.logo-header {
+  float: left;
+  display: inline-block;
+  width: 200px;
+  padding: 20px 0 0 15px;
 }
 
 .nav-header {
@@ -859,6 +867,12 @@ footer nav li a:hover {
 }
 
 @media (min-width: 1220px) { /* laptops/desktops */
+  .logo-header {
+    width: 275px;
+    padding-top: 10px;
+    margin-left: 25px;
+  }
+
   header h1 {
     margin-left: 25px;
   }
