@@ -532,7 +532,7 @@ footer nav li a:hover {
 
 /*blog page styling*/
 .blog-header-section {
-  background: url(../images/our-blog-header.png) center center no-repeat;
+  background: url(../images/our-blog-header-2.png) center center no-repeat;
   background-size: cover;
   padding: 40% 25%;
   color: white;
@@ -618,7 +618,7 @@ footer nav li a:hover {
 
   /*blog page styling*/
   .blog-header-section, .post-header-section {
-    padding: 22.5% 10%;
+    padding: 27.5% 10%;
   }
 
   .main-container {
@@ -704,6 +704,10 @@ footer nav li a:hover {
   }
 
   /*blog page styling*/
+.blog-header-section {
+  padding: 20%;
+}
+
   .date-adj {
     padding: 0 0 10px 0;
     font-size: 11px;
@@ -842,7 +846,7 @@ footer nav li a:hover {
 
   /*blog page styling*/
   .blog-header-section, {
-    padding: 15% 10%;
+    padding: 2.5%;
   }
 
   .header-blog-page {
@@ -856,7 +860,7 @@ footer nav li a:hover {
 
   /*blog post styling*/
   .post-header-section {
-    padding: 12.5%;
+    padding: 10%;
   }
 
   .main-container {
@@ -928,7 +932,7 @@ footer nav li a:hover {
   }
 
   .blog-header-section {
-    padding: 10% 5%;
+    padding: 12.5% 5%;
   }
 
   .align-left {
