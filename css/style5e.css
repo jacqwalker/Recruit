@@ -408,6 +408,14 @@ footer nav li a:hover {
 /*end of footer styling*/
 
 /*blog post styling*/
+.post-header-section {
+  background: url(../images/header-banner-minusguy.png) center center no-repeat;
+  background-size: cover;
+  padding: 40% 25%;
+  color: white;
+  text-align: center;
+}
+
 .main-container {
   width: 90%;
   margin: 0 auto;
@@ -609,7 +617,7 @@ footer nav li a:hover {
   }
 
   /*blog page styling*/
-  .blog-header-section {
+  .blog-header-section, .post-header-section {
     padding: 22.5% 10%;
   }
 
@@ -721,6 +729,10 @@ footer nav li a:hover {
     width: 75%;
   }
 
+  .post-header-section {
+    padding: 15%;
+  }
+
   .blog-signup, .related-articles-wrapper {
     width: 70%;
   }
@@ -829,7 +841,7 @@ footer nav li a:hover {
   }
 
   /*blog page styling*/
-  .blog-header-section {
+  .blog-header-section, {
     padding: 15% 10%;
   }
 
@@ -843,6 +855,10 @@ footer nav li a:hover {
   /*end of blog page styling*/
 
   /*blog post styling*/
+  .post-header-section {
+    padding: 12.5%;
+  }
+
   .main-container {
     width: 85%;
     margin: 90px auto;
@@ -919,4 +935,10 @@ footer nav li a:hover {
     width: 30%;
   }
   /*end of blog page styling*/
+
+  /*blog post page styling*/
+  .post-header-section {
+    padding: 10%;
+  }
+
 }
