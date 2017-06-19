@@ -83,8 +83,8 @@ header {
 .logo-header {
   float: left;
   display: inline-block;
-  width: 200px;
-  padding: 20px 0 0 15px;
+  width: 125px;
+  padding: 7.5px 0 0 15px;
 }
 
 .nav-header {
@@ -524,19 +524,17 @@ footer nav li a:hover {
 
 /*blog page styling*/
 .blog-header-section {
-  background: url(../images/header-background.JPG) center center no-repeat;
+  background: url(../images/our-blog-header.png) center center no-repeat;
   background-size: cover;
-  padding: 40% 20%;
+  padding: 40% 25%;
   color: white;
   text-align: center;
 }
 
-.header-line {
-  background-color: white;
-  height: 2px;
-  width: 40px;
-  display: inline-block;
-  position: relative;
+.header-blog-page {
+  text-align: center;
+  border-bottom: 1px solid grey;
+  margin-top: 35px;
 }
 
 .blog-categories {
@@ -612,7 +610,7 @@ footer nav li a:hover {
 
   /*blog page styling*/
   .blog-header-section {
-    padding: 20% 10% 10%;
+    padding: 22.5% 10%;
   }
 
   .main-container {
@@ -832,7 +830,11 @@ footer nav li a:hover {
 
   /*blog page styling*/
   .blog-header-section {
-    padding: 10% 5% 5%;
+    padding: 15% 10%;
+  }
+
+  .header-blog-page {
+    margin-bottom: 60px;
   }
 
   .blog-categories:first-child {
@@ -868,7 +870,7 @@ footer nav li a:hover {
 
 @media (min-width: 1220px) { /* laptops/desktops */
   .logo-header {
-    width: 275px;
+    width: 125px;
     padding-top: 10px;
     margin-left: 25px;
   }
@@ -907,6 +909,10 @@ footer nav li a:hover {
   /*blog page styling*/
   .main-container {
     width: 75%;
+  }
+
+  .blog-header-section {
+    padding: 10% 5%;
   }
 
   .align-left {
