@@ -124,6 +124,10 @@ header {
 }
 /*end of header styling*/
 
+.calxx-font {
+  font-family: 'Quando', 'sans-serif';
+}
+
 /*info box*/
 .info-section {
   background: url(../images/header-banner.jpg) center center no-repeat;
@@ -365,6 +369,10 @@ footer {
   display: inline-block;
 }
 
+.social-media {
+  color: #999;
+}
+
 .social-media i {
   width: 35px;
   height: 35px;
@@ -373,6 +381,7 @@ footer {
   border: 2px solid #999;
   border-radius: 50%;
   margin-right: 10px;
+  text-decoration: none;
 }
 
 .social-media i:hover {
