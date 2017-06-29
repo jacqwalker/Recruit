@@ -61,14 +61,6 @@ header {
   color: white;
 }
 
-.logo {
-  font-family: 'Cinzel', sans-serif;
-  /*text-transform: uppercase;*/
-  letter-spacing: 1px;
-  padding: 12.5px 0px 10px 15px;
-  float: left;
-}
-
 .nav-icon {
   float: right;
   font-size: 37.5px;
