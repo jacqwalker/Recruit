@@ -144,7 +144,7 @@ header {
   border: 2px solid #fff;
   color: #fff;
   padding: 5%;
-  margin: 50px auto;
+  margin: 25px auto 50px;
 }
 
 .infobox h3 {
@@ -152,7 +152,7 @@ header {
 }
 
 .form-style {
-  margin-top: 25px;
+  margin-top: 15px;
 }
 
 .form-textbox {
@@ -510,24 +510,36 @@ footer nav li a:hover {
   margin-bottom: 90px;
 }
 
+.related-articles-h4 {
+  color: #272c2f;
+  border-bottom: 1px solid #d5d7d8;
+  padding-bottom: 15px;
+}
+
 .related-articles {
   border-bottom: 1px solid #d5d7d8;
-  margin-bottom: 35px;
+  margin-top: 35px;
   padding-bottom: 15px;
 }
 
 .related-articles img {
-  width: 35%;
-  display: inline-block;
+  width: 75%;
 }
 
 .related-articles a {
-  width: 60%;
-  display: inline-block;
-  vertical-align: top;
   margin-left: 10px;
   text-decoration: none;
   color: #272c2f;
+}
+
+.related-articles a:hover {
+  color: #09c1b3;
+}
+
+.article-tagline {
+  text-transform: uppercase;
+  font-size: 11px;
+  padding: 10px;
 }
 /*end of blog post styling*/
 
