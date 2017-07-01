@@ -500,6 +500,7 @@ footer nav li a:hover {
 }
 
 .submit-btn-two {
+  font-weight: bold;
   border: none;
   padding: 7.5px;
   border-radius: 2.5px;
@@ -535,13 +536,15 @@ footer nav li a:hover {
   width: 75%;
 }
 
-.related-articles a {
+.related-articles-link {
   margin-left: 10px;
   text-decoration: none;
   color: #272c2f;
+  padding-bottom: 10px;
+  display: block;
 }
 
-.related-articles a:hover {
+.related-articles-link:hover {
   color: #09c1b3;
 }
 
@@ -588,17 +591,18 @@ footer nav li a:hover {
   margin: 0 0 10px 10px;
 }
 
-.align-right a {
+.blog-read-more-link {
   text-decoration: none;
   color: #09c1b3;
   font-weight: bold;
   display: block;
   padding-bottom: 7.5px;
   border-bottom: 1px solid;
-  width: 25%;
+  width: 30%;
+  margin-left: 5px;
 }
 
-.align-right a:hover {
+.blog-read-more-link:hover {
   color: #023d60;
 }
 /*end of blog page styling*/
@@ -649,6 +653,10 @@ footer nav li a:hover {
 
   .blog-signup {
     padding: 5% 10%;
+  }
+
+  .blog-read-more-link {
+    width: 20%;
   }
   /*end of blog page styling*/
 }
@@ -748,6 +756,10 @@ footer nav li a:hover {
   .align-right h3 {
     margin-top: 0;
   }
+
+  .blog-read-more-link {
+    width: 35%;
+  }
   /*blog page styling*/
 
   /*blog post styling*/
@@ -772,6 +784,7 @@ footer nav li a:hover {
     width: 50%;
     display: inline-block;
     vertical-align: top;
+    margin-left: 7.5px;
   }
 
   .article-tagline {
@@ -889,6 +902,10 @@ footer nav li a:hover {
   .blog-categories:first-child {
     margin-top: 0;
   }
+
+  .blog-read-more-link {
+    width: 25%;
+  }
   /*end of blog page styling*/
 
   /*blog post styling*/
@@ -897,7 +914,7 @@ footer nav li a:hover {
   }
 
   .main-container {
-    width: 85%;
+    width: 90%;
     margin: 90px auto;
   }
 
@@ -912,11 +929,16 @@ footer nav li a:hover {
   }
 
   .blog-signup, .related-articles-wrapper {
-    margin-right: 0;
+    margin-left: 60px;
   }
 
-  .related-articles img {
-    width: 30%;
+  .related-articles img, .related-articles div {
+    display: block;
+    width: 100%;
+  }
+
+  .article-tagline {
+    padding-top: 10px;
   }
   /*end of blog post styling*/
 }
@@ -961,7 +983,7 @@ footer nav li a:hover {
 
   /*blog page styling*/
   .main-container {
-    width: 75%;
+    width: 80%;
   }
 
   .blog-header-section {
@@ -976,6 +998,10 @@ footer nav li a:hover {
   /*blog post page styling*/
   .post-header-section {
     padding: 10%;
+  }
+
+  .related-articles img {
+    width: 75%;
   }
 
 }
