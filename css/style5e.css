@@ -500,10 +500,19 @@ footer nav li a:hover {
 }
 
 .submit-btn-two {
+  border: none;
+  padding: 7.5px;
+  border-radius: 2.5px;
   background-color: #09c1b3;
   color: white;
-  margin: 7.5px auto 0;
-  width: 40%;
+  margin: 10px auto 0;
+  width: 100px;
+  display: block;
+}
+
+.submit-btn-two:hover {
+  background-color: #525f71;
+  color: white;
 }
 
 .related-articles-wrapper {
