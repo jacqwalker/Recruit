@@ -759,12 +759,23 @@ footer nav li a:hover {
     padding: 15%;
   }
 
-  .blog-signup, .related-articles-wrapper {
-    width: 70%;
-  }
-
   .related-articles-wrapper {
     margin: 0 auto 90px;
+  }
+
+  .related-articles img {
+    width: 47.5%;
+    display: inline-block;
+  }
+
+  .related-articles div {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .article-tagline {
+    padding-top: 0;
   }
 
   .blog-aside-row {
