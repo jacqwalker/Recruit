@@ -923,10 +923,6 @@ footer nav li a:hover {
     margin-bottom: 90px;
   }
 
-  .blog-read-more-link {
-    width: 35%;
-  }
-
   .blog-signup {
     margin: 0;
   }
@@ -1028,6 +1024,10 @@ footer nav li a:hover {
 
   .align-left {
     width: 30%;
+  }
+
+  .blog-read-more-link {
+    width: 25%;
   }
   /*end of blog page styling*/
 
