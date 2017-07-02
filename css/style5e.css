@@ -24,10 +24,12 @@ img {
 
 h1 {
   font-size: 36px;
+  letter-spacing: 2px;
 }
 
 h2 {
   font-size: 30px;
+  letter-spacing: 2px;
 }
 
 h3 {
@@ -318,7 +320,7 @@ header {
 }
 
 .read-more-link:hover {
-  color: #64a7fe;
+  color: #09c1b3;
 }
 /*end of the blog section*/
 
@@ -417,7 +419,7 @@ footer nav li a:hover {
   text-align: center;
 }
 
-.main-container {
+.main-container-blog {
   width: 90%;
   margin: 0 auto;
 }
@@ -468,6 +470,7 @@ footer nav li a:hover {
 .blog-conclusion {
   border-top: 1px solid #d5d7d8;
   border-bottom: 1px solid #d5d7d8;
+  margin-bottom: 75px;
 }
 
 .blog-conclusion p {
@@ -486,12 +489,15 @@ footer nav li a:hover {
 }
 
 .blog-signup {
+  margin: 50px 25px 100px;
   color: #272c2f;
   border: 1px solid #d5d7d8;
+  padding: 7.5%;
 }
 
 .blog-signup h3 {
   line-height: 1.2;
+  margin-bottom: 10px;
 }
 
 .second-form-textbox {
@@ -542,10 +548,7 @@ footer nav li a:hover {
   color: #272c2f;
   padding-bottom: 10px;
   display: block;
-}
-
-.related-articles-link:hover {
-  color: #09c1b3;
+  font-weight: bold;
 }
 
 .article-tagline {
@@ -647,12 +650,13 @@ footer nav li a:hover {
     padding: 27.5% 10%;
   }
 
-  .main-container {
+  .main-container-blog {
     width: 80%;
   }
 
   .blog-signup {
-    padding: 5% 10%;
+    margin: 75px 50px 100px;
+    padding: 7.5%;
   }
 
   .blog-read-more-link {
@@ -734,9 +738,13 @@ footer nav li a:hover {
   }
 
   /*blog page styling*/
-.blog-header-section {
-  padding: 20%;
-}
+  .blog-header-section {
+    padding: 20%;
+  }
+
+  .blog-signup {
+    
+  }
 
   .date-adj {
     padding: 0 0 10px 0;
