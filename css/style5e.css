@@ -419,7 +419,7 @@ footer nav li a:hover {
   text-align: center;
 }
 
-.main-container-blog {
+.main-container-blog, .main-container {
   width: 90%;
   margin: 0 auto;
 }
@@ -498,6 +498,7 @@ footer nav li a:hover {
 .blog-signup h3 {
   line-height: 1.2;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .second-form-textbox {
@@ -650,7 +651,7 @@ footer nav li a:hover {
     padding: 27.5% 10%;
   }
 
-  .main-container-blog {
+  .main-container-blog, .main-container {
     width: 80%;
   }
 
@@ -663,6 +664,12 @@ footer nav li a:hover {
     width: 20%;
   }
   /*end of blog page styling*/
+
+  /*page template styling*/
+  .related-articles img {
+    width: 65%;
+  }
+  /*end of page template styling*/
 }
 
 @media (min-width: 650px) { /* tablet-portrait */
@@ -743,7 +750,8 @@ footer nav li a:hover {
   }
 
   .blog-signup {
-    
+    margin: 75px 100px 100px;
+    padding: 5% 7.5%;
   }
 
   .date-adj {
@@ -911,8 +919,16 @@ footer nav li a:hover {
     margin-top: 0;
   }
 
+  .blog-categories:last-child {
+    margin-bottom: 90px;
+  }
+
   .blog-read-more-link {
-    width: 25%;
+    width: 35%;
+  }
+
+  .blog-signup {
+    margin: 0;
   }
   /*end of blog page styling*/
 
@@ -990,10 +1006,6 @@ footer nav li a:hover {
   }
 
   /*blog page styling*/
-  .main-container {
-    width: 80%;
-  }
-
   .blog-header-section {
     padding: 12.5% 5%;
   }
