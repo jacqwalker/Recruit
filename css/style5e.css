@@ -875,7 +875,7 @@ footer nav li a:hover {
   }
 
   .the-blog {
-    padding: 2.5%;
+    padding: 2.5% 5%;
   }
 
   .blog-para {
@@ -937,7 +937,7 @@ footer nav li a:hover {
     padding: 10%;
   }
 
-  .main-container {
+  .main-container, .main-container-blog {
     width: 90%;
     margin: 90px auto;
   }
@@ -952,8 +952,16 @@ footer nav li a:hover {
     width: 34.5%;
   }
 
+  .blog-article-heading {
+    margin-top: 0;
+  }
+
   .blog-signup, .related-articles-wrapper {
     margin-left: 60px;
+  }
+
+  .related-articles-wrapper {
+    margin-top: 75px;
   }
 
   .related-articles img, .related-articles div {
@@ -995,7 +1003,7 @@ footer nav li a:hover {
   }
 
   .blog-align {
-    width: 28%;
+    width: 27.5%;
     margin-right: 50px;
   }
 
@@ -1005,7 +1013,15 @@ footer nav li a:hover {
     margin-right: 20px;
   }
 
+  .the-blog {
+    padding: 2.5% 7.5%;
+  }
+
   /*blog page styling*/
+  .main-container, .main-container-blog {
+    width: 80%;
+  }
+
   .blog-header-section {
     padding: 12.5% 5%;
   }
@@ -1023,5 +1039,4 @@ footer nav li a:hover {
   .related-articles img {
     width: 75%;
   }
-
 }
